@@ -461,7 +461,7 @@ body .b-hidden {
   z-index: -1; }
 
 .l-main-container {
-  background: white;
+  background: url("../img/diagonal-line-bg-light.png");
   position: relative;
   z-index: 1; }
 
@@ -2155,6 +2155,7 @@ label.b-form-checkbox-switch-label {
   margin-top: 20px; }
 
 .f-find_form {
+  background-color : white;
   font-size: 0.92308em;
   line-height: 1.2; }
 
@@ -8559,7 +8560,6 @@ h3.f-tabs-vertical__title {
 .b-accordion.ui-accordion .ui-accordion-header {
   background: white;
   border: 1px solid #f1f1f1;
-  margin-top: 18px;
   padding: 13px 20px 11px;
   position: relative; }
   .b-accordion.ui-accordion .ui-accordion-header:after {
