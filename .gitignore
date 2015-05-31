@@ -2,3 +2,6 @@
 /backend/config/
 /backend/runtime/
 /backend/www/tamanharapan/assets/
+/frontend/runtime/
+/frontend/web/tamanharapan/assets/
+/common/config/
