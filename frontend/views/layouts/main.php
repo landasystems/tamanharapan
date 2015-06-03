@@ -89,11 +89,11 @@ AppAsset::register($this);
                                 <a href="page_header_1.html"><i class="fa fa-folder-open b-menu-1level-ico"></i>Profil<span class="b-ico-dropdown"><i class="fa fa-arrow-circle-down"></i></span></a>
                                 <div class="b-top-nav__dropdomn">
                                     <ul class="b-top-nav__2level_wrap">
-                                        <li class="b-top-nav__2level f-top-nav__2level f-primary"><a href="<?= Yii::$app->urlManager->createUrl('article/index')?>"><i class="fa fa-angle-right"></i>Visi Misi</a></li>
-                                        <li class="b-top-nav__2level f-top-nav__2level f-primary"><a href="<?= Yii::$app->urlManager->createUrl('article/index')?>"><i class="fa fa-angle-right"></i>SAPRAS</a></li>
-                                        <li class="b-top-nav__2level f-top-nav__2level f-primary"><a href="<?= Yii::$app->urlManager->createUrl('article/index')?>"><i class="fa fa-angle-right"></i>Data Guru & Siswa</a></li>
-                                        <li class="b-top-nav__2level f-top-nav__2level f-primary"><a href="<?= Yii::$app->urlManager->createUrl('article/index')?>"><i class="fa fa-angle-right"></i>Kegiatan Siswa</a></li>
-                                        <li class="b-top-nav__2level f-top-nav__2level f-primary"><a href="<?= Yii::$app->urlManager->createUrl('article/index')?>"><i class="fa fa-angle-right"></i>Sejarah</a></li>
+                                        <li class="b-top-nav__2level f-top-nav__2level f-primary"><a href="<?= Yii::$app->urlManager->createUrl('article/visi-misi')?>"><i class="fa fa-angle-right"></i>Visi Misi</a></li>
+                                        <li class="b-top-nav__2level f-top-nav__2level f-primary"><a href="<?= Yii::$app->urlManager->createUrl('article/sarpras')?>"><i class="fa fa-angle-right"></i>SAPRAS</a></li>
+                                        <li class="b-top-nav__2level f-top-nav__2level f-primary"><a href="<?= Yii::$app->urlManager->createUrl('article/guru-siswa')?>"><i class="fa fa-angle-right"></i>Data Guru & Siswa</a></li>
+                                        <li class="b-top-nav__2level f-top-nav__2level f-primary"><a href="<?= Yii::$app->urlManager->createUrl('article/kegiatan-siswa')?>"><i class="fa fa-angle-right"></i>Kegiatan Siswa</a></li>
+                                        <li class="b-top-nav__2level f-top-nav__2level f-primary"><a href="<?= Yii::$app->urlManager->createUrl('article/sejarah')?>"><i class="fa fa-angle-right"></i>Sejarah</a></li>
                                     </ul>
                                 </div>
                             </li>

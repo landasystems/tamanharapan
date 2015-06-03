@@ -29,18 +29,10 @@ class ArticleController extends Controller {
         $this->layout = 'main';
         $query = Article::find()
                 ->where(array(
-//                        'article_category_id' => '51'
+                    'publish' => 1
                 ))
                 ->orderBy('id ASC')
                 ->all();
-
-//        $pagination = new Pagination([
-//            'defaultPageSize' => 5,
-//            'totalCount' => $query->count(),
-//        ]);
-//        $models = $query->offset($pagination->offset)
-//                ->limit($pagination->limit)
-//                ->all();
 
         return $this->render('index', [
                     'models' => $query,
@@ -48,8 +40,36 @@ class ArticleController extends Controller {
         ]);
     }
 
-//    public function addHits($model) {
-//        $model->hits++;
-//        $model->save();
-//    }
+    public function actionVisiMisi() {
+        $this->layout = 'main';
+        
+        return $this->render('visiMisi',[
+            
+        ]);
+    }
+    public function actionSarpras() {
+        $this->layout = 'main';
+        return $this->render('sarpras',[
+            
+        ]);
+    }
+    public function actionGuruSiswa() {
+        $this->layout = 'main';
+        return $this->render('guruSiswa',[
+            
+        ]);
+    }
+    public function actionKegiatanSiswa() {
+        $this->layout = 'main';
+        return $this->render('kegiatanSiswa',[
+            
+        ]);
+    }
+    public function actionSejarah() {
+        $this->layout = 'main';
+        return $this->render('sejarah',[
+            
+        ]);
+    }
+
 }

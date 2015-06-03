@@ -119,8 +119,8 @@ class ArticleController extends Controller {
             }
             if ($model->save()) {
                 if (is_object($file)) { //upload image
-                    $file->saveAs('images/article/' . $model->primary_image);
-                    Yii::app()->landa->createImg('article/', $model->primary_image, $model->id);
+                    $file->saveAs('../../../frontend/web/tamanharapan/images/article/' . $model->primary_image);
+//                    Yii::app()->landa->createImg('article/', $model->primary_image, $model->id);
                 }
                 $this->redirect(array('view', 'id' => $model->id));
             }
@@ -150,8 +150,8 @@ class ArticleController extends Controller {
             $file = CUploadedFile::getInstance($model, 'primary_image');
             if (is_object($file)) {
                 $model->primary_image = Yii::app()->landa->urlParsing($model->title) . '.' . $file->extensionName;
-                $file->saveAs('images/article/' . $model->primary_image);
-                Yii::app()->landa->createImg('article/', $model->primary_image, $model->id);
+                $file->saveAs('../../../frontend/web/tamanharapan/images/article/' . $model->primary_image);
+//                Yii::app()->landa->createImg('article/', $model->primary_image, $model->id);
             } else {
                 unset($model->primary_image);
             }
