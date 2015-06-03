@@ -7,6 +7,8 @@ use yii\base\NotSupportedException;
 use yii\behaviors\TimestampBehavior;
 use yii\db\ActiveRecord;
 use yii\web\IdentityInterface;
+use common\models\User;
+use common\models\Article;
 
 /**
  * User model
@@ -33,7 +35,7 @@ class User extends ActiveRecord implements IdentityInterface {
      * @inheritdoc
      */
     public static function tableName() {
-        return 'acca_user';
+        return 'user';
     }
 
     /**
@@ -201,6 +203,9 @@ class User extends ActiveRecord implements IdentityInterface {
      */
     public function removePasswordResetToken() {
         $this->password_reset_token = null;
+    }
+    public function getUser(){
+        return $this->hasOne(Article::className(), ['created_user_id' => 'id']);
     }
 
 }

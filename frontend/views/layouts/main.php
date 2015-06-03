@@ -98,7 +98,7 @@ AppAsset::register($this);
                                 </div>
                             </li>
                             <li class="b-top-nav__1level f-top-nav__1level f-primary-b">
-                                <a href="portfolio_our_portfolio_1_colums.html"><i class="fa fa-picture-o b-menu-1level-ico"></i>Informasi <span class="b-ico-dropdown"><i class="fa fa-arrow-circle-down"></i></span></a>
+                                <a href="<?= Yii::$app->urlManager->createUrl('article/index')?>"><i class="fa fa-picture-o b-menu-1level-ico"></i>Informasi <span class="b-ico-dropdown"><i class="fa fa-arrow-circle-down"></i></span></a>
                             </li>
                             <li class="b-top-nav__1level f-top-nav__1level f-primary-b">
                                 <a href="our_blog_1_columns.html"><i class="fa fa-code b-menu-1level-ico"></i>Prestasi/ Lulusan <span class="b-ico-dropdown"><i class="fa fa-arrow-circle-down"></i></span></a>
@@ -133,7 +133,7 @@ AppAsset::register($this);
                                     <li><a href="../../html/portfolio_our_portfolio_1_colums.html">Data Guru & Siswa</a></li>
                                     <li><a href="../../html/portfolio_our_portfolio_1_colums.html">Kegiatan Siswa</a></li>
                                     <li><a href="../../html/portfolio_our_portfolio_1_colums.html">Sejarah</a></li>
-                                    <li><a href="../../html/portfolio_our_portfolio_1_colums.html">Informasi</a></li>
+                                    <li><a href="<?= Yii::$app->urlManager->createUrl('article/index.html?page=1&per-page=5')?>">Informasi</a></li>
                                     <li><a href="../../html/our_blog_1_columns.html">Prestasi/ Lulusan</a></li>
                                     <li><a href="../../html/page_search_result.html">Contact</a></li>
                                 </ul>
@@ -171,8 +171,8 @@ AppAsset::register($this);
         <!-- jquery ui -->
         <script src="<?= Yii::$app->homeUrl ?>js/jqueryui/jquery-ui.js"></script>
         <!-- end jquery ui -->
-        <script type="text/javascript" language="javascript"
-        src="http://maps.google.com/maps/api/js?sensor=false&key=AIzaSyCfVS1-Dv9bQNOIXsQhTSvj7jaDX7Oocvs"></script>
+<!--        <script type="text/javascript" language="javascript"
+        src="http://maps.google.com/maps/api/js?sensor=false&key=AIzaSyCfVS1-Dv9bQNOIXsQhTSvj7jaDX7Oocvs"></script>-->
         <!-- Modules -->
         <script src="<?= Yii::$app->homeUrl ?>js/modules/sliders.js"></script>
         <script src="<?= Yii::$app->homeUrl ?>js/modules/ui.js"></script>

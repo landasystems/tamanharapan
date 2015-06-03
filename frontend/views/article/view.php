@@ -1,52 +1,87 @@
 <?php
+
+use common\models\User;
+
 $this->title = $model->title;
 ?>
-<div class="container inner-top-xs inner-bottom-sm">
+<div class="j-menu-container"></div>
 
-    <div class="row">
-        <div class="col-xs-12 col-md-12 col-lg-12 col-sm-12">
-            <h1><a href="<?=$model->url?>"><?=$model->title?></a></h1>
-            <hr/>
-            <?=$model->content?>
-        </div><!-- /.col -->
-    </div><!-- /.row -->
-
-</div>
-<section id="what-can-we-do-for-you" class="row light-bg inner-sm">
-
-    <div class="container">
-        <div class="row">
-            <div class="col-md-3 section m-t-0">
-                <h2>Mengapa kami ?</h2>
-                <p>Indomobilecell adalah toko celular yang telah mendapat banyak kepercayaan dari konsumen & kami telah menerima banyak penghargaan dari vendor untuk berbagai kategori.</p>
-            </div><!-- /.section -->
-
-            <div class="col-md-9">
-                <ul class="services list-unstyled row m-t-35">
-                    <li class="col-md-4">
-                        <div class="service">
-                            <div class="service-icon primary-bg"><i class="fa fa-truck"></i></div>
-                            <h3>Fast Delivery</h3>
-                            <p>Setelah pembayaran terselesaikan, kami akan melakukan pengiriman dengan menggunakan JNE Reg + Asuransi.</p>
+<div class="l-main-container">
+    <div class="b-breadcrumbs f-breadcrumbs">
+        <div class="container">
+            <ul>
+                <li><a href=""><i class="fa fa-home"></i>Home</a></li>
+                <li><i class="fa fa-angle-right"></i><a href="">Blogs</a></li>
+                <li><i class="fa fa-angle-right"></i><span>Left Sidebar</span></li>
+            </ul>
+        </div>
+    </div>
+    <div class="l-inner-page-container">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9 col-md-push-3">
+                    <?php if (!empty($model->primary_image)) { ?>
+                        <div class="b-slidercontainer b-slider b-small-arr f-small-arr">
+                            <div data-height="385" class="j-contentwidthslider j-contentwidthslider-innerheight j-pagination-hide">
+                                <ul>
+                                    <li data-transition="slotfade-vertical" data-slotamount="25" >
+                                        <img data-retina src="<?= $model->primary_image ?>">
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
-                    </li>
-                    <li class="col-md-4">
-                        <div class="service">
-                            <div class="service-icon primary-bg"><i class="fa fa-life-saver"></i></div>
-                            <h3>Live Support</h3>
-                            <p>Kami akan melayani anda dengan maksimal, fast response, terutama pada jam kerja kami 09:30 - 21:00 setiap hari</p>
+                    <?php } ?>
+                    <div class="b-article-box">
+                        <div class="f-article_title f-primary-l b-title-b-hr">
+                            <?= $model->title ?>
                         </div>
-                    </li>
-                    <li class="col-md-4">
-                        <div class="service">
-                            <div class="service-icon primary-bg"><i class="fa fa-star"></i></div>
-                            <h3>Best Quality</h3>
-                            <p>Barang kami terpercaya & bergaransi resmi dari vendor, Penghargaan yang telah kami raih adalah bukti kami.</p>
+                        <div class="f-infoblock-with-icon__info_text b-infoblock-with-icon__info_text f-primary-b">
+                            Oleh <a href="" class="f-more"><?= $model->user->name ?></a> Kategori :  <a href="" class="f-more"><?= $model->category->name ?></a> Dispoting pada <?= date('d F Y', strtotime($model->created)) ?>
+                            <!--<a href="" class="f-more b-blog-listing__additional-text f-primary"><i class="fa fa-comment"></i>12 Comments</a>-->
                         </div>
-                    </li>
-                </ul><!-- /.services -->
+                        <div class="b-article__description">
+                            <?= $model->content ?>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="col-md-3 col-md-pull-9">
+
+                    <div class="row b-col-default-indent">
+                        <div class="col-md-12">
+                            <h4 class="f-primary-b b-h4-special f-h4-special--gray f-h4-special">Informasi Terbaru</h4>
+
+                            <div class="b-blog-short-post b-blog-short-post--img-hover-bordered b-blog-short-post--w-img f-blog-short-post--w-img row">
+                                <div class="b-blog-short-post b-blog-short-post--img-hover-bordered b-blog-short-post--w-img f-blog-short-post--w-img row">
+                                    <?php
+                                    $lastPost = common\models\Article::find()
+                                            ->orderBy('created DESC')
+                                            ->limit(10)
+                                            ->all();
+                                    foreach ($lastPost as $isi):
+                                        ?>
+                                        <div class="b-blog-short-post--popular col-md-12  col-xs-12 f-primary-b">
+                                            <div class="b-blog-short-post__item_img">
+                                                <a href="#"><img data-retina src="<?= $isi->primary_image ?>" alt=""/></a>
+                                            </div>
+                                            <div class="b-remaining">
+                                                <div class="b-blog-short-post__item_text f-blog-short-post__item_text">
+                                                    <a href="<?= Yii::$app->urlManager->createUrl('article/'.$isi->id)?>"><?= $isi->title ?></a>
+                                                </div>
+                                                <div class="b-blog-short-post__item_date f-blog-short-post__item_date f-primary-it">
+                                                    <?= date('d F Y',  strtotime($isi->created))?>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    <?php endforeach; ?>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
             </div>
-        </div><!-- /.row -->
-    </div><!-- /.container -->	
-
-</section>
+        </div>
+    </div>
+</div>

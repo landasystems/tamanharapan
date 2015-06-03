@@ -1,10 +1,15 @@
 <?php
 /* @var $this yii\web\View */
-$this->title = 'Pengumuman';
+$this->title = 'Informasi Kependidikan';
 
 use common\models\ArticleCategory;
 use common\models\Article;
+use common\models\User;
 use yii\data\Pagination;
+use yii\helpers\Html;
+use yii\widgets\LinkPager;
+use yii\data\ActiveDataProvider;
+use yii\web\UrlManager;
 
 $session = Yii::$app->session;
 ?>
@@ -13,8 +18,8 @@ $session = Yii::$app->session;
 <div class="b-inner-page-header f-inner-page-header b-bg-header-inner-page">
     <div class="b-inner-page-header__content">
         <div class="container">
-            <h1 class="f-primary-l c-default">Our Blog</h1>
-            <div class="f-primary-l f-inner-page-header_title-add c-senary">One Column Default version</div>
+            <h1 class="f-primary-l c-default">Informasi Kependidikan</h1>
+            <div class="f-primary-l f-inner-page-header_title-add c-senary">SMA Taman Harapan</div>
         </div>
     </div>
 </div>
@@ -33,13 +38,18 @@ $session = Yii::$app->session;
     <div class="l-inner-page-container">
         <div class="container">
             <?php
+            $perpage = isset($_GET['per-page']) ? $_GET['per-page'] : 5;
+            $page = isset($_GET['page']) ? $_GET['page'] : 1;
+            $offset = ($perpage * $page) + ($perpage * -1);
             $articles = Article::find()
                     ->where(array(
 //                        'article_category_id' => '51'
                     ))
                     ->orderBy('article_category_id ASC')
-//                    ->limit(2,0)
+                    ->limit($perpage)
+                    ->offset($offset)
                     ->all();
+
             foreach ($articles as $isi):
                 ?>
                 <div class="b-blog-one-column__row">
@@ -57,7 +67,7 @@ $session = Yii::$app->session;
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-8">
-                            <div class="b-blog__title b-form-row f-h4-special"><a href="blog_detail_right_slidebar.html" class="f-primary-l f-title-big f-blog__title"><?php echo $isi->title ?></a></div>
+                            <div class="b-blog__title b-form-row f-h4-special"><a href="<?php echo Yii::$app->urlManager->createUrl('article/'.$isi->id)?>" class="f-primary-l f-title-big f-blog__title"><?php echo $isi->title ?></a></div>
                             <div class="b-form-row f-h4-special clearfix">
                                 <div class="pull-left">
                                     <a href="#" class="b-infoblock-with-icon__icon f-infoblock-with-icon__icon fade-in-animate b-blog-one-column__info_edit">
@@ -89,22 +99,13 @@ $session = Yii::$app->session;
 
 
             <div class="b-pagination f-pagination">
-                <ul>
-                    <li><a href="#">First</a></li>
-                    <li><a class="prev" href="#"><i class="fa fa-angle-left"></i></a></li>
-                    <?php
-                    $pagination = new Pagination(['totalCount' => $articles->count(), 'pageSize' => 30]);
+                <?php
+                $pagination = new Pagination(['totalCount' => count($models), 'pageSize' => 5]);
 
-                    echo \yii\widgets\LinkPager::widget([
-                        'pagination' => $pagination,
-                    ]);
-                    ?>
-                    <li class="is-active-pagination"><a href="#">1</a></li>
-                    <li><a href="#">2</a></li>
-                    <li><a href="#">3</a></li>
-                    <li><a class="next" href="#"><i class="fa fa-angle-right"></i></a></li>
-                    <li><a href="#">Last</a></li>
-                </ul>
+                echo \yii\widgets\LinkPager::widget([
+                    'pagination' => $pagination,
+                ]);
+                ?>
             </div>
         </div>
     </div>

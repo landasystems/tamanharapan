@@ -3,6 +3,7 @@
 namespace common\models;
 
 use Yii;
+use common\models\User;
 
 /**
  * This is the model class for table "acca_article".
@@ -28,7 +29,7 @@ class Article extends \yii\db\ActiveRecord
      */
     public static function tableName()
     {
-        return 'acca_article';
+        return 'article';
     }
 
     /**
@@ -69,6 +70,12 @@ class Article extends \yii\db\ActiveRecord
     
     public function getUrl(){
         return Yii::$app->urlManager->createUrl($this->alias);
+    }
+    public function getUser(){
+        return $this->hasOne(User::className(), ['id' => 'created_user_id']);
+    }
+    public function getCategory(){
+        return $this->hasOne(ArticleCategory::className(), ['id' => 'article_category_id']);
     }
     
 }
