@@ -89,11 +89,11 @@ AppAsset::register($this);
                                 <a href="page_header_1.html"><i class="fa fa-folder-open b-menu-1level-ico"></i>Profil<span class="b-ico-dropdown"><i class="fa fa-arrow-circle-down"></i></span></a>
                                 <div class="b-top-nav__dropdomn">
                                     <ul class="b-top-nav__2level_wrap">
-                                        <li class="b-top-nav__2level f-top-nav__2level f-primary"><a href="page_header_2.html"><i class="fa fa-angle-right"></i>Visi Misi</a></li>
-                                        <li class="b-top-nav__2level f-top-nav__2level f-primary"><a href="page_header_3.html"><i class="fa fa-angle-right"></i>SAPRAS</a></li>
-                                        <li class="b-top-nav__2level f-top-nav__2level f-primary"><a href="page_header_4.html"><i class="fa fa-angle-right"></i>Data Guru & Siswa</a></li>
-                                        <li class="b-top-nav__2level f-top-nav__2level f-primary"><a href="page_header_5.html"><i class="fa fa-angle-right"></i>Kegiatan Siswa</a></li>
-                                        <li class="b-top-nav__2level f-top-nav__2level f-primary"><a href="page_header_6.html"><i class="fa fa-angle-right"></i>Sejarah</a></li>
+                                        <li class="b-top-nav__2level f-top-nav__2level f-primary"><a href="<?= Yii::$app->urlManager->createUrl('article/index')?>"><i class="fa fa-angle-right"></i>Visi Misi</a></li>
+                                        <li class="b-top-nav__2level f-top-nav__2level f-primary"><a href="<?= Yii::$app->urlManager->createUrl('article/index')?>"><i class="fa fa-angle-right"></i>SAPRAS</a></li>
+                                        <li class="b-top-nav__2level f-top-nav__2level f-primary"><a href="<?= Yii::$app->urlManager->createUrl('article/index')?>"><i class="fa fa-angle-right"></i>Data Guru & Siswa</a></li>
+                                        <li class="b-top-nav__2level f-top-nav__2level f-primary"><a href="<?= Yii::$app->urlManager->createUrl('article/index')?>"><i class="fa fa-angle-right"></i>Kegiatan Siswa</a></li>
+                                        <li class="b-top-nav__2level f-top-nav__2level f-primary"><a href="<?= Yii::$app->urlManager->createUrl('article/index')?>"><i class="fa fa-angle-right"></i>Sejarah</a></li>
                                     </ul>
                                 </div>
                             </li>
@@ -101,7 +101,7 @@ AppAsset::register($this);
                                 <a href="<?= Yii::$app->urlManager->createUrl('article/index')?>"><i class="fa fa-picture-o b-menu-1level-ico"></i>Informasi <span class="b-ico-dropdown"><i class="fa fa-arrow-circle-down"></i></span></a>
                             </li>
                             <li class="b-top-nav__1level f-top-nav__1level f-primary-b">
-                                <a href="our_blog_1_columns.html"><i class="fa fa-code b-menu-1level-ico"></i>Prestasi/ Lulusan <span class="b-ico-dropdown"><i class="fa fa-arrow-circle-down"></i></span></a>
+                                <a href="<?= Yii::$app->urlManager->createUrl('article/index')?>"><i class="fa fa-code b-menu-1level-ico"></i>Prestasi/ Lulusan <span class="b-ico-dropdown"><i class="fa fa-arrow-circle-down"></i></span></a>
                             </li>
                             <li class="b-top-nav__1level f-top-nav__1level f-primary-b">
                                 <a href="contact_us.html"><i class="fa fa-folder-open b-menu-1level-ico"></i>Contact<span class="b-ico-dropdown"><i class="fa fa-arrow-circle-down"></i></span></a>
