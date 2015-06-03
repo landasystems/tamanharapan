@@ -3,6 +3,11 @@
 use yii\helpers\Html;
 use yii\bootstrap\ActiveForm;
 use yii\captcha\Captcha;
+use yii\bootstrap\Nav;
+use yii\bootstrap\NavBar;
+use yii\widgets\Breadcrumbs;
+use frontend\assets\AppAsset;
+use frontend\widgets\Alert;
 
 /* @var $this yii\web\View */
 /* @var $form yii\bootstrap\ActiveForm */
@@ -12,95 +17,197 @@ $this->title = 'Kontak Kami';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 
-<div class="container">
-    <div class="row">
+<div class="j-menu-container"></div>
 
-        <div class="col-md-8">
-            
-            <section class="section leave-a-message">
-                <h2 class="bordered">Tinggalkan Pesan Kepada Kami</h2>
-                <p>Mengenai lebih lanjut tentang kami silahkan kirim email kepada kami.</p>
-                <?php $form = ActiveForm::begin(['id' => 'contact-form']); ?>
-                <div class="row field-row">
-                    <div class="col-xs-12 col-sm-6">
-                        <label>Nama*</label>
-                        <input type="text" id="contactform-name" class="le-input" name="ContactForm[name]" required>
+<div class="b-inner-page-header f-inner-page-header b-bg-header-inner-page">
+    <div class="b-inner-page-header__content">
+        <div class="container">
+            <h1 class="f-primary-l c-default">Contact us</h1>
+        </div>
+    </div>
+</div>
+
+<div class="l-main-container">
+    <div class="b-breadcrumbs f-breadcrumbs">
+        <div class="container">
+            <?= Breadcrumbs::widget([
+            'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
+        ]) ?>
+        </div>
+    </div>
+    <section class="b-google-map map-theme b-bord-box" data-location-set="contact-us">
+        <div class="b-google-map__map-view b-google-map__map-height">
+            <!-- Google map load -->
+        </div>
+        <img data-retina src="img/google-map-marker-default.png" data-label="" class="marker-template hidden" />
+        <div class="b-google-map__info-window-template hidden"
+             data-selected-marker="0"
+             data-width="250">
+            <div class="b-google-map__info-window f-center b-google-map__info-office f-google-map__info-office">
+                <h4 class="f-primary-b">Frexy Studio</h4>
+                <small>Heading Office</small>
+            </div>
+        </div>
+    </section>
+    <div class="b-desc-section-container">
+        <section class="container b-welcome-box">
+            <div class="row">
+                <div class="col-md-offset-2 col-md-8">
+                    <h1 class="is-global-title f-center">We’d love to hear from you!</h1>
+                    <p class="f-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a scelerisque turpis, ut porta turpis. Integer imperdiet aliquet velit, vel tincidunt lectus dictum sed. Curabitur dignissim ut massa vel tincidunt. Nullam imperdiet pharetra ipsum in lobortis. Etiam convallis, felis quis dapibus dictum, libero mauris luctus nunc, non fringilla purus ligula non justo. Nullam </p>
+                </div>
+            </div>
+        </section>
+        <section class="container">
+            <div class="row">
+                <div class="col-sm-6 b-contact-form-box">
+                    <h3 class="f-primary-b b-title-description f-title-description">
+                        drop a line
+                        <div class="b-title-description__comment f-title-description__comment f-primary-l">Quisque at tortor a libero posuere laoreet vitae sed arcu nunc at augue tincidunt </div>
+                    </h3>
+                    <div class="row">
+                        <form action="" method="post">
+                            <div class="col-md-6">
+                                <div class="b-form-row">
+                                    <label class="b-form-vertical__label" for="name">Your name</label>
+                                    <div class="b-form-vertical__input">
+                                        <input type="text" id="name" class="form-control" />
+                                    </div>
+                                </div>
+                                <div class="b-form-row">
+                                    <label class="b-form-vertical__label" for="email">You email</label>
+                                    <div class="b-form-vertical__input">
+                                        <input type="text" id="email" class="form-control" />
+                                    </div>
+                                </div>
+                                <div class="b-form-row">
+                                    <label class="b-form-vertical__label" for="website">Your website</label>
+                                    <div class="b-form-vertical__input">
+                                        <input type="text" id="website" class="form-control" />
+                                    </div>
+                                </div>
+                                <div class="b-form-row">
+                                    <label class="b-form-vertical__label" for="title">Your title</label>
+                                    <div class="b-form-vertical__input">
+                                        <input type="text" id="title" class="form-control" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="b-form-row b-form--contact-size">
+                                    <label class="b-form-vertical__label">Your message</label>
+                                    <textarea class="form-control" rows="5"></textarea>
+                                </div>
+                                <div class="b-form-row">
+                                    <a href="#" class="b-btn f-btn b-btn-md b-btn-default f-primary-b b-btn__w100">send message</a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-sm-6 b-contact-form-box">
+                    <h3 class="f-primary-b b-title-description f-title-description">
+                        contact info
+                        <div class="b-title-description__comment f-title-description__comment f-primary-l">Quisque at tortor a libero posuere laoreet vitae sed arcu nunc at augue tincidunt </div>
+                    </h3>
+                    <div class="row b-google-map__info-window-address">
+                        <ul class="list-unstyled">
+                            <li class="col-xs-12">
+                                <div class="b-google-map__info-window-address-icon f-center pull-left">
+                                    <i class="fa fa-home"></i>
+                                </div>
+                                <div>
+                                    <div class="b-google-map__info-window-address-title f-google-map__info-window-address-title">
+                                        frexy studio
+                                    </div>
+                                    <div class="desc">1234 Street Name, City Name, United States.</div>
+                                </div>
+                            </li>
+                            <li class="col-xs-12">
+                                <div class="b-google-map__info-window-address-icon f-center pull-left">
+                                    <i class="fa fa-globe"></i>
+                                </div>
+                                <div>
+                                    <div class="b-google-map__info-window-address-title f-google-map__info-window-address-title">
+                                        portfolio homepage
+                                    </div>
+                                    <div class="desc">http://yoursite.com</div>
+                                </div>
+                            </li>
+                            <li class="col-xs-12">
+                                <div class="b-google-map__info-window-address-icon f-center pull-left">
+                                    <i class="fa fa-skype"></i>
+                                </div>
+                                <div>
+                                    <div class="b-google-map__info-window-address-title f-google-map__info-window-address-title">
+                                        Skype
+                                    </div>
+                                    <div class="desc">ask.company</div>
+                                </div>
+                            </li>
+                            <li class="col-xs-12">
+                                <div class="b-google-map__info-window-address-icon f-center pull-left">
+                                    <i class="fa fa-envelope"></i>
+                                </div>
+                                <div>
+                                    <div class="b-google-map__info-window-address-title f-google-map__info-window-address-title">
+                                        email
+                                    </div>
+                                    <div class="desc">mail@example.com</div>
+                                </div>
+                            </li>
+                        </ul>
 
                     </div>
-                    <div class="col-xs-12 col-sm-6">
-                        <label>Email*</label>
-                        <input type="text" id="contactform-email" class="le-input" name="ContactForm[email]" required>
-
+                </div>
+            </div>
+        </section>
+    </div>
+    <section class="b-diagonal-line-bg-light b-bord-box">
+        <section class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h3 class="f-primary-b b-title-description f-title-description">like us on facebook</h3>
+                    <div class="b-wiget-fb">
+                        <div class="b-wiget-fb-content" id="fb-root">
+                            <div class="fb-like-box" data-width="285" data-href="https://www.facebook.com/FacebookDevelopers"
+                                 data-colorscheme="light" data-show-faces="true" data-header="false" data-stream="false"
+                                 data-show-border="false"></div>
+                        </div>
                     </div>
-                </div><!-- /.field-row -->
-
-                <div class="field-row">
-                    <label>Judul</label>
-                    <input type="text" id="contactform-subject" class="le-input" name="ContactForm[subject] required">
-
-                </div><!-- /.field-row -->
-
-                <div class="field-row">
-                    <label>Pesan</label>
-                    <textarea id="contactform-body" class="le-input" name="ContactForm[body]" rows="8" required></textarea>
-
-                </div><!-- /.field-row -->
-                <?=
-                $form->field($model, 'verifyCode')->widget(Captcha::className(), [
-                    'template' => '<div class="row"><div class="col-lg-3">{image}</div><div class="col-lg-6">{input}</div></div>',
-                ])
-                ?>
-                <div class="buttons-holder">
-                    <button type="submit" class="le-button huge" name="send"> Kirim Pesan</button>
-                </div><!-- /.buttons-holder -->
-
-                <?php ActiveForm::end(); ?>
-            </section><!-- /.leave-a-message -->
-        </div><!-- /.col -->
-
-        <div class="col-md-4">
-            <section class="our-store section inner-left-xs">
-                <h2 class="bordered">Toko Kami</h2>
-                <address>
-                    Jl. Brigjend S.Riadi 10<br/>
-                    Malang, Jawa Timur <br/>
-
-                </address>
-                <h3>Jam Buka</h3>
-                <ul class="list-unstyled operation-hours">
-                    <li class="clearfix">
-                        <span class="day">Senin:</span>
-                        <span class="pull-right hours">09:00 - 21:00</span>
-                    </li>
-                    <li class="clearfix">
-                        <span class="day">Selasa:</span>
-                        <span class="pull-right hours">09:00 - 21:00</span>
-                    </li>
-                    <li class="clearfix">
-                        <span class="day">Rabu:</span>
-                        <span class="pull-right hours">09:00 - 21:00</span>
-                    </li>
-                    <li class="clearfix">
-                        <span class="day">Kamis:</span>
-                        <span class="pull-right hours">09:00 - 21:00</span>
-                    </li>
-                    <li class="clearfix">
-                        <span class="day">Jumat:</span>
-                        <span class="pull-right hours">09:00 - 21:00</span>
-                    </li>
-                    <li class="clearfix">
-                        <span class="day">Sabtu:</span>
-                        <span class="pull-right hours">09:00 - 21:00</span>
-                    </li>
-                    <li class="clearfix">
-                        <span class="day">Minggu</span>
-                        <span class="pull-right hours">09:00 - 21:00</span>
-                    </li>
-                </ul>
-<!--                <h3>Career</h3>
-                <p>If you're interested in employment opportunities at MediaCenter, please email us: <a href="mailto:contact@yourstore.com">contact@yourstore.com</a></p>-->
-            </section><!-- /.our-store -->
-        </div><!-- /.col -->
-
-    </div><!-- /.row -->
-</div><!-- /.container -->
+                </div>
+                <div class="col-sm-6">
+                    <h3 class="f-primary-b b-title-description f-title-description">twitter feeds</h3>
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="b-twitter-feeds__item">
+                                <div class="b-twitter-feeds__item_name f-twitter-feeds__item_name f-primary-b"><i
+                                        class="fa fa-twitter"></i> frexy studio
+                                </div>
+                                <div class="b-twitter-feeds__item_twit f-twitter-feeds__item_twit">
+                                    Lorem ipsum dolor sit amet, consectetur adip iscing elit. Curabitur ut blandit sapien. <a
+                                        href="http://t.co/hd3sk" target="_blank">http://t.co/hd3sk</a>
+                                </div>
+                                <div class="b-twitter-feeds__item_date f-twitter-feeds__item_date f-primary-it c-senary">2 days
+                                    ago
+                                </div>
+                            </div>
+                            <div class="b-twitter-feeds__item b-default-top-indent">
+                                <div class="b-twitter-feeds__item_name f-twitter-feeds__item_name f-primary-b"><i
+                                        class="fa fa-twitter"></i> John Doe
+                                </div>
+                                <div class="b-twitter-feeds__item_twit f-twitter-feeds__item_twit">
+                                    Lorem ipsum dolor sit amet, consectetur adip iscing elit. Curabitur ut blandit sapien. <a
+                                        href="http://t.co/hd3sk" target="_blank">http://t.co/hd3sk</a>
+                                </div>
+                                <div class="b-twitter-feeds__item_date f-twitter-feeds__item_date f-primary-it c-senary">2 days
+                                    ago
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+</div>

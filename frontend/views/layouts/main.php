@@ -9,432 +9,199 @@ $session = Yii::$app->session;
 
 /* @var $this \yii\web\View */
 /* @var $content string */
-
 AppAsset::register($this);
 ?>
 <?php $this->beginPage() ?>
 <!DOCTYPE html>
-<html lang="en">
+<html>
     <head>
-        <meta charset="<?= Yii::$app->charset ?>"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <?= Html::csrfMetaTags() ?>
+        <meta charset="<?= Yii::$app->charset ?>">
         <title><?= Html::encode($this->title) ?></title>
+        <link rel="shortcut icon" href="favicon.ico">
+        <?= Html::csrfMetaTags() ?>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <!--<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">-->
+        <!-- bxslider -->
+        <link type="text/css" rel='stylesheet' href="<?= Yii::$app->homeUrl ?>js/bxslider/jquery.bxslider.css">
+        <!-- End bxslider -->
+        <!-- flexslider -->
+        <link type="text/css" rel='stylesheet' href="<?= Yii::$app->homeUrl ?>js/flexslider/flexslider.css">
+        <!-- End flexslider -->
+        <!-- bxslider -->
+        <link type="text/css" rel='stylesheet' href="<?= Yii::$app->homeUrl ?>js/radial-progress/style.css">
+        <!-- End bxslider -->
+
+        <!-- Animate css -->
+        <link type="text/css" rel='stylesheet' href="<?= Yii::$app->homeUrl ?>css/animate.css">
+        <!-- End Animate css -->
+
+        <!-- Bootstrap css -->
+        <link type="text/css" rel='stylesheet' href="<?= Yii::$app->homeUrl ?>css/bootstrap.min.css">
+        <link type="text/css" rel='stylesheet' href="<?= Yii::$app->homeUrl ?>js/bootstrap-progressbar/bootstrap-progressbar-3.2.0.min.css">
+        <!-- End Bootstrap css -->
+
+        <!-- Jquery UI css -->
+        <link type="text/css" rel='stylesheet' href="<?= Yii::$app->homeUrl ?>js/jqueryui/jquery-ui.css">
+        <link type="text/css" rel='stylesheet' href="<?= Yii::$app->homeUrl ?>js/jqueryui/jquery-ui.structure.css">
+        <!-- End Jquery UI css -->
+
+        <!-- Fancybox -->
+        <link type="text/css" rel='stylesheet' href="<?= Yii::$app->homeUrl ?>js/fancybox/jquery.fancybox.css">
+        <!-- End Fancybox -->
+
+        <link type="text/css" rel='stylesheet' href="<?= Yii::$app->homeUrl ?>fonts/fonts.css">
+        <link type="text/css" data-themecolor="default" rel='stylesheet' href="<?= Yii::$app->homeUrl ?>css/main-default.css">
+        <link type="text/css" rel='stylesheet' href="<?= Yii::$app->homeUrl ?>js/rs-plugin/css/settings.css">
+        <link type="text/css" rel='stylesheet' href="<?= Yii::$app->homeUrl ?>js/rs-plugin/css/settings-custom.css">
         <?php $this->head() ?>
-
-        <link rel="shortcut icon" href="images/favicon.ico" >
-
     </head>
     <body>
+        <style>
+            header{
+                padding : 0px 0px 0px !important;
+            }
+        </style>
         <?php $this->beginBody() ?>
-
-
-        <div class="wrapper">
-            <!-- ============================================================= TOP NAVIGATION ============================================================= -->
-            <nav class="top-bar animate-dropdown">
+        <!--<div class="mask-l" style="background-color: #fff; width: 100%; height: 100%; position: fixed; top: 0; left:0; z-index: 9999999;"></div> removed by integration-->
+        <header>
+            <div class="b-top-options-panel b-top-options-panel--color">
                 <div class="container">
-                    <div class="col-xs-12 col-sm-6 no-margin">
-                        <ul>
-                            <li><a href="<?= Yii::$app->homeUrl ?>">Home</a></li>
-                            <li><a href="<?= Yii::$app->urlManager->createUrl('cara-belanja-dan-pembayaran') ?>">Cara Berbelanja</a></li>
-                            <li><a href="<?= Yii::$app->urlManager->createUrl('syarat-dan-ketentuan') ?>">Syarat & Ketentuan</a></li>
-                            <li><a href="<?= Yii::$app->urlManager->createUrl('tentang-kami') ?>">Tentang Kami</a></li>
-                            <li><a href="<?= Yii::$app->urlManager->createUrl('kontak-kami') ?>">Contact</a></li>
-                        </ul>
-                    </div><!-- /.col -->
-
-                    <div class="col-xs-12 col-sm-6 no-margin">
-                        <ul class="right">
-                            <?php
-                            if (!\Yii::$app->user->isGuest) {
-                                ?>
-                                <li><a href="<?= Yii::$app->urlManager->createUrl('status-order') ?>">Status Order</a></li>
-                                <li><a href="<?= Yii::$app->urlManager->createUrl('edit-profile/' . Yii::$app->user->identity->id) ?>">Edit Profile</a></li>
-                                <li><a href="<?= Yii::$app->urlManager->createUrl('logout') ?>">Logout</a></li>
-                            <?php } else { ?>
-                                <li><a href="<?= Yii::$app->urlManager->createUrl('login') ?>">Login</a></li>
-                                <li><a href="<?= Yii::$app->urlManager->createUrl('login') ?>">Register</a></li>
-
-                            <?php } ?>
-                        </ul>
-                    </div><!-- /.col -->
-                </div><!-- /.container -->
-            </nav><!-- /.top-bar -->
-            <!-- ============================================================= TOP NAVIGATION : END ============================================================= -->		<!-- ============================================================= HEADER ============================================================= -->
-            <header style="margin-bottom: 20px;">
-                <div class="container no-padding">
-
-                    <div class="col-xs-12 col-sm-12 col-md-3 logo-holder">
-                        <!-- ============================================================= LOGO ============================================================= -->
-                        <div class="logo">
-                            <a href="<?= Yii::$app->homeUrl ?>">
-                                <img alt="logo" src="<?= Yii::$app->homeUrl ?>images/logo.png" width="233" height="54"/>
-                            </a>
-                        </div><!-- /.logo -->
-                        <!-- ============================================================= LOGO : END ============================================================= -->		</div><!-- /.logo-holder -->
-
-                    <div class="col-xs-12 col-sm-12 col-md-6 top-search-holder no-margin">
-                        <div class="contact-row">
-                            <div class="phone inline">
-                                <i class="fa fa-phone"></i> (0341) 355 333
-                            </div>
-                            <div class="contact inline">
-                                <i class="fa fa-envelope"></i> info@<span class="le-color">indomobilecell.com</span>
-                            </div>
-                        </div><!-- /.contact-row -->
-                        <!-- ============================================================= SEARCH AREA ============================================================= -->
-                        <div class="search-area">
-                            <form method="get" action="<?= Yii::$app->urlManager->createUrl('pencarian') ?>">
-                                <div class="control-group">
-                                    <input class="search-field" name="name" placeholder="Cari produk yang anda inginkan" required/>
-
-                                    <ul class="categories-filter animate-dropdown">
-                                        <li class="dropdown">
-
-                                            <a class="dropdown-toggle"  data-toggle="dropdown" href="#">all categories</a>
-
-                                            <ul class="dropdown-menu" role="menu" >
-                                                <li role="presentation"><a role="menuitem" tabindex="-1" href="<?= Yii::$app->urlManager->createUrl('cat/accesories') ?>">Accesories</a></li>
-                                                <li role="presentation"><a role="menuitem" tabindex="-1" href="<?= Yii::$app->urlManager->createUrl('cat/smartphone') ?>">Smartphone</a></li>
-                                                <!--<li role="presentation"><a role="menuitem" tabindex="-1" href="category-grid.html">Laptop</a></li>-->
-                                                <li role="presentation"><a role="menuitem" tabindex="-1" href="<?= Yii::$app->urlManager->createUrl('cat/tablet') ?>">Tablet</a></li>
-                                                <li role="presentation"><a role="menuitem" tabindex="-1" href="<?= Yii::$app->urlManager->createUrl('cat/handphone') ?>">Handphone</a></li>
-
-                                            </ul>
-                                        </li>
+                    <div class="b-option-contacts f-option-contacts">
+                        <a href="mailto:frexystudio@gmail.com"><i class="fa fa-envelope-o"></i> info@tamanharapan.sch.id</a>
+                        <a href="#"><i class="fa fa-phone"></i> (0341) 986 386</a>
+                    </div>
+                </div>
+            </div>
+            <div class="container b-header__box b-relative">
+                <a href="<?= Yii::$app->homeUrl ?>" class="b-left b-logo"><img class="color-theme" data-retina src="<?= Yii::$app->homeUrl ?>img/logo-header-default.png" alt="Logo" style="width:230px !important"/></a>
+                <div class="b-header-r b-right">
+                    <div class="b-header-ico-group f-header-ico-group b-right">
+                        <span class="b-search-box">
+                            <i class="fa fa-search"></i>
+                            <input type="text" placeholder="Pencarian berita"/>
+                        </span>
+                    </div>
+                    <div class="b-top-nav-show-slide f-top-nav-show-slide b-right j-top-nav-show-slide"><i class="fa fa-align-justify"></i></div>
+                    <nav class="b-top-nav f-top-nav b-right j-top-nav">
+                        <ul class="b-top-nav__1level_wrap">
+                            <li class="b-top-nav__1level f-top-nav__1level is-active-top-nav__1level f-primary-b"><a href="<?= Yii::$app->homeUrl ?>"><i class="fa fa-home b-menu-1level-ico"></i>Home <span class="b-ico-dropdown"><i class="fa fa-arrow-circle-down"></i></span></a></li>
+                            <li class="b-top-nav__1level f-top-nav__1level f-primary-b">
+                                <a href="page_header_1.html"><i class="fa fa-folder-open b-menu-1level-ico"></i>Profil<span class="b-ico-dropdown"><i class="fa fa-arrow-circle-down"></i></span></a>
+                                <div class="b-top-nav__dropdomn">
+                                    <ul class="b-top-nav__2level_wrap">
+                                        <li class="b-top-nav__2level f-top-nav__2level f-primary"><a href="page_header_2.html"><i class="fa fa-angle-right"></i>Visi Misi</a></li>
+                                        <li class="b-top-nav__2level f-top-nav__2level f-primary"><a href="page_header_3.html"><i class="fa fa-angle-right"></i>SAPRAS</a></li>
+                                        <li class="b-top-nav__2level f-top-nav__2level f-primary"><a href="page_header_4.html"><i class="fa fa-angle-right"></i>Data Guru & Siswa</a></li>
+                                        <li class="b-top-nav__2level f-top-nav__2level f-primary"><a href="page_header_5.html"><i class="fa fa-angle-right"></i>Kegiatan Siswa</a></li>
+                                        <li class="b-top-nav__2level f-top-nav__2level f-primary"><a href="page_header_6.html"><i class="fa fa-angle-right"></i>Sejarah</a></li>
                                     </ul>
-
-                                    <button class="search-button" type="submit" ></button>    
-
                                 </div>
-                            </form>
-                        </div><!-- /.search-area -->
-                        <!-- ============================================================= SEARCH AREA : END ============================================================= -->		</div><!-- /.top-search-holder -->
+                            </li>
+                            <li class="b-top-nav__1level f-top-nav__1level f-primary-b">
+                                <a href="portfolio_our_portfolio_1_colums.html"><i class="fa fa-picture-o b-menu-1level-ico"></i>Informasi <span class="b-ico-dropdown"><i class="fa fa-arrow-circle-down"></i></span></a>
+                            </li>
+                            <li class="b-top-nav__1level f-top-nav__1level f-primary-b">
+                                <a href="our_blog_1_columns.html"><i class="fa fa-code b-menu-1level-ico"></i>Prestasi/ Lulusan <span class="b-ico-dropdown"><i class="fa fa-arrow-circle-down"></i></span></a>
+                            </li>
+                            <li class="b-top-nav__1level f-top-nav__1level f-primary-b">
+                                <a href="contact_us.html"><i class="fa fa-folder-open b-menu-1level-ico"></i>Contact<span class="b-ico-dropdown"><i class="fa fa-arrow-circle-down"></i></span></a>
+                            </li>
+                        </ul>
 
-                    <div class="col-xs-12 col-sm-12 col-md-3 top-cart-row no-margin">
-                        <div class="top-cart-row-container">
-                            <!-- ============================================================= SHOPPING CART DROPDOWN ============================================================= -->
-                            <div class="top-cart-holder dropdown animate-dropdown">
-
-                                <div class="basket">
-                                    <?php
-                                    if (isset($session['cart'])) {
-                                        $harga = 0;
-                                        $count = 0;
-                                        foreach ($session['cart'] as $key => $value) {
-
-                                            $count += $value;
-                                            $product = Product::findOne($key);
-                                            $harga += ($product->price_sell * $value);
-                                        }
-                                    }
-                                    ?>
-                                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                                        <div class="basket-item-count">
-                                            <span class="count"><?php echo (!empty($count)) ? $count : '0'; ?></span>
-                                            <img src="<?= Yii::$app->homeUrl ?>images/icon-cart.png" alt="" />
-                                        </div>
-
-                                        <div class="total-price-basket"> 
-                                            <span class="lbl">keranjang anda:</span>
-                                            <span class="total-price">
-                                                <span class="value"><?php echo (!empty($harga) ? Yii::$app->landa->rp($harga) : 'Rp. 0') ?></span>
-                                            </span>
-                                        </div>
-                                    </a>
-
-                                    <ul class="dropdown-menu cart-list">
-                                        <?php
-                                        if (isset($session['cart'])) {
-                                            foreach ($session['cart'] as $key => $value) {
-                                                $list = Product::findOne($key);
-//                                                foreach ($product as $a) {
-
-
-                                                echo '<li>
-                                            <div class="basket-item">
-                                                <div class="row">
-                                                    <div class="col-xs-4 col-sm-4 no-margin text-center">
-                                                        <div class="thumb">
-                                                            <img alt="" src="' . $list->imgSmall . '" style="width: 60px;" />
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-xs-8 col-sm-8 no-margin">
-                                                        <div class="title">' . $list->name . '</div>
-                                                        <div class="price">' . $list->price_sell_rp . '</div>
-                                                        <div class="price">Kuantitas : ' . $value . '</div>
-                                                    </div>
-                                                </div>
-                                                
-                                            </div>
-                                        </li>';
-                                            }
-//                                            }
-                                        }
-                                        ?>
-
-
-                                        <li class="checkout">
-                                            <div class="basket-item">
-                                                <div class="row">
-                                                    <div class="col-xs-12 col-sm-6">
-                                                        <a href="<?= Yii::$app->urlManager->createUrl('cart') ?>" class="le-button inverse">View cart</a>
-                                                    </div>
-                                                    <div class="col-xs-12 col-sm-6">
-                                                        <a href="<?= Yii::$app->urlManager->createUrl('destination') ?>" class="le-button">Checkout</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-
-                                    </ul>
-                                </div><!-- /.basket -->
-                            </div><!-- /.top-cart-holder -->
-                        </div><!-- /.top-cart-row-container -->
-                        <!-- ============================================================= SHOPPING CART DROPDOWN : END ============================================================= -->		</div><!-- /.top-cart-row -->
-
-                </div><!-- /.container -->
-            </header>
-            <?= $content ?>
-            <footer id="footer" class="color-bg">
-
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <div class="j-menu-container"></div>
+        <div class="l-main-container">
+            <?php echo $content;?>
+        </div>
+        <footer>
+            <div class="b-footer-primary">
                 <div class="container">
-                    <div class="row no-margin widgets-row">
-                        <div class="col-xs-12  col-sm-4 no-margin-left">
-                            <!-- ============================================================= FEATURED PRODUCTS ============================================================= -->
-                            <div class="widget">
-                                <h2>Featured products</h2>
-                                <div class="body">
-                                    <ul>
-                                        <?php
-                                        $featured = Product::find()->with(['brand', 'productPhoto', 'productCategory'])->limit(3)->orderBy('RAND()')->all();
-                                        $sale = Product::find()->with(['brand', 'productPhoto', 'productCategory'])->limit(3)->orderBy('RAND()')->all();
-                                        $rated = Product::find()->with(['brand', 'productPhoto', 'productCategory'])->limit(3)->orderBy('RAND()')->all();
-                                        foreach ($featured as $a) {
-                                            echo'<li>
-                                            <div class="row">
-                                                <div class="col-xs-12 col-sm-9 no-margin">
-                                                    <a href="' . $a->url . '">' . $a->name . '</a>
-                                                    <div class="price">
-                                                        
-                                                        <div class="price-current">' . $a->price_sell_rp . '</div>
-                                                    </div>
-                                                </div>  
-
-                                                <div class="col-xs-12 col-sm-3 no-margin">
-                                                    <a href="#" class="thumb-holder">
-                                                        <img alt="" src="' . Yii::$app->homeUrl . 'images/blank.gif" data-echo="' . $a->imgSmall . '" />
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </li>';
-                                        }
-                                        ?>
-
-                                    </ul>
-                                </div><!-- /.body -->
-                            </div> <!-- /.widget -->
-                            <!-- ============================================================= FEATURED PRODUCTS : END ============================================================= -->            </div><!-- /.col -->
-
-                        <div class="col-xs-12 col-sm-4 ">
-                            <!-- ============================================================= ON SALE PRODUCTS ============================================================= -->
-                            <div class="widget">
-                                <h2>On-Sale Products</h2>
-                                <div class="body">
-                                    <ul>
-                                        <?php
-                                        foreach ($sale as $a) {
-                                            echo'<li>
-                                            <div class="row">
-                                                <div class="col-xs-12 col-sm-9 no-margin">
-                                                    <a href="' . $a->url . '">' . $a->name . '</a>
-                                                    <div class="price">
-                                                        
-                                                        <div class="price-current">' . $a->price_sell_rp . '</div>
-                                                    </div>
-                                                </div>  
-
-                                                <div class="col-xs-12 col-sm-3 no-margin">
-                                                    <a href="#" class="thumb-holder">
-                                                        <img alt="" src="' . Yii::$app->homeUrl . 'images/blank.gif" data-echo="' . $a->imgSmall . '" />
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </li>';
-                                        }
-                                        ?>
-
-                                    </ul>
-                                </div><!-- /.body -->
-                            </div> <!-- /.widget -->
-                            <!-- ============================================================= ON SALE PRODUCTS : END ============================================================= -->            </div><!-- /.col -->
-
-                        <div class="col-xs-12 col-sm-4 ">
-                            <!-- ============================================================= TOP RATED PRODUCTS ============================================================= -->
-                            <div class="widget">
-                                <h2>Top Rated Products</h2>
-                                <div class="body">
-                                    <ul>
-                                        <?php
-                                        foreach ($rated as $a) {
-                                            echo'<li>
-                                            <div class="row">
-                                                <div class="col-xs-12 col-sm-9 no-margin">
-                                                    <a href="' . $a->url . '">' . $a->name . '</a>
-                                                    <div class="price">
-                                                        
-                                                        <div class="price-current">' . $a->price_sell_rp . '</div>
-                                                    </div>
-                                                </div>  
-
-                                                <div class="col-xs-12 col-sm-3 no-margin">
-                                                    <a href="#" class="thumb-holder">
-                                                        <img alt="" src="' . Yii::$app->homeUrl . 'images/blank.gif" data-echo="' . $a->imgSmall . '" />
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </li>';
-                                        }
-                                        ?>
-
-                                    </ul>
-                                </div><!-- /.body -->
-                            </div><!-- /.widget -->
-                            <!-- ============================================================= TOP RATED PRODUCTS : END ============================================================= -->            </div><!-- /.col -->
-
-                    </div><!-- /.widgets-row-->
-                </div><!-- /.container -->
-
-                <div class="sub-form-row">
-                    <div class="container">
-                        <div class="col-xs-12 col-sm-8 col-sm-offset-2 no-padding">
-                            <script>
-                                function cekEmail() {
-                                    var cek = $("#email_input").val();
-                                    var atpos = cek.indexOf("@");
-                                    var dotpos = cek.lastIndexOf(".");
-                                    if (atpos < 1 || dotpos < atpos + 2 || dotpos + 2 >= cek.length)
-                                    {
-                                        alert("Alamat Email tidak valid !!!");
-                                        return false;
-                                    }
-                                }
-                            </script>
-                            <?php
-                            $form = ActiveForm::begin([
-                                        'id' => 'subcribe-form',
-                                        'action' => Yii::$app->urlManager->createUrl('site/subscribe')]);
-                            ?> 
-                            <input id="email_input" placeholder="Ketik alamat email anda, untuk mendapatkan penawaran terbaik kami setiap harinya" name='email' required>
-                            <button class="le-button" name='send' onClick="return cekEmail();">Subscribe</button>
-                            <?php ActiveForm::end(); ?>
-                        </div>
-                    </div><!-- /.container -->
-                </div><!-- /.sub-form-row -->
-
-                <div class="link-list-row">
-                    <div class="container no-padding">
-                        <div class="col-xs-12 col-md-4 ">
-                            <!-- ============================================================= CONTACT INFO ============================================================= -->
-                            <div class="contact-info">
-                                <div class="footer-logo">
-                                    <img alt="logo" src="<?= Yii::$app->homeUrl ?>images/logo.png" width="233" height="54"/>
-                                </div><!-- /.footer-logo -->
-
-                                <p class="regular-bold"> Toko online dengan Garansi Resmi, banyak Penghargaan yang kami dapatkan dan tentunya kami menjual dengan harga paling Murah </p>
-
+                    <div class="row">
+                        <div class="col-sm-4 col-xs-12 f-copyright b-copyright">Copyright © 2015 - All Rights Reserved</div>
+                        <div class="col-sm-8 col-xs-12">
+                            <div class="b-btn f-btn b-btn-default b-right b-footer__btn_up f-footer__btn_up j-footer__btn_up">
+                                <i class="fa fa-chevron-up"></i>
                             </div>
-                            <!-- ============================================================= CONTACT INFO : END ============================================================= -->            </div>
-
-                        <div class="col-xs-12 col-md-8 no-margin">
-                            <!-- ============================================================= LINKS FOOTER ============================================================= -->
-
-
-                            <div class="link-widget" style="width: 360px">
-                                <div class="widget">
-                                    <h3>Kunjungi Kami</h3>
-                                    <p>
-                                        <span class="glyphicon glyphicon-home" aria-hidden="true"></span>&nbsp;&nbsp;Jl. Brigjend S.Riadi 10, kota malang, jawa timur<br>
-                                        <span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span>&nbsp;&nbsp;
-                                        (0341) 355 333 <br>
-                                        <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>&nbsp;&nbsp; <a href="mailto:info@indomobilecell.com">info@indomobilecell.com</a>
-                                    </p>
-
-                                    <div class="social-icons">
-                                        <h3>Sosial Media Kami</h3>
-                                        <ul>
-                                            <li><a href="http://www.facebook.com/indomobilecellmalang" target="_blank" class="fa fa-facebook"></a></li>
-                                            <li><a href="http://www.twitter.com/jimmyetmada" target="_blank" class="fa fa-twitter"></a></li>
-                                        </ul>
-                                    </div><!-- /.social-icons -->
-
-                                </div><!-- /.widget -->
-                            </div><!-- /.link-widget -->
-
-
-                            <div class="link-widget">
-                                <div class="widget" id='cek-resi'>
-
-                                    <div id="fb-root"></div>
-                                    <script>(function(d, s, id) {
-                                    var js, fjs = d.getElementsByTagName(s)[0];
-                                    if (d.getElementById(id))
-                                        return;
-                                    js = d.createElement(s);
-                                    js.id = id;
-                                    js.src = "//connect.facebook.net/id_ID/sdk.js#xfbml=1&appId=150291335047586&version=v2.0";
-                                    fjs.parentNode.insertBefore(js, fjs);
-                                }(document, 'script', 'facebook-jssdk'));</script>
-                                    <div style="background-color: #ffffff" class="fb-like-box" data-href="https://www.facebook.com/indomobilecell.mlg" data-width="350" data-height="230" data-colorscheme="light" data-show-faces="true" data-header="false" data-stream="false" data-show-border="true"></div>
-
-
-                                </div><!-- /.widget -->
-                            </div><!-- /.link-widget -->
-                            <!-- ============================================================= LINKS FOOTER : END ============================================================= -->            </div>
-                    </div><!-- /.container -->
-                </div><!-- /.link-list-row -->
-
-                <div class="copyright-bar">
-                    <div class="container">
-                        <div class="col-xs-12 col-sm-6 no-margin">
-                            <div class="copyright">
-                                &copy; <a href="index.html">Indomobilecell Online</a> v3 Beta Version - 2015 all rights reserved
-                            </div><!-- /.copyright -->
+                            <nav class="b-bottom-nav f-bottom-nav b-right hidden-xs">
+                                <ul>
+                                    <li><a href="../../html/homepage-1-index.html">Home</a></li>
+                                    <li><a href="../../html/portfolio_our_portfolio_1_colums.html">Visi Misi</a></li>
+                                    <li><a href="../../html/portfolio_our_portfolio_1_colums.html">Sarana & Prasarana</a></li>
+                                    <li><a href="../../html/portfolio_our_portfolio_1_colums.html">Data Guru & Siswa</a></li>
+                                    <li><a href="../../html/portfolio_our_portfolio_1_colums.html">Kegiatan Siswa</a></li>
+                                    <li><a href="../../html/portfolio_our_portfolio_1_colums.html">Sejarah</a></li>
+                                    <li><a href="../../html/portfolio_our_portfolio_1_colums.html">Informasi</a></li>
+                                    <li><a href="../../html/our_blog_1_columns.html">Prestasi/ Lulusan</a></li>
+                                    <li><a href="../../html/page_search_result.html">Contact</a></li>
+                                </ul>
+                            </nav>
                         </div>
-                        <div class="col-xs-12 col-sm-6 no-margin">
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="<?= Yii::$app->homeUrl ?>js/breakpoints.js"></script>
+        <script src="<?= Yii::$app->homeUrl ?>js/jquery/jquery-1.11.1.min.js"></script>
+        <!-- bootstrap -->
+        <script src="<?= Yii::$app->homeUrl ?>js/scrollspy.js"></script>
+        <script src="<?= Yii::$app->homeUrl ?>js/bootstrap-progressbar/bootstrap-progressbar.js"></script>
+        <script src="<?= Yii::$app->homeUrl ?>js/bootstrap.min.js"></script>
+        <!-- end bootstrap -->
+        <script src="<?= Yii::$app->homeUrl ?>js/masonry.pkgd.min.js"></script>
+        <script src='<?= Yii::$app->homeUrl ?>js/imagesloaded.pkgd.min.js'></script>
+        <!-- bxslider -->
+        <script src="<?= Yii::$app->homeUrl ?>js/bxslider/jquery.bxslider.min.js"></script>
+        <!-- end bxslider -->
+        <!-- flexslider -->
+        <script src="<?= Yii::$app->homeUrl ?>js/flexslider/jquery.flexslider.js"></script>
+        <!-- end flexslider -->
+        <!-- smooth-scroll -->
+        <script src="<?= Yii::$app->homeUrl ?>js/smooth-scroll/SmoothScroll.js"></script>
+        <!-- end smooth-scroll -->
+        <!-- carousel -->
+        <script src="<?= Yii::$app->homeUrl ?>js/jquery.carouFredSel-6.2.1-packed.js"></script>
+        <!-- end carousel -->
+        <script src="<?= Yii::$app->homeUrl ?>js/rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
+        <script src="<?= Yii::$app->homeUrl ?>js/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+        <script src="<?= Yii::$app->homeUrl ?>js/rs-plugin/videojs/video.js"></script>
 
-                        </div>
-                    </div><!-- /.container -->
-                </div><!-- /.copyright-bar -->
+        <!-- jquery ui -->
+        <script src="<?= Yii::$app->homeUrl ?>js/jqueryui/jquery-ui.js"></script>
+        <!-- end jquery ui -->
+        <script type="text/javascript" language="javascript"
+        src="http://maps.google.com/maps/api/js?sensor=false&key=AIzaSyCfVS1-Dv9bQNOIXsQhTSvj7jaDX7Oocvs"></script>
+        <!-- Modules -->
+        <script src="<?= Yii::$app->homeUrl ?>js/modules/sliders.js"></script>
+        <script src="<?= Yii::$app->homeUrl ?>js/modules/ui.js"></script>
+        <script src="<?= Yii::$app->homeUrl ?>js/modules/retina.js"></script>
+        <script src="<?= Yii::$app->homeUrl ?>js/modules/animate-numbers.js"></script>
+        <script src="<?= Yii::$app->homeUrl ?>js/modules/parallax-effect.js"></script>
+        <script src="<?= Yii::$app->homeUrl ?>js/modules/settings.js"></script>
+        <script src="<?= Yii::$app->homeUrl ?>js/modules/maps-google.js"></script>
+        <script src="<?= Yii::$app->homeUrl ?>js/modules/color-themes.js"></script>
+        <!-- End Modules -->
 
-            </footer><!-- /#footer -->
-            <!-- ============================================================= FOOTER : END ============================================================= -->	</div><!-- /.wrapper -->
 
-        <!-- For demo purposes – can be removed on production : End -->
-        <?php $this->endBody() ?>
-        <!-- JavaScripts placed at the end of the document so the pages load faster -->
+        <script src="<?= Yii::$app->homeUrl ?>js/j.placeholder.js"></script>
+
+        <!-- Fancybox -->
+        <script src="<?= Yii::$app->homeUrl ?>js/fancybox/jquery.fancybox.pack.js"></script>
+        <script src="<?= Yii::$app->homeUrl ?>js/fancybox/jquery.mousewheel.pack.js"></script>
+        <script src="<?= Yii::$app->homeUrl ?>js/fancybox/jquery.fancybox.custom.js"></script>
+        <!-- End Fancybox -->
+        <script src="<?= Yii::$app->homeUrl ?>js/user.js"></script>
+        <script src="<?= Yii::$app->homeUrl ?>js/timeline.js"></script>
+        <script src="<?= Yii::$app->homeUrl ?>js/fontawesome-markers.js"></script>
+        <script src="<?= Yii::$app->homeUrl ?>js/markerwithlabel.js"></script>
+        <script src="<?= Yii::$app->homeUrl ?>js/cookie.js"></script>
+        <script src="<?= Yii::$app->homeUrl ?>js/loader.js"></script>
+        <script src="<?= Yii::$app->homeUrl ?>js/scrollIt/scrollIt.min.js"></script>
+        <script src="<?= Yii::$app->homeUrl ?>js/modules/navigation-slide.js"></script>
+
     </body>
+    <?php $this->endBody() ?>
 </html>
-<script>
-    function email_validate(email)
-    {
-
-        var regMail = /^([_a-zA-Z0-9-]+)(\.[_a-zA-Z0-9-]+)*@([a-zA-Z0-9-]+\.)+([a-zA-Z]{2,3})$/;
-        if (regMail.test(email) == false)
-        {
-
-            document.getElementById("status").innerHTML = "Format Email Salah, mohon di cek lagi.";
-            $("#status").css("display", "block");
-//                    $("#submit").css("display", "none");
-        }
-        else
-        {
-
-            document.getElementById("status").innerHTML = "Format Email Sudah Benar";
-            $("#status").css("display", "block");
-            $("#submit").css("display", "block");
-        }
-    }
-</script>
-
 <?php $this->endPage() ?>

@@ -1,9 +1,12 @@
+
 <!DOCTYPE html>
 <html>
     <head>
+        
         <meta charset="utf-8">
-        <title>SMA Taman Harapan, Malang</title>
+        <title><?= Html::encode($this->title) ?></title>
         <link rel="shortcut icon" href="favicon.ico">
+        <?php $this->head() ?>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
         <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
         <!-- bxslider -->
@@ -12,7 +15,6 @@
         <!-- flexslider -->
         <link type="text/css" rel='stylesheet' href="js/flexslider/flexslider.css">
         <!-- End flexslider -->
-
         <!-- bxslider -->
         <link type="text/css" rel='stylesheet' href="js/radial-progress/style.css">
         <!-- End bxslider -->
@@ -41,6 +43,7 @@
         <link type="text/css" rel='stylesheet' href="js/rs-plugin/css/settings-custom.css">
     </head>
     <body>
+        <?php $this->beginBody() ?>
         <div class="mask-l" style="background-color: #fff; width: 100%; height: 100%; position: fixed; top: 0; left:0; z-index: 9999999;"></div> <!--removed by integration-->
         <header>
             <div class="b-top-options-panel b-top-options-panel--color">
@@ -52,7 +55,7 @@
                 </div>
             </div>
             <div class="container b-header__box b-relative">
-                <a href="/" class="b-left b-logo"><img class="color-theme" data-retina src="img/logo-header-default.png" alt="Logo" /></a>
+                <a href="<?= Yii::$app->homeUrl ?>" class="b-left b-logo"><img class="color-theme" data-retina src="img/logo-header-default.png" alt="Logo" /></a>
                 <div class="b-header-r b-right">
                     <div class="b-header-ico-group f-header-ico-group b-right">
                         <span class="b-search-box">
@@ -588,4 +591,6 @@
         <script src="js/modules/navigation-slide.js"></script>
 
     </body>
+    <?php $this->endBody() ?>
 </html>
+<?php $this->endPage() ?>

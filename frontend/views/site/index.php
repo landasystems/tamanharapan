@@ -1,689 +1,419 @@
 <?php
 /* @var $this yii\web\View */
-$this->title = 'INDOMOBILECELL - toko GROSIR HANDPHONE terlaris, termurah, dan terpercaya';
+$this->title = '::SMA Taman Harapan::';
 
-use common\models\ProductStock;
-use common\models\Product;
+//use common\models\ProductStock;
+//use common\models\Product;
 
 $session = Yii::$app->session;
-
 ?>
+<!--<div class="l-main-container">-->
+    <div class="l-inner-page-container">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9 col-md-push-3">
+                    <div class="b-slidercontainer b-slider b-slider--thumb b-slider--thumb-visible b-small-arr f-small-arr b-slider--navi-alt b-slider--innerbullet">
+                        <div class="j-contentwidthslider j-contentwidthslider-innerbullet">
+                            <ul>
 
-<div class="container">
-    <div class="col-xs-12 col-sm-4 col-md-3 sidemenu-holder">
-        <!-- ================================== TOP NAVIGATION ================================== -->
-        
-        
-        <div class="side-menu animate-dropdown">
-            <div class="head"><i class="fa fa-list"></i>Belanja Sekarang Juga</div>        
-            <nav class="yamm megamenu-horizontal" role="navigation">
-                <ul class="nav">
-                    <li class="dropdown menu-item">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Accesories</a>
-                        <ul class="dropdown-menu mega-menu">
-                            <li class="yamm-content">
-                                <div class="row">
-                                    <div class="col-xs-12 col-lg-4">
-                                        <ul >
-                                            <li><a href="<?= Yii::$app->urlManager->createUrl('category/81/accesories/handsfree') ?>">Handsfree</a></li>
-                                            <li><a href="<?= Yii::$app->urlManager->createUrl('category/77/accesories/power-bank') ?>">Power Bank</a></li>
-                                            <li><a href="<?= Yii::$app->urlManager->createUrl('category/75/accesories/bluetooth') ?>">Bluetooth</a></li>
-                                            <li><a href="<?= Yii::$app->urlManager->createUrl('category/73/accesories/memory') ?>">Memory</a></li>
-                                            <li><a href="<?= Yii::$app->urlManager->createUrl('category/68/accesories/leather-case') ?>">Letter Case</a></li>
+                                <li data-transition="slotfade-vertical" data-slotamount="7" >
+                                    <img data-retina src="img/slider/tmnharapan/slider1.jpg">
+                                </li>
+                                <li data-transition="slotfade-vertical" data-slotamount="7" >
+                                    <img data-retina src="img/slider/tmnharapan/slider2.JPG">
+                                </li>
+                                <li data-transition="slotfade-vertical" data-slotamount="7" >
+                                    <img data-retina src="img/slider/tmnharapan/slider3.JPG">
+                                </li>
+                                <li data-transition="slotfade-vertical" data-slotamount="7" >
+                                    <img data-retina src="img/slider/tmnharapan/slider4.JPG">
+                                </li>
+                                <li data-transition="slotfade-vertical" data-slotamount="7" >
+                                    <img data-retina src="img/slider/tmnharapan/slider5.JPG">
+                                </li>
+                                <li data-transition="slotfade-vertical" data-slotamount="7" >
+                                    <img data-retina src="img/slider/tmnharapan/slider6.JPG">
+                                </li>
+                                <li data-transition="slotfade-vertical" data-slotamount="7" >
+                                    <img data-retina src="img/slider/tmnharapan/slider7.JPG">
+                                </li>
 
-
-                                        </ul>
-                                    </div>
-                                    <div class="col-xs-12 col-lg-4">
-                                        <ul >
-                                            <li><a href="<?= Yii::$app->urlManager->createUrl('category/66/accesories/casing') ?>">Casing</a></li>
-                                            <li><a href="<?= Yii::$app->urlManager->createUrl('category/62/accesories/charger') ?>">Charger</a></li>
-                                            <li><a href="<?= Yii::$app->urlManager->createUrl('category/1/accesories/screen-protector') ?>">Screen Protector</a></li>
-                                            <li><a href="<?= Yii::$app->urlManager->createUrl('category/70/accesories/soft-jacket') ?>">Soft Jacket</a></li>
-                                            <li><a href="<?= Yii::$app->urlManager->createUrl('category/60/accesories/battery') ?>">Battery</a></li>
-
-                                        </ul>
-                                    </div>
-
-                                    <div class="dropdown-banner-holder">
-                                        <a href="#"><img alt="" src="images/banners/accesories.png" /></a>
-                                    </div>
-                                </div>
-                            </li>
-
-                        </ul>
-                    </li><!-- /.menu-item -->
-                    <li class="dropdown menu-item">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Smartphone</a>
-                        <ul class="dropdown-menu mega-menu">
-                            <li class="yamm-content">
-                                <!-- ================================== MEGAMENU VERTICAL ================================== -->
-                                <div class="row">
-                                    <div class="col-xs-12 col-lg-4">
-                                        <ul>
-                                            <li><a href="<?= Yii::$app->urlManager->createUrl('category/37/smartphone/iphone') ?>">Iphone</a></li>
-
-                                            <li><a href="<?= Yii::$app->urlManager->createUrl('category/47/smartphone/sony') ?>">Sony</a></li>
-                                            <li><a href="<?= Yii::$app->urlManager->createUrl('category/46/smartphone/samsung') ?>">Samsung</a></li>
-                                            <li><a href="<?= Yii::$app->urlManager->createUrl('category/45/smartphone/nokia') ?>">Nokia</a></li>
-                                            <li><a href="<?= Yii::$app->urlManager->createUrl('category/41/smartphone/motorola') ?>">Motorola</a></li>
-                                            <li><a href="<?= Yii::$app->urlManager->createUrl('category/39/smartphone/lg') ?>">LG</a></li>
-                                            <li><a href="<?= Yii::$app->urlManager->createUrl('category/38/smartphone/lenovo') ?>">Lenovo</a></li>
-                                            <li><a href="<?= Yii::$app->urlManager->createUrl('category/34/smartphone/huawei') ?>">Huawei</a></li>
-
-                                            <li><a href="<?= Yii::$app->urlManager->createUrl('category/26/smartphone/blackberry') ?>">Blackberry</a></li>
-                                        </ul>
-                                    </div>
-
-                                    <div class="col-xs-12 col-lg-4">
-                                        <ul>
-                                            <li><a href="<?= Yii::$app->urlManager->createUrl('category/25/smartphone/asus') ?>">Asus</a></li>
-                                            <li><a href="<?= Yii::$app->urlManager->createUrl('category/22/smartphone/acer') ?>">Acer</a></li>
-                                            <li><a href="<?= Yii::$app->urlManager->createUrl('category/23/smartphone/advan') ?>">Advan</a></li>
-                                            <li><a href="<?= Yii::$app->urlManager->createUrl('category/133/smartphone/smartfren') ?>">Smartfren</a></li>
-                                            <li><a href="<?= Yii::$app->urlManager->createUrl('category/138/smartphone/evercoss') ?>">Evercoss</a></li>
-                                            <li><a href="<?= Yii::$app->urlManager->createUrl('category/146/smartphone/oppo') ?>">Oppo</a></li>
-                                            <li><a href="<?= Yii::$app->urlManager->createUrl('category/153/smartphone/blaupunkt') ?>">Blaupunkt</a></li>
-                                        </ul>
-                                    </div>
-
-                                    <div class="dropdown-banner-holder">
-                                        <a href="#"><img alt="" src="images/banners/smartphone.png" /></a>
-                                    </div>
-                                </div>
-                                <!-- ================================== MEGAMENU VERTICAL ================================== -->                        
-                            </li>
-                        </ul>
-                    </li><!-- /.menu-item -->
-
-                    <li class="dropdown menu-item">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Tablet</a>
-                        <ul class="dropdown-menu mega-menu">
-                            <li class="yamm-content">
-                                <!-- ================================== MEGAMENU VERTICAL ================================== -->
-                                <div class="row">
-                                    <div class="col-xs-12 col-lg-4">
-                                        <ul>
-                                            <li><a href="<?= Yii::$app->urlManager->createUrl('category/123/tablet/advan') ?>">Advan</a></li>
-                                            <li><a href="<?= Yii::$app->urlManager->createUrl('category/125/tablet/lenovo') ?>">Lenovo</a></li>
-                                            <li><a href="<?= Yii::$app->urlManager->createUrl('category/127/tablet/asus') ?>">Asus</a></li>
-                                            <li><a href="<?= Yii::$app->urlManager->createUrl('category/128/tablet/ipad') ?>">Ipad</a></li>
-                                            <li><a href="<?= Yii::$app->urlManager->createUrl('category/129/tablet/samsung') ?>">Samsung</a></li>
-
-                                        </ul>
-                                    </div>
-                                    <div class="col-xs-12 col-lg-4">
-                                        <ul>
-                                            <li><a href="<?= Yii::$app->urlManager->createUrl('category/142/tablet/hp') ?>">HP</a></li>
-                                            <li><a href="<?= Yii::$app->urlManager->createUrl('category/145/tablet/acer') ?>">Acer</a></li>
-                                        </ul>
-                                    </div>
-
-
-
-
-                                    <div class="dropdown-banner-holder">
-                                        <a href="#"><img alt="" src="images/banners/tablet.png" /></a>
-                                    </div>
-                                </div>
-                                <!-- ================================== MEGAMENU VERTICAL ================================== -->                    </li>
-                        </ul>
-                    </li><!-- /.menu-item -->
-                    <li class="dropdown menu-item">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Handphone</a>
-                        <ul class="dropdown-menu mega-menu">
-                            <li class="yamm-content">
-                                <!-- ================================== MEGAMENU VERTICAL ================================== -->
-                                <div class="row">
-                                    <div class="col-xs-12 col-lg-4">
-                                        <ul>
-                                            <li><a href="<?= Yii::$app->urlManager->createUrl('category/112/handphone/nokia') ?>">Nokia</a></li>
-                                            <li><a href="<?= Yii::$app->urlManager->createUrl('category/117/handphone/samsung') ?>">Samsung</a></li>
-                                            <li><a href="<?= Yii::$app->urlManager->createUrl('category/143/handphone/advan') ?>">Advan</a></li>
-                                            <li><a href="<?= Yii::$app->urlManager->createUrl('category/144/handphone/lg') ?>">LG</a></li>
-                                        </ul>
-                                    </div>
-
-
-                                    <div class="dropdown-banner-holder">
-                                        <a href="#"><img alt="" src="images/banners/handphone.png" /></a>
-                                    </div>
-                                </div>
-                                <!-- ================================== MEGAMENU VERTICAL ================================== -->    
-                            </li>
-                        </ul>
-                    </li><!-- /.menu-item -->
-                </ul><!-- /.nav -->
-            </nav><!-- /.megamenu-horizontal -->
-        </div><!-- /.side-menu -->
-        <!-- ================================== TOP NAVIGATION : END ================================== -->		</div><!-- /.sidemenu-holder -->
-
-    <div class="col-xs-12 col-sm-8 col-md-9 homebanner-holder hidden-xs">
-        <!-- ========================================== SECTION – HERO ========================================= -->
-
-        <div id="hero">
-            <div id="owl-main" class="owl-carousel owl-inner-nav owl-ui-sm">
-
-                <div class="item" style="background-image: url(http://app.indomobilecell.com/images/file/slider/slider1.jpg);  background-size: 876px 325px;">
-                </div><!-- /.item -->
-                <div class="item" style="background-image: url(http://app.indomobilecell.com/images/file/slider/slider2.jpg); background-size: 876px 325px;">
-                </div><!-- /.item -->
-                <div class="item" style="background-image: url(http://app.indomobilecell.com/images/file/slider/slider3.jpg); background-size: 876px 325px;">
-                </div><!-- /.item -->
-
-            </div><!-- /.owl-carousel -->
-        </div>
-
-        <!-- ========================================= SECTION – HERO : END ========================================= -->			
-    </div><!-- /.homebanner-holder -->
-
-</div><!-- /.container -->
-</div><!-- /#top-banner-and-menu -->
-
-<!-- ========================================= HOME BANNERS ========================================= -->
-<section id="banner-holder" class="wow fadeInUp">
-    <div class="container">
-        <div class="col-xs-12 col-lg-6 no-margin banner">
-           
-                <div class="banner-text theblue">
-                    <h1>Samsung Alpha 3</h1>
-                    <span class="tagline">Different Fells</span>
-                </div>
-                <img class="banner-image" alt="" src="images/blank.gif" data-echo="http://app.indomobilecell.com/images/file/banner1.png" />
-            
-        </div>
-        <div class="col-xs-12 col-lg-6 no-margin text-right banner">
-            
-                <div class="banner-text right">
-                    <h1>Apple Iphone 5</h1>
-                    <span class="tagline">Open the World</span>
-                </div>
-                <img class="banner-image" alt="" src="images/blank.gif" data-echo="http://app.indomobilecell.com/images/file/banner2.png" />
-            
-        </div>
-    </div><!-- /.container -->
-</section><!-- /#banner-holder -->
-<!-- ========================================= HOME BANNERS : END ========================================= -->
-<div id="products-tab" class="wow fadeInUp">
-    <div class="container">
-        <div class="tab-holder">
-            <!-- Nav tabs -->
-            <ul class="nav nav-tabs" >
-                <li class="active"><a href="#new-arrivals" data-toggle="tab">New Arrival</a></li>
-                <li><a href="#popular" data-toggle="tab">Popular</a></li>
-                <li><a href="#featured" data-toggle="tab">Featured</a></li>
-            </ul>
-
-            <!-- Tab panes -->
-            <div class="tab-content">
-                <div class="tab-pane active" id="new-arrivals">
-                    <div class="product-grid-holder">
-                        <?php
-                         
-                        foreach ($arrival as $data) {
-                            $sale = (!empty($data->discount)) ? '<div class="ribbon red"><span>sale</span></div>' : '';
-                            echo'<div class="col-sm-4 col-md-3  no-margin product-item-holder hover">
-                            <div class="product-item">
-                            ' . $sale . '
-                                <div class="ribbon blue"><span>new!</span></div> 
-                                <div class="image">
-                                    <img alt="" src="images/blank.gif" data-echo="' . $data->imgSmall . '" />
-                                </div>
-                                <div class="body">
-                               
-                                    <div class="title">
-                                        <a href="' . $data->url . '">' . $data->name . '</a>
-                                    </div>
-                                    <div class="brand">' . $data->brand_name . '</div>
-                                </div>
-                                <div class="prices">
-                                    <div class="price-prev">' . $data->discount_rp . '</div>
-                                    <div class="price-current pull-right">' . $data->price_sell_rp . '</div>
-                                </div>
-
-                                <div class="hover-area">';
-                            if ($data->realStock == 0) {
-                                echo' <div class="add-cart-button">
-                                        <a href="#" style="background-color: crimson;" class="le-button">Stock Habis</a>
-                                   </div>';
-                            } else {
-                              
-//                                if (in_array($data->id, $items)) {
-//                                    echo' <div class="add-cart-button">
-//                                        <a href="#"   class="le-button" style="background-color: chocolate;">Terbeli</a>
-//                                   </div>';
-//                                } else {
-                                    echo' <div class="add-cart-button">
-                                        <a href="#" id="' . $data->id . '"  class="le-button beli">Beli</a>
-                                   </div>';
-//                                }
-                            }
-
-                            echo' </div>
-                            </div>
-                        </div>';
-                        }
-                        ?>
-
-
-
-
+                            </ul>
+                        </div>
                     </div>
-
-                </div>
-                <div class="tab-pane" id="popular">
-                    <div class="product-grid-holder">
-                        <?php
-                        foreach ($popular as $data) {
-                            $sale = (!empty($data->discount)) ? '<div class="ribbon red"><span>sale</span></div>' : '';
-                            echo'<div class="col-sm-4 col-md-3  no-margin product-item-holder hover">
-                            <div class="product-item">
-                            ' . $sale . '
-                                <div class="image">
-                                    <img alt="" src="images/blank.gif" data-echo="' . $data->imgSmall . '" />
+                    <div class="b-detail-home-content">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="b-form-row f-primary-l f-detail-home-content_title c-secondary f-h4-special b-blog__title clearfix">
+                                    Sambutan Kepala Sekolah
                                 </div>
-                                <div class="body">
-                               
-                                    <div class="title">
-                                        <a href="' . $data->url . '">' . $data->name . '</a>
+                                <div class="b-form-row f-h4-special clearfix">
+                                    <div class="b-blog-one-column__info_container b-blog-one-column__info_container--estate">
+                                        <span class="b-txt-wrap"><button class="button-xs b-btn-title-real-estate f-primary-b">SMA Taman Harapan</button></span>
+                                        <span class="b-txt-wrap"><span class="f-info b-info"><span class="f-primary-b">Ibu Sutiani, S.Pd, MM</span></span>
+                                            <span class="b-blog-one-column__info_delimiter"></span></span>
                                     </div>
-                                    <div class="brand">' . $data->brand_name . '</div>
                                 </div>
-                                <div class="prices">
-                                    <div class="price-prev">' . $data->discount_rp . '</div>
-                                    <div class="price-current pull-right">' . $data->price_sell_rp . '</div>
+                                <img src="img/kepsek-tamanharapan.jpg" align="left" style="width:170px; margin-right:10px" class="img-thumbnail"/>
+                                <p class="f-primary-l">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam proce ssu dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litte rarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</p>
+                                <p class="f-primary-l">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam proce ssu dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litte rarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</p>
+                                <div class="b-article__social-info">
+                                    <ul>
+                                        <li>
+                                            <div class="b-article__social">
+                                                <span class="b-article__social-info-name f-article__social-info-name"><i class="fa fa-share-square"></i> Share this post :</span>
+                                                <a href="#" class="b-btn-group-hor__item f-btn-group-hor__item">
+                                                    <i class="fa fa-twitter"></i>
+                                                </a>
+                                                <a href="#" class="b-btn-group-hor__item f-btn-group-hor__item">
+                                                    <i class="fa fa-facebook"></i>
+                                                </a>
+                                            </div>
+                                        </li>
+                                    </ul>
                                 </div>
-
-                                <div class="hover-area">';
-                            if ($data->realStock == 0) {
-                                echo' <div class="add-cart-button">
-                                        <a href="#" style="background-color: crimson;" class="le-button">Stock Habis</a>
-                                   </div>';
-                            } else {
-                                echo' <div class="add-cart-button">
-                                        <a href="#" id="' . $data->id . '"  class="le-button beli">Beli</a>
-                                   </div>';
-                            }
-
-                            echo' </div>
                             </div>
-                        </div>';
-                        }
-                        ?>
+                        </div>
+                        <div class="b-tabs f-tabs j-tabs b-tabs-reset b-tabs--secondary f-tabs--secondary">
+                            <ul>
+                                <li><a href="#tabs-31">EUE Best Case Studie Award</a></li>
+                                <li><a href="#tabs-32">SSN Akreditasi A</a></li>
+                                <li><a href="#">Juara Tingkat 1 Malang</a></li>
+                                <li><a href="#">Property Map</a></li>
+                            </ul>
+                            <div class="b-tabs__content">
+                                <div id="tabs-31" class="clearfix">
+                                    <div class="row">
+                                        <div class="col-md-6">
 
+                                            <div class="b-home-detail-option f-home-detail-option">
+                                                <div class="b-some-examples__item_img view view-sixth">
+                                                    <img data-retina="" src="img/sertifikat/sertifikat2.jpg" height="300px" alt="" />
+                                                </div>
+                                                <div class="b-home-detail-option_row">
+                                                    <b>Sertifikat EIU Best Case Studies Award kepada "Dr. Siusana Kweldju" dari UNESCO</b>  
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="b-home-detail-option f-home-detail-option">
+                                                <div class="b-some-examples__item_img view view-sixth">
+                                                    <img data-retina="" src="img/sertifikat/sertifikat1.jpg" height="300px"  alt="" />
+                                                </div>
+                                                <div class="b-home-detail-option_row">
+                                                    <!--                                                            <div class="b-home-detail-option_item_title">-->
+                                                    <b> Sertifikat "Global Citizenship Education for a Culture of Peace and Sustainable Future" dari UNESCO</b>
+
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="tabs-32" class="clearfix">
+                                    <h4 class="f-tabs-vertical__title f-primary-b">Prestasi</h4>
+                                    <img data-retina class="b-img-responsive b-img-l" src="img/shortcode/girl_img.jpg" alt=""/>
+                                    <p>Maecenas laoreet commodo arcu, eu semper lacus tincidunt eget. Vestibulum at arcu pulvinar, fermentum sapien nec, tristique dui. Ut feugiat est at sapien ullamcorper viverra. Vestibulum pretium malesuada elit rutrum condimentum. Maecenas laoreet commodo arcu, eu semper lacus tincidunt eget.</p>
+                                    <p>Vestibulum pretium malesuada elit rutrum condimentum. Donec bibendum scelerisque odio vulputate viverra. Pellentesque habitant morbi tristique senectus et netus et malesuada fames acipsum </p>
+                                    <a href="#" class="f-more f-primary-b">Selanjutnya...</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-
-                </div>
-
-                <div class="tab-pane" id="featured">
-                    <div class="product-grid-holder">
-
-
-                        <?php
-                        foreach ($featured as $data) {
-                            $sale = (!empty($data->discount)) ? '<div class="ribbon red"><span>sale</span></div>' : '';
-
-                            echo'<div class="col-sm-4 col-md-3  no-margin product-item-holder hover">
-                            <div class="product-item">
-                                ' . $sale . '
-                                <div class="image">
-                                    <img alt="" src="images/blank.gif" data-echo="' . $data->imgSmall . '" />
-                                </div>
-                                <div class="body">
-                               
-                                    <div class="title">
-                                        <a href="' . $data->url . '">' . $data->name . '</a>
+                    <hr/>
+                    <section>
+                        <div class="b-carousel-secondary f-carousel-secondary b-some-examples-tertiary f-some-examples-tertiary b-carousel-reset">
+                            <div class="b-carousel-title f-carousel-title f-primary-b">Informasi Terbaru</div>
+                            <div class="b-some-examples f-some-examples j-carousel-sidebar">
+                                <div class="b-some-examples__item f-some-examples__item">
+                                    <div class="b-some-examples__item_img view view-sixth">
+                                        <img data-retina="" src="img/berita/berita1.JPG" alt="">
+                                        <div class="b-item-hover-action f-center mask">
+                                            <div class="b-item-hover-action__inner">
+                                                <div class="b-item-hover-action__inner-btn_group">
+                                                    <a href="#" class="b-btn f-btn b-btn-light f-btn-light info"><i class="fa fa-link"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="brand">' . $data->brand_name . '</div>
+                                    <div class="b-some-examples__item_info">
+                                        <div class="b-some-examples__item_info_level b-some-examples__item_name f-some-examples__item_name f-primary-b"><a href="#">X IPA Juara 1 lomba basket</a></div>
+                                        <div class="b-some-examples__item_info_level b-some-examples__item_description f-some-examples__item_description b-info-container--home">
+                                            kelas X IPA menjadi Juara 1 di lomba basket yang di adakan pemkot malang
+                                        </div>
+                                    </div>
+                                    <div class="b-some-examples__item_action">
+                                        <div class="b-right">
+                                            <a href="#" class="b-btn f-btn b-btn-sm f-btn-sm b-btn-default f-primary-b">Selanjutnya</a>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="prices">
-                                    <div class="price-prev">' . $data->discount_rp . '</div>
-                                    <div class="price-current pull-right">' . $data->price_sell_rp . '</div>
+                                <div class="b-some-examples__item f-some-examples__item">
+                                    <div class="b-some-examples__item_img view view-sixth">
+                                        <img data-retina="" src="img/berita/berita2.JPG" alt="">
+                                        <div class="b-item-hover-action f-center mask">
+                                            <div class="b-item-hover-action__inner">
+                                                <div class="b-item-hover-action__inner-btn_group">
+                                                    <a href="#" class="b-btn f-btn b-btn-light f-btn-light info"><i class="fa fa-link"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="b-some-examples__item_info">
+                                        <div class="b-some-examples__item_info_level b-some-examples__item_name f-some-examples__item_name f-primary-b"><a href="#">Prosesi pelepasan siswa tahun 2014</a></div>
+                                        <div class="b-some-examples__item_info_level b-some-examples__item_description f-some-examples__item_description b-info-container--home">
+                                            suasana saat pelepasan siswa & siswi tahun 2014 SMA Tunas Harapan
+                                        </div>
+                                    </div>
+                                    <div class="b-some-examples__item_action">
+                                        <div class="b-right">
+                                            <a href="#" class="b-btn f-btn b-btn-sm f-btn-sm b-btn-default f-primary-b">Selanjutnya</a>
+                                        </div>
+                                    </div>
                                 </div>
+                                <div class="b-some-examples__item f-some-examples__item">
+                                    <div class="b-some-examples__item_img view view-sixth">
+                                        <img data-retina="" src="img/berita/berita3.JPG" alt="">
+                                        <div class="b-item-hover-action f-center mask">
+                                            <div class="b-item-hover-action__inner">
+                                                <div class="b-item-hover-action__inner-btn_group">
+                                                    <a href="#" class="b-btn f-btn b-btn-light f-btn-light info"><i class="fa fa-link"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="b-some-examples__item_info">
+                                        <div class="b-some-examples__item_info_level b-some-examples__item_name f-some-examples__item_name f-primary-b"><a href="#">Kelas XI IPS saat mengikuti outbond</a></div>
+                                        <div class="b-some-examples__item_info_level b-some-examples__item_description f-some-examples__item_description b-info-container--home">
+                                            suasana kelas XI IPS saat mengikuti kegiatan outbond 
+                                        </div>
+                                    </div>
+                                    <div class="b-some-examples__item_action">
+                                        <div class="b-right">
+                                            <a href="#" class="b-btn f-btn b-btn-sm f-btn-sm b-btn-default f-primary-b">Selanjutnya</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="b-some-examples__item f-some-examples__item">
+                                    <div class="b-some-examples__item_img view view-sixth">
+                                        <img data-retina="" src="img/berita/berita4.JPG" alt="">
+                                        <div class="b-item-hover-action f-center mask">
+                                            <div class="b-item-hover-action__inner">
+                                                <div class="b-item-hover-action__inner-btn_group">
+                                                    <a href="#" class="b-btn f-btn b-btn-light f-btn-light info"><i class="fa fa-link"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="b-some-examples__item_info">
+                                        <div class="b-some-examples__item_info_level b-some-examples__item_name f-some-examples__item_name f-primary-b"><a href="#">Batik Hasil Karya siswi XI IPA</a></div>
+                                        <div class="b-some-examples__item_info_level b-some-examples__item_description f-some-examples__item_description b-info-container--home">
+                                            Batik khas malang hasil Kerajinan sisiwi XI IPA dan X IPS SMA Tunas Harapan
+                                        </div>
+                                    </div>
+                                    <div class="b-some-examples__item_action">
+                                        <div class="b-right">
+                                            <a href="#" class="b-btn f-btn b-btn-sm f-btn-sm b-btn-default f-primary-b">Selanjutnya</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="b-some-examples__item f-some-examples__item">
+                                    <div class="b-some-examples__item_img view view-sixth">
+                                        <img data-retina="" src="img/berita/berita5.JPG" alt="">
+                                        <div class="b-item-hover-action f-center mask">
+                                            <div class="b-item-hover-action__inner">
+                                                <div class="b-item-hover-action__inner-btn_group">
+                                                    <a href="#" class="b-btn f-btn b-btn-light f-btn-light info"><i class="fa fa-link"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="b-some-examples__item_info">
+                                        <div class="b-some-examples__item_info_level b-some-examples__item_name f-some-examples__item_name f-primary-b"><a href="#">Suasana saat lomba tari</a></div>
+                                        <div class="b-some-examples__item_info_level b-some-examples__item_description f-some-examples__item_description b-info-container--home">
+                                            suasana keceriaan saat mengikuti lomba tari tingak SMA di malang
 
-                                <div class="hover-area">';
-                            if ($data->realStock == 0) {
-                                echo' <div class="add-cart-button">
-                                        <a href="#" style="background-color: crimson;" class="le-button">Stock Habis</a>
-                                   </div>';
-                            } else {
-                                echo' <div class="add-cart-button">
-                                        <a href="#" id="' . $data->id . '"  class="le-button beli">Beli</a>
-                                   </div>';
-                            }
-
-                            echo' </div>
+                                        </div>
+                                    </div>
+                                    <div class="b-some-examples__item_action">
+                                        <div class="b-right">
+                                            <a href="#" class="b-btn f-btn b-btn-sm f-btn-sm b-btn-default f-primary-b">Selanjutnya</a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                        </div>';
-                        }
-                        ?>
+                        </div>
+                    </section>
+                </div>
+                <div class="visible-xs-block visible-sm-block b-hr"></div>
+                <div class="col-md-3 col-md-pull-9">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h4 class="f-primary-b b-h4-special f-h4-special--gray">Sarana & Prasarana</h4>
+                            <div class="j-accordion b-accordion b-accordion--with-standard-icon f-accordion b-accordion--smallindent active">
+                                <h3 class="b-accordion__title f-accordion__title">Lapangan Basket</h3>
 
+                                <div class="b-accordion__content">
+                                    <div class="b-accordion__img">
+                                        <img data-retina src="img/sapras/basket.JPG" alt=""/>
+                                    </div>
+                                    <div>
+                                        <p>Fasilitas Lapangan basket luas dan bersih</p>
+
+                                    </div>
+                                </div>
+                                <h3 class="b-accordion__title f-accordion__title"> Kantin</h3>
+
+                                <div class="b-accordion__content">
+                                    <div class="b-accordion__img">
+                                        <img data-retina src="img/sapras/kantin.JPG" alt=""/>
+                                    </div>
+                                    <!--<p class="f-primary-b b-null-bottom-indent f-title-small c-default">Suspendisse vitae metus enim</p>-->
+
+                                    <div>
+                                        <p>Kantin yang berada di dalam sekolah dengan makanan segar dan fresh</p>
+
+                                    </div>
+                                </div>
+                                <h3 class="b-accordion__title f-accordion__title">Perpus</h3>
+
+                                <div class="b-accordion__content">
+                                    <div class="b-accordion__img">
+                                        <img data-retina src="img/sapras/perpus.JPG" alt=""/>
+                                    </div>
+                                    <!--<p class="f-primary-b b-null-bottom-indent f-title-small c-default">Suspendisse vitae metus enim</p>-->
+
+                                    <p>Perpustakaan dengan koleksi buku yang lengkap dan mendidik</p>
+                                </div>
+                                <h3 class="b-accordion__title f-accordion__title">Taman Hijau</h3>
+
+                                <div class="b-accordion__content">
+                                    <div class="b-accordion__img">
+                                        <img data-retina src="img/sapras/taman.JPG" alt=""/>
+                                    </div>
+                                    <!--<p class="f-primary-b b-null-bottom-indent f-title-small c-default">Suspendisse vitae metus enim</p>-->
+
+                                    <p>taman hijau dan asri serta nyaman membuat susana menjadi teduh</p>
+                                </div>
+                                <h3 class="b-accordion__title f-accordion__title">Lab Komputer</h3>
+
+                                <div class="b-accordion__content">
+                                    <div class="b-accordion__img">
+                                        <img data-retina src="img/sapras/labkom.JPG" alt=""/>
+                                    </div>
+                                    <!--<p class="f-primary-b b-null-bottom-indent f-title-small c-default">Suspendisse vitae metus enim</p>-->
+
+                                    <p>Lab Komputer dengan fasilitas lengkap guna mendukung siswa belajar</p>
+                                </div>
+                                <h3 class="b-accordion__title f-accordion__title">Lab Fisika</h3>
+
+                                <div class="b-accordion__content">
+                                    <div class="b-accordion__img">
+                                        <img data-retina src="img/sapras/labfisika.JPG" alt=""/>
+                                    </div>
+                                    <!--<p class="f-primary-b b-null-bottom-indent f-title-small c-default">Suspendisse vitae metus enim</p>-->
+
+                                    <p>Lab. Fisika lengkap beserta alat-alat fisika yang memadai berguna untuk mendukung siswa praktikum</p>
+                                </div>
+                                <h3 class="b-accordion__title f-accordion__title">Toilet bersih & nyaman</h3>
+
+                                <div class="b-accordion__content">
+                                    <div class="b-accordion__img">
+                                        <img data-retina src="img/sapras/toilet.JPG" alt=""/>
+                                    </div>
+                                    <!--<p class="f-primary-b b-null-bottom-indent f-title-small c-default">Suspendisse vitae metus enim</p>-->
+
+                                    <p>Toilet di jamin bersih dan nyaman</p>
+                                </div>
+                                <h3 class="b-accordion__title f-accordion__title">Ruang UKS</h3>
+
+                                <div class="b-accordion__content">
+                                    <div class="b-accordion__img">
+                                        <img data-retina src="img/sapras/uks.JPG" alt=""/>
+                                    </div>
+                                    <!--<p class="f-primary-b b-null-bottom-indent f-title-small c-default">Suspendisse vitae metus enim</p>-->
+
+                                    <p>Ruang UKS dengan perlatan P3k lengkap berguna buat penangan pertolongan pertama untuk siswa yang lagi sakit</p>
+                                </div>
+                                <h3 class="b-accordion__title f-accordion__title">Majalah Dinding</h3>
+
+                                <div class="b-accordion__content">
+                                    <div class="b-accordion__img">
+                                        <img data-retina src="img/sapras/mading.JPG" alt=""/>
+                                    </div>
+                                    <!--<p class="f-primary-b b-null-bottom-indent f-title-small c-default">Suspendisse vitae metus enim</p>-->
+
+                                    <p>Majalah Dinding yang selalu update berita dan pengumuman untuk siswa yang di kelolah oleh para siswa sendiri</p>
+                                </div>
+
+                                <h3 class="b-accordion__title f-accordion__title">Ruang Tunggu</h3>
+
+                                <div class="b-accordion__content">
+                                    <div class="b-accordion__img">
+                                        <img data-retina src="img/sapras/rtunggu.JPG" alt=""/>
+                                    </div>
+                                    <!--<p class="f-primary-b b-null-bottom-indent f-title-small c-default">Suspendisse vitae metus enim</p>-->
+
+                                    <p>Ruang Tunggu yang nyaman berfungsi supaya para tamu bisa nyaman dan tenang</p>
+                                </div>
+                                <h3 class="b-accordion__title f-accordion__title">Ruang Tata Usaha</h3>
+
+                                <div class="b-accordion__content">
+                                    <div class="b-accordion__img">
+                                        <img data-retina src="img/sapras/rtu.JPG" alt=""/>
+                                    </div>
+                                    <!--<p class="f-primary-b b-null-bottom-indent f-title-small c-default">Suspendisse vitae metus enim</p>-->
+
+                                    <p>Ruang Tata Usaha yang dilengkapi dengan mesin foto kopi agar siswa tidak perlu keluar sekolah untuk memfoto kopi tugasnya</p>
+                                </div>
+                                <h3 class="b-accordion__title f-accordion__title">Ruang Guru</h3>
+
+                                <div class="b-accordion__content">
+                                    <div class="b-accordion__img">
+                                        <img data-retina src="img/sapras/rguru.JPG" alt=""/>
+                                    </div>
+                                    <!--<p class="f-primary-b b-null-bottom-indent f-title-small c-default">Suspendisse vitae metus enim</p>-->
+
+                                    <p>ruang Guru yang nyaman agar guru dapat nyaman menjalankan aktifitas kerja</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row" style="padding-top:10px">
+                        <div class="col-md-12">
+                            <div class="b-find-box">
+                                <div class="b-find_title f-find_title f-primary-b">
+                                    <i class="fa fa-search"></i>
+                                    Contact
+                                </div>
+                                <div class="b-find_form f-find_form">
+                                    <div class="b-form-row">
+                                        <div class="b-contacts-short-item col-md-12 col-sm-4 col-xs-12">
+                                            <div class="b-contacts-short-item__icon f-contacts-short-item__icon f-contacts-short-item__icon_lg b-left">
+                                                <i class="fa fa-map-marker"></i>
+                                            </div>
+                                            <div class="b-remaining f-contacts-short-item__text">
+                                                <b>SMA Taman Harapan</b><br/>
+                                                Jalan Mojopahit no 1 <br/>(Selatan Balai Kota Malang)<br/>
+                                                Jawa Timur<br/>
+                                            </div>
+                                        </div>
+                                        <div class="b-contacts-short-item col-md-12 col-sm-4 col-xs-12">
+                                            <div class="b-contacts-short-item__icon f-contacts-short-item__icon b-left f-contacts-short-item__icon_xs">
+                                                <i class="fa fa-envelope"></i>
+                                            </div>
+                                            <div class="b-remaining f-contacts-short-item__text f-contacts-short-item__text_email">
+                                                <a href="mailto:info@smatamanharapan.sch.id">mail@example.com</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-<!-- ========================================= BEST SELLERS ========================================= -->
-<section id="bestsellers" class="color-bg wow fadeInUp">
-    <div class="container">
-        <h1 class="section-title">Best Sellers</h1>
-
-        <div class="product-grid-holder medium">
-            <div class="col-xs-12 col-md-7 no-margin">
-
-                <div class="row no-margin">
-                    <?php
-                    foreach ($bestSeller1 as $arr) {
-                        $sale = (!empty($arr->discount)) ? '<div class="ribbon red"><span>sale</span></div>' : '';
-                        echo '<div class="col-xs-12 col-sm-4 no-margin product-item-holder size-medium hover">
-                        <div class="product-item">
-                            <div class="image">
-                                <img alt="" src="images/blank.gif" data-echo="' . $arr->imgSmall . '" style="height: 160px;" />
-                            </div>
-                            <div class="body">
-                                <div class="label-discount clear"></div>
-                                <div class="title">
-                                    <a href="' . $arr->url . '">' . $arr->name . '</a>
-                                </div>
-                                <div class="brand">' . $arr->brand_name . '</div>
-                            </div>
-                            <div class="prices">
-
-                                <div class="price-current text-right">' . $arr->price_sell_rp . '</div>
-                            </div>
-                            <div class="hover-area">';
-                        if ($arr->realStock == 0) {
-                            echo' <div class="add-cart-button">
-                                        <a href="#" style="background-color: crimson;" class="le-button">Stock Habis</a>
-                                   </div>';
-                        } else {
-                            echo' <div class="add-cart-button">
-                                        <a href="#" id="' . $arr->id . '"  class="le-button beli">Beli</a>
-                                   </div>';
-                        }
-                        echo'</div>
-                        </div>
-                    </div>';
-                    }
-                    ?>
-                </div><!-- /.row -->
-                <div class="row no-margin">
-                    <?php
-                    foreach ($bestSeller2 as $arr) {
-//                        $stock = ProductStock::departement($arr->stock, 1);
-                        echo '<div class="col-xs-12 col-sm-4 no-margin product-item-holder size-medium hover">
-                        <div class="product-item">
-                            <div class="image">
-                                <img alt="" src="images/blank.gif" data-echo="' . $arr->imgSmall . '" style="height: 160px;" />
-                            </div>
-                            <div class="body">
-                                <div class="label-discount clear"></div>
-                                <div class="title">
-                                    <a href="' . $arr->url . '">' . $arr->name . '</a>
-                                </div>
-                                <div class="brand">' . $arr->brand_name . '</div>
-                            </div>
-                            <div class="prices">
-
-                                <div class="price-current text-right">' . $arr->price_sell_rp . '</div>
-                            </div>
-                            <div class="hover-area">';
-                        if ($arr->realStock == 0) {
-                            echo' <div class="add-cart-button">
-                                        <a href="#" style="background-color: crimson;" class="le-button">Stock Habis</a>
-                                   </div>';
-                        } else {
-                            echo' <div class="add-cart-button">
-                                       <a href="#" id="' . $arr->id . '"  class="le-button beli">Beli</a>
-                                   </div>';
-                        }
-                        echo'</div>
-                        </div>
-                    </div>';
-                    }
-                    ?>
-                </div><!-- /.row -->
-
-
-            </div><!-- /.col -->
-            <div class="col-xs-12 col-md-5 no-margin">
-                <div class="product-item-holder size-big single-product-gallery small-gallery">
-                    <div class="product-item-holder size-big single-product-gallery small-gallery">
-
-                        <div id="owl-single-product">
-                            <?php
-                            foreach ($photoAlone as $arr) {
-                                echo '<div class="single-product-gallery-item" id="slide' . $arr->id . '">
-                                    <img class="img-responsive" alt="" src="images/blank.gif" data-echo="' . $arr->imgMedium . '" />
-                            </div>';
-                            }
-                            ?>
-                        </div><!-- /.single-product-slider -->
-
-
-                        <div class="single-product-gallery-thumbs gallery-thumbs">
-
-                            <div id="owl-single-product-thumbnails">
-                                <?php
-                                $no = 0;
-                                foreach ($photoAlone as $arr) {
-                                    echo '<a class="horizontal-thumb" data-target="#owl-single-product" data-slide="' . $no . '" href="#slide' . $arr->id . '">
-                                    <img width="67" alt="" src="images/blank.gif" data-echo="' . $arr->imgSmall . '" />
-                                </a>';
-                                    $no++;
-                                }
-                                ?>
-                            </div><!-- /#owl-single-product-thumbnails -->
-
-
-
-                        </div><!-- /.gallery-thumbs -->
-
-                    </div><!-- /.single-product-gallery -->
-                    <div class="body">
-                        <div class="label-discount clear"></div>
-                        <div class="<?= $alone->url ?>">
-                            <a href=><?= $alone->name ?></a>
-                        </div>
-                        <div class="brand"><?= $alone->brand_name ?></div>
-                    </div>
-                    <div class="prices text-right">
-                        <div class="price-current inline"><?= $alone->price_sell_rp ?></div>
-                        <a href="#" class="le-button big inline">Beli</a>
-                    </div>
-                </div>
-            </div>
-
-        </div><!-- /.product-grid-holder -->
-    </div><!-- /.container -->
-</section><!-- /#bestsellers -->
-<!-- ========================================= BEST SELLERS : END ========================================= -->
-<!-- ========================================= RECENTLY VIEWED ========================================= -->
-<section id="recently-reviewd" class="wow fadeInUp">
-    <div class="container">
-        <div class="carousel-holder hover">
-
-            <div class="title-nav">
-                <h2 class="h1">Recently Viewed</h2>
-                <div class="nav-holder">
-                    <a href="#prev" data-target="#owl-recently-viewed" class="slider-prev btn-prev fa fa-angle-left"></a>
-                    <a href="#next" data-target="#owl-recently-viewed" class="slider-next btn-next fa fa-angle-right"></a>
-                </div>
-            </div><!-- /.title-nav -->
-
-            <div id="owl-recently-viewed" class="owl-carousel product-grid-holder">
-                <?php
-                foreach ($recently as $data) {
-
-                    echo'<div class="no-margin carousel-item product-item-holder size-small hover">
-                    <div class="product-item">
-                        <div class="ribbon red"><span>sale</span></div> 
-                        <div class="image">
-                            <img alt="" src="images/blank.gif" data-echo="' . $data->imgSmall . '" style="height:160px" />
-                        </div>
-                        <div class="body">
-                            <div class="title">
-                                <a href="' . $data->url . '">' . $data->name . '</a>
-                            </div>
-                            <div class="brand">' . $data->brand_name . '</div>
-                        </div>
-                        <div class="prices">
-                            <div class="price-current text-right">' . $data->price_sell_rp . '</div>
-                        </div>
-                        <div class="hover-area">';
-                    if ($data->realStock == 0) {
-                        echo' <div class="add-cart-button">
-                                        <a href="#" style="background-color: crimson;" class="le-button">Stock Habis</a>
-                                   </div>';
-                    } else {
-                        echo' <div class="add-cart-button">
-                                        <a href="#" id="' . $data->id . '"  class="le-button beli">Beli</a>
-                                   </div>';
-                    }
-
-                    echo'</div>
-                    </div><!-- /.product-item -->
-                </div><!-- /.product-item-holder -->';
-                }
-                ?>
-
-
-
-
-
-
-
-            </div><!-- /#recently-carousel -->
-
-        </div><!-- /.carousel-holder -->
-    </div><!-- /.container -->
-</section><!-- /#recently-reviewd -->
-<!-- ========================================= RECENTLY VIEWED : END ========================================= -->
-<!-- ========================================= TOP BRANDS ========================================= -->
-<section id="top-brands" class="wow fadeInUp">
-    <div class="container">
-        <div class="carousel-holder" >
-
-            <div class="title-nav">
-                <h1>Top Brands</h1>
-                <div class="nav-holder">
-                    <a href="#prev" data-target="#owl-brands" class="slider-prev btn-prev fa fa-angle-left"></a>
-                    <a href="#next" data-target="#owl-brands" class="slider-next btn-next fa fa-angle-right"></a>
-                </div>
-            </div><!-- /.title-nav -->
-
-            <div id="owl-brands" class="owl-carousel brands-carousel">
-
-                <div class="carousel-item">
-                    <a href="#">
-                        <img alt="" src="images/brands/apple.png" />
-                    </a>
-                </div><!-- /.carousel-item -->
-                <div class="carousel-item">
-                    <a href="#">
-                        <img alt="" src="images/brands/oppo.png" />
-                    </a>
-                </div><!-- /.carousel-item -->
-
-                <div class="carousel-item">
-                    <a href="#">
-                        <img alt="" src="images/brands/samsung.png" />
-                    </a>
-                </div><!-- /.carousel-item -->
-
-                <div class="carousel-item">
-                    <a href="#">
-                        <img alt="" src="images/brands/blackberry.png" />
-                    </a>
-                </div><!-- /.carousel-item -->
-
-                <div class="carousel-item">
-                    <a href="#">
-                        <img alt="" src="images/brands/motorola.png" />
-                    </a>
-                </div><!-- /.carousel-item -->
-
-                <div class="carousel-item">
-                    <a href="#">
-                        <img alt="" src="images/brands/sony.png" />
-                    </a>
-                </div><!-- /.carousel-item -->
-
-
-
-                <div class="carousel-item">
-                    <a href="#">
-                        <img alt="" src="images/brands/lenovo.png" />
-                    </a>
-                </div><!-- /.carousel-item -->
-
-                <div class="carousel-item">
-                    <a href="#">
-                        <img alt="" src="images/brands/huawei.png" />
-                    </a>
-                </div><!-- /.carousel-item -->
-                <div class="carousel-item">
-                    <a href="#">
-                        <img alt="" src="images/brands/lg.png" />
-                    </a>
-                </div><!-- /.carousel-item -->
-                <div class="carousel-item">
-                    <a href="#">
-                        <img alt="" src="images/brands/advan.png" />
-                    </a>
-                </div><!-- /.carousel-item -->
-                <div class="carousel-item">
-                    <a href="#">
-                        <img alt="" src="images/brands/acer.png" />
-                    </a>
-                </div><!-- /.carousel-item -->
-                <div class="carousel-item">
-                    <a href="#">
-                        <img alt="" src="images/brands/asus.png" />
-                    </a>
-                </div><!-- /.carousel-item -->
-                <div class="carousel-item">
-                    <a href="#">
-                        <img alt="" src="images/brands/evercoss.png" />
-                    </a>
-                </div><!-- /.carousel-item -->
-                <div class="carousel-item">
-                    <a href="#">
-                        <img alt="" src="images/brands/nokia.png" />
-                    </a>
-                </div><!-- /.carousel-item -->
-                <div class="carousel-item">
-                    <a href="#">
-                        <img alt="" src="images/brands/smartfren.png" />
-                    </a>
-                </div><!-- /.carousel-item -->
-
-
-            </div><!-- /.brands-caresoul -->
-
-        </div><!-- /.carousel-holder -->
-    </div><!-- /.container -->
-</section><!-- /#top-brands -->
-<!-- ========================================= TOP BRANDS : END ========================================= -->		<!-- ============================================================= FOOTER ============================================================= -->
-<script>
-
-    $("body").on("click", ".beli", function() {
-        var id = $(this).attr("id");
-        var isi_cart = $(".cart-list").html();
-//        var terbeli  = $(this);
-        $.ajax({
-            type: 'POST',
-            data: {id: id},
-            url: "<?php echo Yii::$app->urlManager->createUrl('product/addcart') ?>",
-            success: function(data) {
-//                $('.basket').addClass('open');
-//                 terbeli.replaceWith("<a href='#' style='background-color: crimson;' class='le-button'>Stock Habis</a>");
-//                $(".cart-list").html(data + isi_cart);
-//                location.reload();
-                window.location.replace("<?= Yii::$app->urlManager->createUrl('cart') ?>");
-//                    alert(data);
-            },
-        });
-    });
-</script>
+<!--</div>-->

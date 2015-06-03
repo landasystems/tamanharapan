@@ -11,7 +11,7 @@ use yii\filters\VerbFilter;
 class ArticleController extends Controller {
 
     public function actionView() {
-        $this->layout = 'mainSingle';
+        $this->layout = 'main';
         $model = Article::findOne(['alias'=>$_GET['alias']]);
         if (empty($model)) {
             throw new NotFoundHttpException('The requested page does not exist.');
@@ -21,6 +21,13 @@ class ArticleController extends Controller {
                 'model'=>$model,
             ]);
         }
+    }
+    
+    public function actionIndex(){
+        $this->layout = 'main';
+        return $this->render('index',[
+            
+        ]);
     }
 
     public function addHits($model) {

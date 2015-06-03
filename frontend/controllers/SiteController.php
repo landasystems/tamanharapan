@@ -113,7 +113,7 @@ class SiteController extends Controller {
     }
 
     public function actionContact() {
-        $this->layout='mainSingle';
+        $this->layout='main';
         $model = new ContactForm();
         if ($model->load(Yii::$app->request->post()) && $model->validate()) {
             $from = $_POST['ContactForm']['email'];
