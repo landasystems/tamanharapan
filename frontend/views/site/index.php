@@ -19,22 +19,22 @@ $session = Yii::$app->session;
                                 <img data-retina src="../../../backend/www/tamanharapan/images/slider/slider1.jpg">
                             </li>
                             <li data-transition="slotfade-vertical" data-slotamount="7" >
-                                <img data-retina src="../../../backend/www/tamanharapan/images/slider/slider2.JPG">
+                                <img data-retina src="../../../backend/www/tamanharapan/images/slider/slider2.jpg">
                             </li>
                             <li data-transition="slotfade-vertical" data-slotamount="7" >
-                                <img data-retina src="../../../backend/www/tamanharapan/images/slider/slider3.JPG">
+                                <img data-retina src="../../../backend/www/tamanharapan/images/slider/slider3.jpg">
                             </li>
                             <li data-transition="slotfade-vertical" data-slotamount="7" >
-                                <img data-retina src="../../../backend/www/tamanharapan/images/slider/slider4.JPG">
+                                <img data-retina src="../../../backend/www/tamanharapan/images/slider/slider4.jpg">
                             </li>
                             <li data-transition="slotfade-vertical" data-slotamount="7" >
-                                <img data-retina src="../../../backend/www/tamanharapan/images/slider/slider5.JPG">
+                                <img data-retina src="../../../backend/www/tamanharapan/images/slider/slider5.jpg">
                             </li>
                             <li data-transition="slotfade-vertical" data-slotamount="7" >
-                                <img data-retina src="../../../backend/www/tamanharapan/images/slider/slider6.JPG">
+                                <img data-retina src="../../../backend/www/tamanharapan/images/slider/slider6.jpg">
                             </li>
                             <li data-transition="slotfade-vertical" data-slotamount="7" >
-                                <img data-retina src="../../../backend/www/tamanharapan/images/slider/slider7.JPG">
+                                <img data-retina src="../../../backend/www/tamanharapan/images/slider/slider7.jpg">
                             </li>
 
                         </ul>
@@ -92,8 +92,6 @@ $session = Yii::$app->session;
                         <ul>
                             <li><a href="#tabs-31">EUE Best Case Studie Award</a></li>
                             <li><a href="#tabs-32">SSN Akreditasi A</a></li>
-                            <li><a href="#">Juara Tingkat 1 Malang</a></li>
-                            <li><a href="#">Property Map</a></li>
                         </ul>
                         <div class="b-tabs__content">
                             <div id="tabs-31" class="clearfix">
@@ -126,11 +124,9 @@ $session = Yii::$app->session;
                                 </div>
                             </div>
                             <div id="tabs-32" class="clearfix">
-                                <h4 class="f-tabs-vertical__title f-primary-b">Prestasi</h4>
-                                <img data-retina class="b-img-responsive b-img-l" src="img/shortcode/girl_img.jpg" alt=""/>
-                                <p>Maecenas laoreet commodo arcu, eu semper lacus tincidunt eget. Vestibulum at arcu pulvinar, fermentum sapien nec, tristique dui. Ut feugiat est at sapien ullamcorper viverra. Vestibulum pretium malesuada elit rutrum condimentum. Maecenas laoreet commodo arcu, eu semper lacus tincidunt eget.</p>
-                                <p>Vestibulum pretium malesuada elit rutrum condimentum. Donec bibendum scelerisque odio vulputate viverra. Pellentesque habitant morbi tristique senectus et netus et malesuada fames acipsum </p>
-                                <a href="#" class="f-more f-primary-b">Selanjutnya...</a>
+                                <h4 class="f-tabs-vertical__title f-primary-b">SSN Akreditasi A</h4>
+                                <br>
+                                <p>sekolah standar nasional (SSN) adalah sekolah yang sudah atau hampir memenuhi SNP (standar nasional pendidikan), yaitu standar kompetensi lulusan, standar isi, standar proses, standar sarana dan prasarana, standar tenaga pendidik dan kependidikan, standar manajemen, standar pembiayaan, dan standar penilaian</p>
                             </div>
                         </div>
                     </div>
