@@ -153,12 +153,10 @@ $session = Yii::$app->session;
                                 ?>
                                 <div class="b-some-examples__item f-some-examples__item">
                                     <div class="b-some-examples__item_img view view-sixth">
-                                        <img data-retina="" src="<?php echo (!empty($item->primary_image)) ? Yii::$app->homeUrl . 'images/article/' . $item->primary_image : Yii::$app->homeUrl . 'images/700x700-noimage.jpg' ?>" alt="">
+                                        <img data-retina="" src="<?php echo (!empty($item->primary_image)) ? Yii::$app->homeUrl . 'images/article/' . $item->primary_image : Yii::$app->homeUrl . 'images/700x700-noimage.jpg' ?>" height="190" alt="">
                                         <div class="b-item-hover-action f-center mask">
                                             <div class="b-item-hover-action__inner">
-                                                <div class="b-item-hover-action__inner-btn_group">
-                                                    <a href="#" class="b-btn f-btn b-btn-light f-btn-light info"><i class="fa fa-link"></i></a>
-                                                </div>
+                                                
                                             </div>
                                         </div>
                                     </div>
@@ -223,7 +221,7 @@ $session = Yii::$app->session;
 
                             <div class="b-accordion__content">
                                 <div class="b-accordion__img">
-                                    <img data-retina src="images/sarpras/new-taman.JPG" alt=""/>
+                                    <img data-retina src="images/sarpras/new-taman.jpg" alt=""/>
                                 </div>
                                 <!--<p class="f-primary-b b-null-bottom-indent f-title-small c-default">Suspendisse vitae metus enim</p>-->
 
@@ -243,7 +241,7 @@ $session = Yii::$app->session;
 
                             <div class="b-accordion__content">
                                 <div class="b-accordion__img">
-                                    <img data-retina src="img/sarpras/labfisika.JPG" alt=""/>
+                                    <img data-retina src="images/sarpras/labfisika.jpg" alt=""/>
                                 </div>
                                 <!--<p class="f-primary-b b-null-bottom-indent f-title-small c-default">Suspendisse vitae metus enim</p>-->
 
@@ -337,7 +335,7 @@ $session = Yii::$app->session;
                                             <i class="fa fa-envelope"></i>
                                         </div>
                                         <div class="b-remaining f-contacts-short-item__text f-contacts-short-item__text_email">
-                                            <a href="mailto:info@smatamanharapan.sch.id">mail@example.com</a>
+                                            <a href="mailto:info@smatamanharapan.sch.id">info@smatamanharapan.sch.id</a>
                                         </div>
                                     </div>
                                 </div>
