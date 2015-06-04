@@ -17,25 +17,25 @@ $session = Yii::$app->session;
                         <ul>
 
                             <li data-transition="slotfade-vertical" data-slotamount="7" >
-                                <img data-retina src="img/slider/tmnharapan/slider1.jpg">
+                                <img data-retina src="../../../backend/www/tamanharapan/images/slider/slider1.jpg">
                             </li>
                             <li data-transition="slotfade-vertical" data-slotamount="7" >
-                                <img data-retina src="img/slider/tmnharapan/slider2.JPG">
+                                <img data-retina src="../../../backend/www/tamanharapan/images/slider/slider2.JPG">
                             </li>
                             <li data-transition="slotfade-vertical" data-slotamount="7" >
-                                <img data-retina src="img/slider/tmnharapan/slider3.JPG">
+                                <img data-retina src="../../../backend/www/tamanharapan/images/slider/slider3.JPG">
                             </li>
                             <li data-transition="slotfade-vertical" data-slotamount="7" >
-                                <img data-retina src="img/slider/tmnharapan/slider4.JPG">
+                                <img data-retina src="../../../backend/www/tamanharapan/images/slider/slider4.JPG">
                             </li>
                             <li data-transition="slotfade-vertical" data-slotamount="7" >
-                                <img data-retina src="img/slider/tmnharapan/slider5.JPG">
+                                <img data-retina src="../../../backend/www/tamanharapan/images/slider/slider5.JPG">
                             </li>
                             <li data-transition="slotfade-vertical" data-slotamount="7" >
-                                <img data-retina src="img/slider/tmnharapan/slider6.JPG">
+                                <img data-retina src="../../../backend/www/tamanharapan/images/slider/slider6.JPG">
                             </li>
                             <li data-transition="slotfade-vertical" data-slotamount="7" >
-                                <img data-retina src="img/slider/tmnharapan/slider7.JPG">
+                                <img data-retina src="../../../backend/www/tamanharapan/images/slider/slider7.JPG">
                             </li>
 
                         </ul>
