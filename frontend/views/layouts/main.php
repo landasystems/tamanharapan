@@ -101,10 +101,10 @@ AppAsset::register($this);
                                 <a href="<?= Yii::$app->urlManager->createUrl('article/index')?>"><i class="fa fa-picture-o b-menu-1level-ico"></i>Informasi <span class="b-ico-dropdown"><i class="fa fa-arrow-circle-down"></i></span></a>
                             </li>
                             <li class="b-top-nav__1level f-top-nav__1level f-primary-b">
-                                <a href="<?= Yii::$app->urlManager->createUrl('article/index')?>"><i class="fa fa-code b-menu-1level-ico"></i>Prestasi/ Lulusan <span class="b-ico-dropdown"><i class="fa fa-arrow-circle-down"></i></span></a>
+                                <a href="<?= Yii::$app->urlManager->createUrl('article/prestasi')?>"><i class="fa fa-code b-menu-1level-ico"></i>Prestasi/ Lulusan <span class="b-ico-dropdown"><i class="fa fa-arrow-circle-down"></i></span></a>
                             </li>
                             <li class="b-top-nav__1level f-top-nav__1level f-primary-b">
-                                <a href="contact_us.html"><i class="fa fa-folder-open b-menu-1level-ico"></i>Contact<span class="b-ico-dropdown"><i class="fa fa-arrow-circle-down"></i></span></a>
+                                <a href="<?= Yii::$app->urlManager->createUrl('site/contact')?>"><i class="fa fa-folder-open b-menu-1level-ico"></i>Contact<span class="b-ico-dropdown"><i class="fa fa-arrow-circle-down"></i></span></a>
                             </li>
                         </ul>
 
@@ -171,8 +171,8 @@ AppAsset::register($this);
         <!-- jquery ui -->
         <script src="<?= Yii::$app->homeUrl ?>js/jqueryui/jquery-ui.js"></script>
         <!-- end jquery ui -->
-<!--        <script type="text/javascript" language="javascript"
-        src="http://maps.google.com/maps/api/js?sensor=false&key=AIzaSyCfVS1-Dv9bQNOIXsQhTSvj7jaDX7Oocvs"></script>-->
+        <script type="text/javascript" language="javascript"
+        src="http://maps.google.com/maps/api/js?sensor=false&key=AIzaSyCfVS1-Dv9bQNOIXsQhTSvj7jaDX7Oocvs"></script>
         <!-- Modules -->
         <script src="<?= Yii::$app->homeUrl ?>js/modules/sliders.js"></script>
         <script src="<?= Yii::$app->homeUrl ?>js/modules/ui.js"></script>

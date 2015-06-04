@@ -1,6 +1,6 @@
 <?php
 /* @var $this yii\web\View */
-$this->title = 'Informasi Kependidikan';
+$this->title = 'Prestasi Siswa dan Lulusan';
 
 use common\models\ArticleCategory;
 use common\models\Article;
@@ -17,7 +17,7 @@ $session = Yii::$app->session;
 <div class="b-inner-page-header f-inner-page-header b-bg-header-inner-page">
     <div class="b-inner-page-header__content">
         <div class="container">
-            <h1 class="f-primary-l c-default">Informasi Kependidikan</h1>
+            <h1 class="f-primary-l c-default">Prestasi Siswa dan Lulusan</h1>
             <div class="f-primary-l f-inner-page-header_title-add c-senary">SMA Taman Harapan</div>
         </div>
     </div>
@@ -42,7 +42,7 @@ $session = Yii::$app->session;
             $offset = ($perpage * $page) + ($perpage * -1);
             $articles = Article::find()
                     ->where(array(
-                        'publish' => 1
+                        'article_category_id' => '10'
                     ))
                     ->orderBy('created DESC')
                     ->limit($perpage)
