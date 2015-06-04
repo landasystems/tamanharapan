@@ -55,9 +55,24 @@ $session = Yii::$app->session;
                                 </div>
                             </div>
                             <img src="img/kepsek-tamanharapan.jpg" align="left" style="width:170px; margin-right:10px" class="img-thumbnail"/>
-                            <p class="f-primary-l">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam proce ssu dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litte rarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</p>
-                            <p class="f-primary-l">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam proce ssu dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litte rarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</p>
-                            <div class="b-article__social-info">
+                              <p class="f-primary-l">Assalamu'alaikum Wr.Wb</p>
+
+                            <p class="f-primary-l">Puji serta syukur kami panjatkan kehadirat Allah Tuhan Yang Maha Esa, karena atas rahmat dan karuniaNya kami masih diberikan kekuatan untuk menyambut masa depan yang terbentang di hadapan kita.</p>  
+
+                            <p class="f-primary-l">Di tengah persoalan yang ada dihadapan kita, kita harus tetap optimis bahwa setiap langkah dan tetesan keringat yang keluar dari tubuh kita merupakan saksi bisu perjuangan yang tidak bisa kita lupakan karena Allah pasti telah mencatatnya sebagai amal ibadah yang tiada bandingannya.</p>
+
+                            <p class="f-primary-l">Atas nama Pimpinan SMA Tunas Harapan Ibu bersyukur karena di tahun 2015 sekolah yng kita cintai SMA Tunas Harapan bisa menikmati dan menggunakan “WEBSITE SMA TUNAS HARAPAN” sebagai sarana dalam menyampaikan aspirasi dan masukan serta kritik membangun untuk kemajuan SMA Tunas Harapan yang kita cintai.</p>
+
+                            <p class="f-primary-l">Anda bisa berkunjung ke setiap objek yang sudah kami lengkapi dengan photo-photo fasilitas dan prestasi sekolah serta photo bapak dan ibu guru melengkapi kebersamaan Anda di sekolah yang kita cintai yaitu SMA Tunas Harapan.</p>
+
+                            <p class="f-primary-l">Harapannya semoga website ini selalu menjadi teman Anda dalam suka dan duka, baik dalam bekerja maupun dalam keluarga sehingga menjadikan SMA Tunas Harapan lebih baik dan lebih kreatif.</p>
+
+                            <p class="f-primary-l">Salam sejahtera teriring do'a buat semuanya tidak ada gading yang tak retak , semoga Allah selalu bersama kita</p>
+                            <p class="f-primary-l">
+                                Wassalamu'alaikum Wr.Wb</p>
+                            <br>
+                            <p class="f-primary-l">
+                                <b> SUTIANI, S.PD, MM</b></p><div class="b-article__social-info">
                                 <ul>
                                     <li>
                                         <div class="b-article__social">
