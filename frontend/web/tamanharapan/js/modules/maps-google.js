@@ -1,9 +1,9 @@
 jQuery(function ($) {
     if ($('.b-google-map').length > 0) {
-        var cenLatlng = new google.maps.LatLng(-7.97875, 112.63286);
+        var cenLatlng = new google.maps.LatLng(-7.978647, 112.632771);
 
         var myOptions = {
-            zoom: 9,
+            zoom: 16,
             scrollwheel: false,
             draggable: ($(document).width() > 768),
             center: cenLatlng,
@@ -56,11 +56,7 @@ jQuery(function ($) {
                 };
             }
             locations = [
-                {title: 'Coogee Beach', lat: 35.027332, long: -89.88796, icon: markerIcon},
-                {title: 'Cronulla Beach', lat: 34.727332, long: -88.86796, icon: markerIcon},
-                {title: 'Manly Beach', lat: 34.627332, long: -91.84796, icon: markerIcon},
-                {title: 'Maroubra Beach', lat: 34.527332, long: -92.82796, icon: markerIcon},
-                {title: 'Bondi Beach', lat: 34.927332, long: -90.90796, icon: markerIcon}
+                {title: 'Coogee Beach', lat: -7.978647, long: 112.632771, icon: markerIcon},
             ];
 
             function showHiddenLabel() {
