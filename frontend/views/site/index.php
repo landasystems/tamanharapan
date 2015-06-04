@@ -55,19 +55,19 @@ $session = Yii::$app->session;
                                 </div>
                             </div>
                             <img src="<?php echo Yii::$app->homeUrl.'/images/Sutiani.jpg'?>" align="left" style="width:170px; margin-right:10px" class="img-thumbnail"/>
-                              <p class="f-primary-l">Assalamu'alaikum Wr.Wb</p>
+                              <p style="line-height:1.5">Assalamu'alaikum Wr.Wb</p>
 
-                            <p class="f-primary-l">Puji serta syukur kami panjatkan kehadirat Allah Tuhan Yang Maha Esa, karena atas rahmat dan karuniaNya kami masih diberikan kekuatan untuk menyambut masa depan yang terbentang di hadapan kita.</p>  
+                            <p style="line-height:1.5">Puji serta syukur kami panjatkan kehadirat Allah Tuhan Yang Maha Esa, karena atas rahmat dan karuniaNya kami masih diberikan kekuatan untuk menyambut masa depan yang terbentang di hadapan kita.</p>  
 
-                            <p class="f-primary-l">Di tengah persoalan yang ada dihadapan kita, kita harus tetap optimis bahwa setiap langkah dan tetesan keringat yang keluar dari tubuh kita merupakan saksi bisu perjuangan yang tidak bisa kita lupakan karena Allah pasti telah mencatatnya sebagai amal ibadah yang tiada bandingannya.</p>
+                            <p style="line-height:1.5">Di tengah persoalan yang ada dihadapan kita, kita harus tetap optimis bahwa setiap langkah dan tetesan keringat yang keluar dari tubuh kita merupakan saksi bisu perjuangan yang tidak bisa kita lupakan karena Allah pasti telah mencatatnya sebagai amal ibadah yang tiada bandingannya.</p>
 
-                            <p class="f-primary-l">Atas nama Pimpinan SMA Tunas Harapan Ibu bersyukur karena di tahun 2015 sekolah yng kita cintai SMA Tunas Harapan bisa menikmati dan menggunakan “WEBSITE SMA TUNAS HARAPAN” sebagai sarana dalam menyampaikan aspirasi dan masukan serta kritik membangun untuk kemajuan SMA Tunas Harapan yang kita cintai.</p>
+                            <p style="line-height:1.5">Atas nama Pimpinan SMA Tunas Harapan Ibu bersyukur karena di tahun 2015 sekolah kita bisa menikmati dan menggunakan “WEBSITE SMA TUNAS HARAPAN” sebagai sarana dalam menyampaikan aspirasi dan masukan serta kritik membangun untuk kemajuan SMA Tunas Harapan yang kita cintai.</p>
 
-                            <p class="f-primary-l">Anda bisa berkunjung ke setiap objek yang sudah kami lengkapi dengan photo-photo fasilitas dan prestasi sekolah serta photo bapak dan ibu guru melengkapi kebersamaan Anda di sekolah yang kita cintai yaitu SMA Tunas Harapan.</p>
+                            <p style="line-height:1.5">Anda bisa berkunjung ke setiap objek yang sudah kami lengkapi dengan photo-photo fasilitas dan prestasi sekolah serta photo bapak dan ibu guru melengkapi kebersamaan Anda di sekolah yang kita cintai yaitu SMA Tunas Harapan.</p>
 
-                            <p class="f-primary-l">Harapannya semoga website ini selalu menjadi teman Anda dalam suka dan duka, baik dalam bekerja maupun dalam keluarga sehingga menjadikan SMA Tunas Harapan lebih baik dan lebih kreatif.</p>
+                            <p style="line-height:1.5">Harapannya semoga website ini selalu menjadi teman Anda dalam suka dan duka, baik dalam bekerja maupun dalam keluarga sehingga menjadikan SMA Tunas Harapan lebih baik dan lebih kreatif.</p>
 
-                            <p class="f-primary-l">Salam sejahtera teriring do'a buat semuanya tidak ada gading yang tak retak , semoga Allah selalu bersama kita</p>
+                            <p style="line-height:1.5">Salam sejahtera teriring do'a buat semuanya tidak ada gading yang tak retak , semoga Allah selalu bersama kita</p>
                             <p class="f-primary-l">
                                 Wassalamu'alaikum Wr.Wb</p>
                             <br>
@@ -154,7 +154,7 @@ $session = Yii::$app->session;
                                 ?>
                                 <div class="b-some-examples__item f-some-examples__item">
                                     <div class="b-some-examples__item_img view view-sixth">
-                                        <img data-retina="" src="<?php echo (!empty($item->primary_image)) ? Yii::$app->homeUrl.'images/article/'.$item->primary_image : Yii::$app->homeUrl.'images/700x700-noimage.jpg'?>" alt="">
+                                        <img data-retina="" src="<?php echo (!empty($item->primary_image)) ? Yii::$app->homeUrl.'images/article/'.$item->primary_image : Yii::$app->homeUrl.'images/700x700-noimage.jpg'?>" height="173" alt="">
                                         <div class="b-item-hover-action f-center mask">
                                             <div class="b-item-hover-action__inner">
                                                 <div class="b-item-hover-action__inner-btn_group">
@@ -190,7 +190,7 @@ $session = Yii::$app->session;
 
                             <div class="b-accordion__content">
                                 <div class="b-accordion__img">
-                                    <img data-retina src="img/sapras/basket.JPG" alt=""/>
+                                    <img data-retina src="images/sapras/newbasket.jpg" alt=""/>
                                 </div>
                                 <div>
                                     <p>Fasilitas Lapangan basket luas dan bersih</p>
@@ -201,7 +201,7 @@ $session = Yii::$app->session;
 
                             <div class="b-accordion__content">
                                 <div class="b-accordion__img">
-                                    <img data-retina src="img/sapras/kantin.JPG" alt=""/>
+                                    <img data-retina src="images/sapras/kantin.jpg" alt=""/>
                                 </div>
                                 <!--<p class="f-primary-b b-null-bottom-indent f-title-small c-default">Suspendisse vitae metus enim</p>-->
 
@@ -214,7 +214,7 @@ $session = Yii::$app->session;
 
                             <div class="b-accordion__content">
                                 <div class="b-accordion__img">
-                                    <img data-retina src="img/sapras/perpus.JPG" alt=""/>
+                                    <img data-retina src="images/sapras/perpus.jpg" alt=""/>
                                 </div>
                                 <!--<p class="f-primary-b b-null-bottom-indent f-title-small c-default">Suspendisse vitae metus enim</p>-->
 
@@ -224,7 +224,7 @@ $session = Yii::$app->session;
 
                             <div class="b-accordion__content">
                                 <div class="b-accordion__img">
-                                    <img data-retina src="img/sapras/taman.JPG" alt=""/>
+                                    <img data-retina src="images/sapras/new-taman.JPG" alt=""/>
                                 </div>
                                 <!--<p class="f-primary-b b-null-bottom-indent f-title-small c-default">Suspendisse vitae metus enim</p>-->
 
@@ -234,7 +234,7 @@ $session = Yii::$app->session;
 
                             <div class="b-accordion__content">
                                 <div class="b-accordion__img">
-                                    <img data-retina src="img/sapras/labkom.JPG" alt=""/>
+                                    <img data-retina src="images/sapras/labkom.jpg" alt=""/>
                                 </div>
                                 <!--<p class="f-primary-b b-null-bottom-indent f-title-small c-default">Suspendisse vitae metus enim</p>-->
 
@@ -254,7 +254,7 @@ $session = Yii::$app->session;
 
                             <div class="b-accordion__content">
                                 <div class="b-accordion__img">
-                                    <img data-retina src="img/sapras/toilet.JPG" alt=""/>
+                                    <img data-retina src="images/sapras/newtoilet.jpg" alt=""/>
                                 </div>
                                 <!--<p class="f-primary-b b-null-bottom-indent f-title-small c-default">Suspendisse vitae metus enim</p>-->
 
@@ -264,7 +264,7 @@ $session = Yii::$app->session;
 
                             <div class="b-accordion__content">
                                 <div class="b-accordion__img">
-                                    <img data-retina src="img/sapras/uks.JPG" alt=""/>
+                                    <img data-retina src="images/sapras/new-uks.jpg" alt=""/>
                                 </div>
                                 <!--<p class="f-primary-b b-null-bottom-indent f-title-small c-default">Suspendisse vitae metus enim</p>-->
 
@@ -274,7 +274,7 @@ $session = Yii::$app->session;
 
                             <div class="b-accordion__content">
                                 <div class="b-accordion__img">
-                                    <img data-retina src="img/sapras/mading.JPG" alt=""/>
+                                    <img data-retina src="images/sapras/mading.jpg" alt=""/>
                                 </div>
                                 <!--<p class="f-primary-b b-null-bottom-indent f-title-small c-default">Suspendisse vitae metus enim</p>-->
 
@@ -285,7 +285,7 @@ $session = Yii::$app->session;
 
                             <div class="b-accordion__content">
                                 <div class="b-accordion__img">
-                                    <img data-retina src="img/sapras/rtunggu.JPG" alt=""/>
+                                    <img data-retina src="images/sapras/newrtunggu.jpg" alt=""/>
                                 </div>
                                 <!--<p class="f-primary-b b-null-bottom-indent f-title-small c-default">Suspendisse vitae metus enim</p>-->
 
@@ -295,7 +295,7 @@ $session = Yii::$app->session;
 
                             <div class="b-accordion__content">
                                 <div class="b-accordion__img">
-                                    <img data-retina src="img/sapras/rtu.JPG" alt=""/>
+                                    <img data-retina src="images/sapras/newrtu.jpg" alt=""/>
                                 </div>
                                 <!--<p class="f-primary-b b-null-bottom-indent f-title-small c-default">Suspendisse vitae metus enim</p>-->
 
@@ -305,7 +305,7 @@ $session = Yii::$app->session;
 
                             <div class="b-accordion__content">
                                 <div class="b-accordion__img">
-                                    <img data-retina src="img/sapras/rguru.JPG" alt=""/>
+                                    <img data-retina src="images/sapras/rguru.JPG" alt=""/>
                                 </div>
                                 <!--<p class="f-primary-b b-null-bottom-indent f-title-small c-default">Suspendisse vitae metus enim</p>-->
 
