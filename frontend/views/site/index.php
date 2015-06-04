@@ -54,7 +54,7 @@ $session = Yii::$app->session;
                                         <span class="b-blog-one-column__info_delimiter"></span></span>
                                 </div>
                             </div>
-                            <img src="img/kepsek-tamanharapan.jpg" align="left" style="width:170px; margin-right:10px" class="img-thumbnail"/>
+                            <img src="<?php echo Yii::$app->homeUrl.'/images/Sutiani.jpg'?>" align="left" style="width:170px; margin-right:10px" class="img-thumbnail"/>
                               <p class="f-primary-l">Assalamu'alaikum Wr.Wb</p>
 
                             <p class="f-primary-l">Puji serta syukur kami panjatkan kehadirat Allah Tuhan Yang Maha Esa, karena atas rahmat dan karuniaNya kami masih diberikan kekuatan untuk menyambut masa depan yang terbentang di hadapan kita.</p>  
