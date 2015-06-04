@@ -171,7 +171,7 @@ $session = Yii::$app->session;
                                     </div>
                                     <div class="b-some-examples__item_action">
                                         <div class="b-right">
-                                            <a href="#" class="b-btn f-btn b-btn-sm f-btn-sm b-btn-default f-primary-b">Selanjutnya</a>
+                                            <a href="<?= Yii::$app->urlManager->createUrl('article/'.$item->id)?>" class="b-btn f-btn b-btn-sm f-btn-sm b-btn-default f-primary-b">Selanjutnya</a>
                                         </div>
                                     </div>
                                 </div>

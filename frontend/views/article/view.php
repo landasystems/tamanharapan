@@ -36,7 +36,7 @@ $this->title = $model->title;
                             <?= $model->title ?>
                         </div>
                         <div class="f-infoblock-with-icon__info_text b-infoblock-with-icon__info_text f-primary-b">
-                            Oleh <a href="" class="f-more"><?= $model->user->name ?></a> Kategori :  <a href="" class="f-more"><?= $model->category->name ?></a> Dispoting pada <?= date('d F Y', strtotime($model->created)) ?>
+                            Oleh <a href="#" class="f-more"><?= $model->user->name ?></a> Kategori :  <a href="" class="f-more"><?= $model->category->name ?></a> Dispoting pada <?= date('d F Y', strtotime($model->created)) ?>
                             <!--<a href="" class="f-more b-blog-listing__additional-text f-primary"><i class="fa fa-comment"></i>12 Comments</a>-->
                         </div>
                         <div class="b-article__description">

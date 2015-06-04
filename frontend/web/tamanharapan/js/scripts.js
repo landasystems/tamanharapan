@@ -355,8 +355,8 @@
 
     $(document).ready(function(){
         var zoom = 16;
-        var latitude = 51.539075;
-        var longitude = -0.152424;
+        var latitude = -7.97875;
+        var longitude = 112.63286;
         var mapIsNotActive = true;
         setupCustomMap();
 

@@ -1,6 +1,6 @@
 jQuery(function ($) {
     if ($('.b-google-map').length > 0) {
-        var cenLatlng = new google.maps.LatLng(35.362961015414056, -90.71299265625);
+        var cenLatlng = new google.maps.LatLng(-7.97875, 112.63286);
 
         var myOptions = {
             zoom: 9,

@@ -31,7 +31,7 @@ class ArticleController extends Controller {
                 ->where(array(
                     'publish' => 1
                 ))
-                ->orderBy('id ASC')
+                ->orderBy('created DESC')
                 ->all();
 
         return $this->render('index', [
@@ -67,8 +67,25 @@ class ArticleController extends Controller {
     }
     public function actionSejarah() {
         $this->layout = 'main';
+        $model = Article::findOne([
+            'id' => 16
+        ]);
         return $this->render('sejarah',[
-            
+            'model' => $model
+        ]);
+    }
+    public function actionPrestasi() {
+        $query = Article::find()
+                ->where(array(
+                    'publish' => 1,
+                    'article_category_id' => '10'
+                ))
+                ->orderBy('created DESC')
+                ->all();
+
+        return $this->render('prestasiLulusan', [
+                    'models' => $query,
+//                    'pages' => $pages,
         ]);
     }
 
