@@ -29,20 +29,18 @@ $this->title = 'Kegiatan Siswa';
                 <div class="j-masonry-item col-xs-12 col-md-4">
                     <div class="b-blog-preview">
                         <div class="b-blog-preview__img view view-sixth">
-                            <img data-retina="" src="<?= Yii::$app->homeUrl?>/images/sarpras/kantin.jpg" alt="">
+                            <img data-retina="" src="<?= Yii::$app->homeUrl?>/images/kegiatanSiswa/basket/DSC00746.JPG" height="250" alt="">
                             <div class="b-item-hover-action f-center mask">
                                 <div class="b-item-hover-action__inner">
-                                    <div class="b-item-hover-action__inner-btn_group">
-                                        <a href="blog_detail_left_slidebar.html" class="b-btn f-btn b-btn-light f-btn-light info"><i class="fa fa-link"></i></a>
-                                    </div>
+                                    
                                 </div>
                             </div>
                         </div>
                         <div class="b-blog-preview__content b-diagonal-line-bg-light">
                             <div class="b-blog-preview__content-padding_box">
-                                <p class="f-blog-preview__content-title f-primary-b"><a href="blog_detail_right_slidebar.html">Semper at egestas sed, elementum</a></p>
+                                <p class="f-blog-preview__content-title f-primary-b"><a href="#">Ekskul Basket</a></p>
                                 <p class="f-blog-preview__content-date f-primary-it"><?= date('d F Y')?></p>
-                                <p class="b-blog-preview__content-text f-blog-preview__content-text">Suspendisse blandit ligula turpis, ac convallis risus fermentum non. Duis vestibulum quis quam vel accumsan. Nunc a vulputate lectus. Vestibulum eleifend nisl sed massa sagittis vestibulum. Vestibulum pretium blandit tellus, sodales volutpat sapien varius vel. </p>
+                                <p class="b-blog-preview__content-text f-blog-preview__content-text">Ekskul Basket merupakan Ekskul terfavorit yang diikuti para siswa maupun siswi</p>
                             </div>
                         </div>
                     </div>
@@ -50,20 +48,20 @@ $this->title = 'Kegiatan Siswa';
                 <div class="j-masonry-item col-xs-12 col-md-4">
                     <div class="b-blog-preview">
                         <div class="b-blog-preview__img view view-sixth">
-                            <img data-retina="" src="<?= Yii::$app->homeUrl?>/images/sarpras/labfisika.jpg" alt="">
+                            <img data-retina="" src="<?= Yii::$app->homeUrl?>/images/kegiatanSiswa/keagamaan/DSC03197.JPG" height="250" alt="">
                             <div class="b-item-hover-action f-center mask">
                                 <div class="b-item-hover-action__inner">
-                                    <div class="b-item-hover-action__inner-btn_group">
-                                        <a href="blog_detail_left_slidebar.html" class="b-btn f-btn b-btn-light f-btn-light info"><i class="fa fa-link"></i></a>
-                                    </div>
+                                    
                                 </div>
                             </div>
                         </div>
                         <div class="b-blog-preview__content b-diagonal-line-bg-light">
                             <div class="b-blog-preview__content-padding_box">
-                                <p class="f-blog-preview__content-title f-primary-b"><a href="blog_detail_right_slidebar.html">Semper at egestas sed, elementum</a></p>
+                                <p class="f-blog-preview__content-title f-primary-b"><a href="#">Kegiatan Agama di Sekolah</a></p>
                                 <p class="f-blog-preview__content-date f-primary-it"><?= date('d F Y')?></p>
-                                <p class="b-blog-preview__content-text f-blog-preview__content-text">Suspendisse blandit ligula turpis, ac convallis risus fermentum non. Duis vestibulum quis quam vel accumsan. Nunc a vulputate lectus. Vestibulum eleifend nisl sed massa sagittis vestibulum. Vestibulum pretium blandit tellus, sodales volutpat sapien varius vel. </p>
+                                <p class="b-blog-preview__content-text f-blog-preview__content-text">
+                                Selain kegiatan jasmani Para siwa dan siswi juga mengikuti kegiatan agama di sekolah
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -71,20 +69,20 @@ $this->title = 'Kegiatan Siswa';
                 <div class="j-masonry-item col-xs-12 col-md-4">
                     <div class="b-blog-preview">
                         <div class="b-blog-preview__img view view-sixth">
-                            <img data-retina="" src="<?= Yii::$app->homeUrl?>/images/sarpras/labkom.jpg" alt="">
+                            <img data-retina="" src="<?= Yii::$app->homeUrl?>/images/kegiatanSiswa/outbond/DSC01533.JPG" height="250" alt="">
                             <div class="b-item-hover-action f-center mask">
                                 <div class="b-item-hover-action__inner">
-                                    <div class="b-item-hover-action__inner-btn_group">
-                                        <a href="blog_detail_left_slidebar.html" class="b-btn f-btn b-btn-light f-btn-light info"><i class="fa fa-link"></i></a>
-                                    </div>
+                                    
                                 </div>
                             </div>
                         </div>
                         <div class="b-blog-preview__content b-diagonal-line-bg-light">
                             <div class="b-blog-preview__content-padding_box">
-                                <p class="f-blog-preview__content-title f-primary-b"><a href="blog_detail_right_slidebar.html">Semper at egestas sed, elementum</a></p>
+                                <p class="f-blog-preview__content-title f-primary-b"><a href="blog_detail_right_slidebar.html">Kegiatan Outbond</a></p>
                                 <p class="f-blog-preview__content-date f-primary-it"><?= date('d F Y')?></p>
-                                <p class="b-blog-preview__content-text f-blog-preview__content-text">Suspendisse blandit ligula turpis, ac convallis risus fermentum non. Duis vestibulum quis quam vel accumsan. Nunc a vulputate lectus. Vestibulum eleifend nisl sed massa sagittis vestibulum. Vestibulum pretium blandit tellus, sodales volutpat sapien varius vel. </p>
+                                <p class="b-blog-preview__content-text f-blog-preview__content-text">
+                                Kegiatan outbond yang di adakan rutin oleh sekolah untuk menjaga kekompakan para siswa
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -92,20 +90,42 @@ $this->title = 'Kegiatan Siswa';
                 <div class="j-masonry-item col-xs-12 col-md-4">
                     <div class="b-blog-preview">
                         <div class="b-blog-preview__img view view-sixth">
-                            <img data-retina="" src="<?= Yii::$app->homeUrl?>/images/sarpras/mading.jpg" alt="">
+                            <img data-retina="" src="<?= Yii::$app->homeUrl?>/images/kegiatanSiswa/perhotelan/DSC03252.JPG" height="250" alt="">
                             <div class="b-item-hover-action f-center mask">
                                 <div class="b-item-hover-action__inner">
-                                    <div class="b-item-hover-action__inner-btn_group">
-                                        <a href="blog_detail_left_slidebar.html" class="b-btn f-btn b-btn-light f-btn-light info"><i class="fa fa-link"></i></a>
-                                    </div>
+                                    
                                 </div>
                             </div>
                         </div>
                         <div class="b-blog-preview__content b-diagonal-line-bg-light">
                             <div class="b-blog-preview__content-padding_box">
-                                <p class="f-blog-preview__content-title f-primary-b"><a href="blog_detail_right_slidebar.html">Semper at egestas sed, elementum</a></p>
+                                <p class="f-blog-preview__content-title f-primary-b"><a href="#">Kegiatan Perhotelan</a></p>
                                 <p class="f-blog-preview__content-date f-primary-it"><?= date('d F Y')?></p>
-                                <p class="b-blog-preview__content-text f-blog-preview__content-text">Suspendisse blandit ligula turpis, ac convallis risus fermentum non. Duis vestibulum quis quam vel accumsan. Nunc a vulputate lectus. Vestibulum eleifend nisl sed massa sagittis vestibulum. Vestibulum pretium blandit tellus, sodales volutpat sapien varius vel. </p>
+                                <p class="b-blog-preview__content-text f-blog-preview__content-text">
+                                Kegiatan perhotelan ini untuk membekali siswa siswi yang ingin bekerja di perhotelan
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="j-masonry-item col-xs-12 col-md-4">
+                    <div class="b-blog-preview">
+                        <div class="b-blog-preview__img view view-sixth">
+                            <img data-retina="" src="<?= Yii::$app->homeUrl?>/images/kegiatanSiswa/prakarya/DSC01068.JPG" height="250" alt="">
+                            <div class="b-item-hover-action f-center mask">
+                                <div class="b-item-hover-action__inner">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="b-blog-preview__content b-diagonal-line-bg-light">
+                            <div class="b-blog-preview__content-padding_box">
+                                <p class="f-blog-preview__content-title f-primary-b"><a href="#">Kegiatan Prakarya Siswa</a></p>
+                                <p class="f-blog-preview__content-date f-primary-it"><?= date('d F Y')?></p>
+                                <p class="b-blog-preview__content-text f-blog-preview__content-text">
+                                Kegiatan ini berguna untuk mengasah kreatifitas dan ketekunan para siswa dan siswi
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -113,192 +133,25 @@ $this->title = 'Kegiatan Siswa';
                 <div class="j-masonry-item col-xs-12 col-md-4">
                     <div class="b-blog-preview">
                         <div class="b-blog-preview__img view view-sixth">
-                            <img data-retina="" src="<?= Yii::$app->homeUrl?>/images/sarpras/new-rkepsek2.jpg" alt="">
+                            <img data-retina="" src="<?= Yii::$app->homeUrl?>/images/kegiatanSiswa/mading/DSC00847.JPG" height="250" alt="">
                             <div class="b-item-hover-action f-center mask">
                                 <div class="b-item-hover-action__inner">
-                                    <div class="b-item-hover-action__inner-btn_group">
-                                        <a href="blog_detail_left_slidebar.html" class="b-btn f-btn b-btn-light f-btn-light info"><i class="fa fa-link"></i></a>
-                                    </div>
+                                   
                                 </div>
                             </div>
                         </div>
                         <div class="b-blog-preview__content b-diagonal-line-bg-light">
                             <div class="b-blog-preview__content-padding_box">
-                                <p class="f-blog-preview__content-title f-primary-b"><a href="blog_detail_right_slidebar.html">Semper at egestas sed, elementum</a></p>
+                                <p class="f-blog-preview__content-title f-primary-b"><a href="#">Mading</a></p>
                                 <p class="f-blog-preview__content-date f-primary-it"><?= date('d F Y')?></p>
-                                <p class="b-blog-preview__content-text f-blog-preview__content-text">Suspendisse blandit ligula turpis, ac convallis risus fermentum non. Duis vestibulum quis quam vel accumsan. Nunc a vulputate lectus. Vestibulum eleifend nisl sed massa sagittis vestibulum. Vestibulum pretium blandit tellus, sodales volutpat sapien varius vel. </p>
+                                <p class="b-blog-preview__content-text f-blog-preview__content-text">
+                                kegiatan ini berfungsi untuk menampung kreatifitas siswa dan siswi di bidang tulis menulis
+                                </p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="j-masonry-item col-xs-12 col-md-4">
-                    <div class="b-blog-preview">
-                        <div class="b-blog-preview__img view view-sixth">
-                            <img data-retina="" src="<?= Yii::$app->homeUrl?>/images/sarpras/new-taman.jpg" alt="">
-                            <div class="b-item-hover-action f-center mask">
-                                <div class="b-item-hover-action__inner">
-                                    <div class="b-item-hover-action__inner-btn_group">
-                                        <a href="blog_detail_left_slidebar.html" class="b-btn f-btn b-btn-light f-btn-light info"><i class="fa fa-link"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="b-blog-preview__content b-diagonal-line-bg-light">
-                            <div class="b-blog-preview__content-padding_box">
-                                <p class="f-blog-preview__content-title f-primary-b"><a href="blog_detail_right_slidebar.html">Semper at egestas sed, elementum</a></p>
-                                <p class="f-blog-preview__content-date f-primary-it"><?= date('d F Y')?></p>
-                                <p class="b-blog-preview__content-text f-blog-preview__content-text">Suspendisse blandit ligula turpis, ac convallis risus fermentum non. Duis vestibulum quis quam vel accumsan. Nunc a vulputate lectus. Vestibulum eleifend nisl sed massa sagittis vestibulum. Vestibulum pretium blandit tellus, sodales volutpat sapien varius vel. </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="j-masonry-item col-xs-12 col-md-4">
-                    <div class="b-blog-preview">
-                        <div class="b-blog-preview__img view view-sixth">
-                            <img data-retina="" src="<?= Yii::$app->homeUrl?>/images/sarpras/new-uks.jpg" alt="">
-                            <div class="b-item-hover-action f-center mask">
-                                <div class="b-item-hover-action__inner">
-                                    <div class="b-item-hover-action__inner-btn_group">
-                                        <a href="blog_detail_left_slidebar.html" class="b-btn f-btn b-btn-light f-btn-light info"><i class="fa fa-link"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="b-blog-preview__content b-diagonal-line-bg-light">
-                            <div class="b-blog-preview__content-padding_box">
-                                <p class="f-blog-preview__content-title f-primary-b"><a href="blog_detail_right_slidebar.html">Semper at egestas sed, elementum</a></p>
-                                <p class="f-blog-preview__content-date f-primary-it"><?= date('d F Y')?></p>
-                                <p class="b-blog-preview__content-text f-blog-preview__content-text">Suspendisse blandit ligula turpis, ac convallis risus fermentum non. Duis vestibulum quis quam vel accumsan. Nunc a vulputate lectus. Vestibulum eleifend nisl sed massa sagittis vestibulum. Vestibulum pretium blandit tellus, sodales volutpat sapien varius vel. </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="j-masonry-item col-xs-12 col-md-4">
-                    <div class="b-blog-preview">
-                        <div class="b-blog-preview__img view view-sixth">
-                            <img data-retina="" src="<?= Yii::$app->homeUrl?>/images/sarpras/newbasket.jpg" alt="">
-                            <div class="b-item-hover-action f-center mask">
-                                <div class="b-item-hover-action__inner">
-                                    <div class="b-item-hover-action__inner-btn_group">
-                                        <a href="blog_detail_left_slidebar.html" class="b-btn f-btn b-btn-light f-btn-light info"><i class="fa fa-link"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="b-blog-preview__content b-diagonal-line-bg-light">
-                            <div class="b-blog-preview__content-padding_box">
-                                <p class="f-blog-preview__content-title f-primary-b"><a href="blog_detail_right_slidebar.html">Semper at egestas sed, elementum</a></p>
-                                <p class="f-blog-preview__content-date f-primary-it"><?= date('d F Y')?></p>
-                                <p class="b-blog-preview__content-text f-blog-preview__content-text">Suspendisse blandit ligula turpis, ac convallis risus fermentum non. Duis vestibulum quis quam vel accumsan. Nunc a vulputate lectus. Vestibulum eleifend nisl sed massa sagittis vestibulum. Vestibulum pretium blandit tellus, sodales volutpat sapien varius vel. </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="j-masonry-item col-xs-12 col-md-4">
-                    <div class="b-blog-preview">
-                        <div class="b-blog-preview__img view view-sixth">
-                            <img data-retina="" src="<?= Yii::$app->homeUrl?>/images/sarpras/newrtu.jpg" alt="">
-                            <div class="b-item-hover-action f-center mask">
-                                <div class="b-item-hover-action__inner">
-                                    <div class="b-item-hover-action__inner-btn_group">
-                                        <a href="blog_detail_left_slidebar.html" class="b-btn f-btn b-btn-light f-btn-light info"><i class="fa fa-link"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="b-blog-preview__content b-diagonal-line-bg-light">
-                            <div class="b-blog-preview__content-padding_box">
-                                <p class="f-blog-preview__content-title f-primary-b"><a href="blog_detail_right_slidebar.html">Semper at egestas sed, elementum</a></p>
-                                <p class="f-blog-preview__content-date f-primary-it"><?= date('d F Y')?></p>
-                                <p class="b-blog-preview__content-text f-blog-preview__content-text">Suspendisse blandit ligula turpis, ac convallis risus fermentum non. Duis vestibulum quis quam vel accumsan. Nunc a vulputate lectus. Vestibulum eleifend nisl sed massa sagittis vestibulum. Vestibulum pretium blandit tellus, sodales volutpat sapien varius vel. </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="j-masonry-item col-xs-12 col-md-4">
-                    <div class="b-blog-preview">
-                        <div class="b-blog-preview__img view view-sixth">
-                            <img data-retina="" src="<?= Yii::$app->homeUrl?>/images/sarpras/newrtunggu.jpg" alt="">
-                            <div class="b-item-hover-action f-center mask">
-                                <div class="b-item-hover-action__inner">
-                                    <div class="b-item-hover-action__inner-btn_group">
-                                        <a href="blog_detail_left_slidebar.html" class="b-btn f-btn b-btn-light f-btn-light info"><i class="fa fa-link"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="b-blog-preview__content b-diagonal-line-bg-light">
-                            <div class="b-blog-preview__content-padding_box">
-                                <p class="f-blog-preview__content-title f-primary-b"><a href="blog_detail_right_slidebar.html">Semper at egestas sed, elementum</a></p>
-                                <p class="f-blog-preview__content-date f-primary-it"><?= date('d F Y')?></p>
-                                <p class="b-blog-preview__content-text f-blog-preview__content-text">Suspendisse blandit ligula turpis, ac convallis risus fermentum non. Duis vestibulum quis quam vel accumsan. Nunc a vulputate lectus. Vestibulum eleifend nisl sed massa sagittis vestibulum. Vestibulum pretium blandit tellus, sodales volutpat sapien varius vel. </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="j-masonry-item col-xs-12 col-md-4">
-                    <div class="b-blog-preview">
-                        <div class="b-blog-preview__img view view-sixth">
-                            <img data-retina="" src="<?= Yii::$app->homeUrl?>/images/sarpras/newtoilet.jpg" alt="">
-                            <div class="b-item-hover-action f-center mask">
-                                <div class="b-item-hover-action__inner">
-                                    <div class="b-item-hover-action__inner-btn_group">
-                                        <a href="blog_detail_left_slidebar.html" class="b-btn f-btn b-btn-light f-btn-light info"><i class="fa fa-link"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="b-blog-preview__content b-diagonal-line-bg-light">
-                            <div class="b-blog-preview__content-padding_box">
-                                <p class="f-blog-preview__content-title f-primary-b"><a href="blog_detail_right_slidebar.html">Semper at egestas sed, elementum</a></p>
-                                <p class="f-blog-preview__content-date f-primary-it"><?= date('d F Y')?></p>
-                                <p class="b-blog-preview__content-text f-blog-preview__content-text">Suspendisse blandit ligula turpis, ac convallis risus fermentum non. Duis vestibulum quis quam vel accumsan. Nunc a vulputate lectus. Vestibulum eleifend nisl sed massa sagittis vestibulum. Vestibulum pretium blandit tellus, sodales volutpat sapien varius vel. </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="j-masonry-item col-xs-12 col-md-4">
-                    <div class="b-blog-preview">
-                        <div class="b-blog-preview__img view view-sixth">
-                            <img data-retina="" src="<?= Yii::$app->homeUrl?>/images/sarpras/perpus.jpg" alt="">
-                            <div class="b-item-hover-action f-center mask">
-                                <div class="b-item-hover-action__inner">
-                                    <div class="b-item-hover-action__inner-btn_group">
-                                        <a href="blog_detail_left_slidebar.html" class="b-btn f-btn b-btn-light f-btn-light info"><i class="fa fa-link"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="b-blog-preview__content b-diagonal-line-bg-light">
-                            <div class="b-blog-preview__content-padding_box">
-                                <p class="f-blog-preview__content-title f-primary-b"><a href="blog_detail_right_slidebar.html">Semper at egestas sed, elementum</a></p>
-                                <p class="f-blog-preview__content-date f-primary-it"><?= date('d F Y')?></p>
-                                <p class="b-blog-preview__content-text f-blog-preview__content-text">Suspendisse blandit ligula turpis, ac convallis risus fermentum non. Duis vestibulum quis quam vel accumsan. Nunc a vulputate lectus. Vestibulum eleifend nisl sed massa sagittis vestibulum. Vestibulum pretium blandit tellus, sodales volutpat sapien varius vel. </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="j-masonry-item col-xs-12 col-md-4">
-                    <div class="b-blog-preview">
-                        <div class="b-blog-preview__img view view-sixth">
-                            <img data-retina="" src="<?= Yii::$app->homeUrl?>/images/sarpras/rguru.jpg" alt="">
-                            <div class="b-item-hover-action f-center mask">
-                                <div class="b-item-hover-action__inner">
-                                    <div class="b-item-hover-action__inner-btn_group">
-                                        <a href="blog_detail_left_slidebar.html" class="b-btn f-btn b-btn-light f-btn-light info"><i class="fa fa-link"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="b-blog-preview__content b-diagonal-line-bg-light">
-                            <div class="b-blog-preview__content-padding_box">
-                                <p class="f-blog-preview__content-title f-primary-b"><a href="blog_detail_right_slidebar.html">Semper at egestas sed, elementum</a></p>
-                                <p class="f-blog-preview__content-date f-primary-it"><?= date('d F Y')?></p>
-                                <p class="b-blog-preview__content-text f-blog-preview__content-text">Suspendisse blandit ligula turpis, ac convallis risus fermentum non. Duis vestibulum quis quam vel accumsan. Nunc a vulputate lectus. Vestibulum eleifend nisl sed massa sagittis vestibulum. Vestibulum pretium blandit tellus, sodales volutpat sapien varius vel. </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                
             </div>
 
         </div>
