@@ -55,8 +55,11 @@ class ArticleController extends Controller {
     }
     public function actionGuruSiswa() {
         $this->layout = 'main';
+        $model = Article::findOne([
+            'id' => 17
+        ]);
         return $this->render('guruSiswa',[
-            
+            'model' => $model
         ]);
     }
     public function actionKegiatanSiswa() {

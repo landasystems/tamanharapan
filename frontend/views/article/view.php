@@ -63,7 +63,7 @@ $this->title = $model->title;
                                         ?>
                                         <div class="b-blog-short-post--popular col-md-12  col-xs-12 f-primary-b">
                                             <div class="b-blog-short-post__item_img">
-                                                <a href="#"><img data-retina src="<?= $isi->primary_image ?>" alt=""/></a>
+                                                <a href="#"><img data-retina src="<?= (!empty($isi->primary_image)) ? Yii::$app->homeUrl.'images/article/'.$isi->primary_image : Yii::$app->homeUrl.'images/700x700-noimage.jpg' ?>" width="50px" height="50px" alt=""/></a>
                                             </div>
                                             <div class="b-remaining">
                                                 <div class="b-blog-short-post__item_text f-blog-short-post__item_text">

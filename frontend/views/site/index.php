@@ -54,7 +54,7 @@ $session = Yii::$app->session;
                                         <span class="b-blog-one-column__info_delimiter"></span></span>
                                 </div>
                             </div>
-                            <img src="img/kepsek-tamanharapan.jpg" align="left" style="width:170px; margin-right:10px" class="img-thumbnail"/>
+                            <img src="<?php echo Yii::$app->homeUrl.'/images/Sutiani.jpg'?>" align="left" style="width:170px; margin-right:10px" class="img-thumbnail"/>
                             <p class="f-primary-l">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam proce ssu dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litte rarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</p>
                             <p class="f-primary-l">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam proce ssu dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litte rarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</p>
                             <div class="b-article__social-info">
@@ -88,7 +88,7 @@ $session = Yii::$app->session;
 
                                         <div class="b-home-detail-option f-home-detail-option">
                                             <div class="b-some-examples__item_img view view-sixth">
-                                                <img data-retina="" src="img/sertifikat/sertifikat2.jpg" height="300px" alt="" />
+                                                <img data-retina="" src="<?php echo Yii::$app->homeUrl ?>img/sertifikat/sertifikat2.jpg" height="300px" alt="" />
                                             </div>
                                             <div class="b-home-detail-option_row">
                                                 <b>Sertifikat EIU Best Case Studies Award kepada "Dr. Siusana Kweldju" dari UNESCO</b>  

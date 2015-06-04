@@ -67,13 +67,13 @@ AppAsset::register($this);
             <div class="b-top-options-panel b-top-options-panel--color">
                 <div class="container">
                     <div class="b-option-contacts f-option-contacts">
-                        <a href="mailto:frexystudio@gmail.com"><i class="fa fa-envelope-o"></i> info@tamanharapan.sch.id</a>
+                        <a href="mailto:info@tamanharapan.sch.id"><i class="fa fa-envelope-o"></i> info@tamanharapan.sch.id</a>
                         <a href="#"><i class="fa fa-phone"></i> (0341) 986 386</a>
                     </div>
                 </div>
             </div>
             <div class="container b-header__box b-relative">
-                <a href="<?= Yii::$app->homeUrl ?>" class="b-left b-logo"><img class="color-theme" data-retina src="<?= Yii::$app->homeUrl ?>img/logo-header-default.png" alt="Logo" style="width:230px !important"/></a>
+                <a href="<?= Yii::$app->homeUrl ?>" class="b-left b-logo"><img class="color-theme" data-retina src="<?= Yii::$app->homeUrl ?>img/smataman.png" alt="Logo" style="width:230px !important"/></a>
                 <div class="b-header-r b-right">
                     <div class="b-header-ico-group f-header-ico-group b-right">
                         <span class="b-search-box">
@@ -86,7 +86,7 @@ AppAsset::register($this);
                         <ul class="b-top-nav__1level_wrap">
                             <li class="b-top-nav__1level f-top-nav__1level is-active-top-nav__1level f-primary-b"><a href="<?= Yii::$app->homeUrl ?>"><i class="fa fa-home b-menu-1level-ico"></i>Home <span class="b-ico-dropdown"><i class="fa fa-arrow-circle-down"></i></span></a></li>
                             <li class="b-top-nav__1level f-top-nav__1level f-primary-b">
-                                <a href="page_header_1.html"><i class="fa fa-folder-open b-menu-1level-ico"></i>Profil<span class="b-ico-dropdown"><i class="fa fa-arrow-circle-down"></i></span></a>
+                                <a href="<?= Yii::$app->homeUrl?>"><i class="fa fa-folder-open b-menu-1level-ico"></i>Profil<span class="b-ico-dropdown"><i class="fa fa-arrow-circle-down"></i></span></a>
                                 <div class="b-top-nav__dropdomn">
                                     <ul class="b-top-nav__2level_wrap">
                                         <li class="b-top-nav__2level f-top-nav__2level f-primary"><a href="<?= Yii::$app->urlManager->createUrl('article/visi-misi')?>"><i class="fa fa-angle-right"></i>Visi Misi</a></li>
