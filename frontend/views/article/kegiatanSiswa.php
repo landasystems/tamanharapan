@@ -78,7 +78,7 @@ $this->title = 'Kegiatan Siswa';
                         </div>
                         <div class="b-blog-preview__content b-diagonal-line-bg-light">
                             <div class="b-blog-preview__content-padding_box">
-                                <p class="f-blog-preview__content-title f-primary-b"><a href="blog_detail_right_slidebar.html">Kegiatan Outbond</a></p>
+                                <p class="f-blog-preview__content-title f-primary-b"><a href="#">Kegiatan Outbond</a></p>
                                 <p class="f-blog-preview__content-date f-primary-it"><?= date('d F Y')?></p>
                                 <p class="b-blog-preview__content-text f-blog-preview__content-text">
                                 Kegiatan outbond yang di adakan rutin oleh sekolah untuk menjaga kekompakan para siswa
