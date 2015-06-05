@@ -73,7 +73,7 @@ AppAsset::register($this);
                 </div>
             </div>
             <div class="container b-header__box b-relative">
-                <a href="<?= Yii::$app->homeUrl ?>" class="b-left b-logo"><img class="color-theme" data-retina src="<?= Yii::$app->homeUrl ?>img/smataman.png" alt="Logo" style="width:230px !important"/></a>
+                <a href="<?= Yii::$app->homeUrl ?>" class="b-left b-logo"><img class="color-theme" data-retina src="<?= Yii::$app->homeUrl ?>img/logo2.png" alt="Logo" style="width:230px !important"/></a>
                 <div class="b-header-r b-right">
                     <div class="b-header-ico-group f-header-ico-group b-right">
                         <span class="b-search-box">
@@ -159,16 +159,9 @@ AppAsset::register($this);
         <script src="<?= Yii::$app->homeUrl ?>js/flexslider/jquery.flexslider.js"></script>
         <!-- end flexslider -->
         <!-- smooth-scroll -->
-        <!--<script src="<?= Yii::$app->homeUrl ?>js/smooth-scroll/SmoothScroll.js"></script>-->
-        <!-- end smooth-scroll -->
-        <!-- carousel -->
-        <!--<script src="<?= Yii::$app->homeUrl ?>js/jquery.carouFredSel-6.2.1-packed.js"></script>-->
-        <!-- end carousel -->
+        <script src="<?= Yii::$app->homeUrl ?>js/smooth-scroll/SmoothScroll.js"></script>
         <script src="<?= Yii::$app->homeUrl ?>js/rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
         <script src="<?= Yii::$app->homeUrl ?>js/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
-        <!--<script src="<?= Yii::$app->homeUrl ?>js/rs-plugin/videojs/video.js"></script>-->
-
-        <!-- jquery ui -->
         <script src="<?= Yii::$app->homeUrl ?>js/jqueryui/jquery-ui.js"></script>
         <!-- end jquery ui -->
         <script type="text/javascript" language="javascript"
@@ -176,9 +169,6 @@ AppAsset::register($this);
         <!-- Modules -->
         <script src="<?= Yii::$app->homeUrl ?>js/modules/sliders.js"></script>
         <script src="<?= Yii::$app->homeUrl ?>js/modules/ui.js"></script>
-        <!--<script src="<?= Yii::$app->homeUrl ?>js/modules/retina.js"></script>-->
-        <!--<script src="<?= Yii::$app->homeUrl ?>js/modules/animate-numbers.js"></script>-->
-        <!--<script src="<?= Yii::$app->homeUrl ?>js/modules/parallax-effect.js"></script>-->
         <script src="<?= Yii::$app->homeUrl ?>js/modules/settings.js"></script>
         <script src="<?= Yii::$app->homeUrl ?>js/modules/maps-google.js"></script>
         <script src="<?= Yii::$app->homeUrl ?>js/modules/color-themes.js"></script>
@@ -187,15 +177,9 @@ AppAsset::register($this);
 
         <script src="<?= Yii::$app->homeUrl ?>js/j.placeholder.js"></script>
 
-        <!-- Fancybox -->
-<!--        <script src="<?= Yii::$app->homeUrl ?>js/fancybox/jquery.fancybox.pack.js"></script>
-        <script src="<?= Yii::$app->homeUrl ?>js/fancybox/jquery.mousewheel.pack.js"></script>
-        <script src="<?= Yii::$app->homeUrl ?>js/fancybox/jquery.fancybox.custom.js"></script>-->
         <!-- End Fancybox -->
         <script src="<?= Yii::$app->homeUrl ?>js/user.js"></script>
         <script src="<?= Yii::$app->homeUrl ?>js/timeline.js"></script>
-        <!--<script src="<?= Yii::$app->homeUrl ?>js/fontawesome-markers.js"></script>-->
-        <!--<script src="<?= Yii::$app->homeUrl ?>js/markerwithlabel.js"></script>-->
         <script src="<?= Yii::$app->homeUrl ?>js/cookie.js"></script>
         <script src="<?= Yii::$app->homeUrl ?>js/loader.js"></script>
         <script src="<?= Yii::$app->homeUrl ?>js/scrollIt/scrollIt.min.js"></script>
