@@ -17,7 +17,7 @@ AppAsset::register($this);
     <head>
         <meta charset="<?= Yii::$app->charset ?>">
         <title><?= Html::encode($this->title) ?></title>
-        <link rel="shortcut icon" href="favicon.ico">
+        <link rel="shortcut icon" href="images/favicon.ico">
         <?= Html::csrfMetaTags() ?>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
         <!--<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">-->
