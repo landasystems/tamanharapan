@@ -70,7 +70,7 @@ class SiteController extends Controller {
     }
 
     public function actionIndex() {
-       
+
         return $this->render('index', []);
     }
 
@@ -97,7 +97,7 @@ class SiteController extends Controller {
     }
 
     public function actionContact() {
-        $this->layout='main';
+        $this->layout = 'main';
         $model = new ContactForm();
         if ($model->load(Yii::$app->request->post()) && $model->validate()) {
             $from = $_POST['ContactForm']['email'];
@@ -141,13 +141,11 @@ class SiteController extends Controller {
                 return $this->render('subscribe', [
 //                    'model' => $model,
                 ]);
-                
             } else {
                 Yii::$app->getSession()->setFlash('warning', 'Anda telah terdaftar di akun News Letter kami<br> Terimakasih karena sudah berlangganan di indomobilecell.com');
                 return $this->render('subscribe', [
 //                    'model' => $model,
                 ]);
-                
             }
         }
     }
@@ -204,6 +202,20 @@ class SiteController extends Controller {
         return $this->render('resetPassword', [
                     'model' => $model,
         ]);
+    }
+
+    public function actionMigrateUp() {
+        // https://github.com/yiisoft/yii2/issues/1764#issuecomment-42436905
+        $oldApp = \Yii::$app;
+        new \yii\console\Application([
+            'id' => 'Command runner',
+            'basePath' => '@app',
+            'components' => [
+                'db' => $oldApp->db,
+            ],
+        ]);
+        \Yii::$app->runAction('migrate/up', ['migrationPath' => '@console/migrations/', 'interactive' => false]);
+        \Yii::$app = $oldApp;
     }
 
 }
