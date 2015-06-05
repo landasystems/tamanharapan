@@ -146,6 +146,7 @@ class ArticleController extends Controller {
             $model->attributes = $_POST['Article'];
             $model->alias = landa()->urlParsing($model->title);
             $model->keyword = $_POST['Article']['keyword'];
+            $model->publish = $_POST['Article']['publish'];
             $model->description = $_POST['Article']['description'];
             $file = CUploadedFile::getInstance($model, 'primary_image');
             if (is_object($file)) {
