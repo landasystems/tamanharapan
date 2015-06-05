@@ -41,34 +41,21 @@ $session = Yii::$app->session;
                     </div>
                 </div>
                 <div class="b-detail-home-content">
+                    <?php $sambutan = Article::findOne(['id' => 19]);?>
                     <div class="row">
                         <div class="col-md-12">
                             <div class="b-form-row f-primary-l f-detail-home-content_title c-secondary f-h4-special b-blog__title clearfix">
-                                Sambutan Kepala Sekolah
+                                <?= $sambutan->title?>
                             </div>
                             <div class="b-form-row f-h4-special clearfix">
                                 <div class="b-blog-one-column__info_container b-blog-one-column__info_container--estate">
                                     <span class="b-txt-wrap"><button class="button-xs b-btn-title-real-estate f-primary-b">SMA Taman Harapan</button></span>
-                                    <span class="b-txt-wrap"><span class="f-info b-info">IBU SUTIANI, S.Pd, MM</span>
+                                    <span class=""><span class="f-info b-info">IBU SUTIANI, S.Pd, MM</span>
                                         <span class="b-blog-one-column__info_delimiter"></span></span>
                                 </div>
                             </div>
-                            <img src="<?php echo Yii::$app->homeUrl . '/images/Sutiani.jpg' ?>" align="left" style="width:170px; margin-right:10px" class="img-thumbnail"/>
-                            <p class="f-primary-l">Assalamu'alaikum Wr.Wb</p>
-
-                            <p style="line-height:1.5">Puji serta syukur kami panjatkan kehadirat Allah Tuhan Yang Maha Esa, karena atas rahmat dan karuniaNya kami masih diberikan kekuatan untuk menyambut masa depan yang terbentang di hadapan kita.</p>  
-
-                            <p style="line-height:1.5">Di tengah persoalan yang ada dihadapan kita, kita harus tetap optimis bahwa setiap langkah dan tetesan keringat yang keluar dari tubuh kita merupakan saksi bisu perjuangan yang tidak bisa kita lupakan karena Allah pasti telah mencatatnya sebagai amal ibadah yang tiada bandingannya.</p>
-
-                            <p class="f-primary-l">Atas nama Pimpinan SMA Taman Harapan Ibu bersyukur karena di tahun 2015 sekolah yang kita cintai SMA Taman Harapan bisa menikmati dan menggunakan “WEBSITE SMA TAMAN HARAPAN” sebagai sarana dalam menyampaikan aspirasi dan masukan serta kritik membangun untuk kemajuan SMA Taman Harapan yang kita cintai.</p>
-
-                            <p class="f-primary-l">Anda bisa berkunjung ke setiap objek yang sudah kami lengkapi dengan foto-foto fasilitas dan prestasi sekolah serta foto bapak dan ibu guru melengkapi kebersamaan Anda di sekolah yang kita cintai yaitu SMA Taman Harapan.</p>
-
-                            <p class="f-primary-l">Harapannya semoga website ini selalu menjadi teman Anda dalam suka dan duka, baik dalam bekerja maupun dalam keluarga sehingga menjadikan SMA Taman Harapan lebih baik dan lebih kreatif.</p>
-
-                            <p style="line-height:1.5">Salam sejahtera teriring do'a buat semuanya tidak ada gading yang tak retak , semoga Allah selalu bersama kita</p>
-                            <p class="f-primary-l">
-                                Wassalamu'alaikum Wr.Wb</p>
+                            <img src="<?php echo Yii::$app->homeUrl . 'images/article/'.$sambutan->primary_image; ?>" align="left" style="width:170px; margin-right:10px" class="img-thumbnail"/>
+                            <?php echo $sambutan->content;?>
                             <br>
                             <p class="f-primary-l">
                                 <b> SUTIANI, S.Pd, MM</b></p><div class="b-article__social-info">
