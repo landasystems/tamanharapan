@@ -49,7 +49,7 @@ $session = Yii::$app->session;
                             <div class="b-form-row f-h4-special clearfix">
                                 <div class="b-blog-one-column__info_container b-blog-one-column__info_container--estate">
                                     <span class="b-txt-wrap"><button class="button-xs b-btn-title-real-estate f-primary-b">SMA Taman Harapan</button></span>
-                                    <span class="b-txt-wrap"><span class="f-info b-info"><span class="f-primary-b">Ibu Sutiani, S.Pd, MM</span></span>
+                                    <span class="b-txt-wrap"><span class="f-info b-info">IBU SUTIANI, S.Pd, MM</span>
                                         <span class="b-blog-one-column__info_delimiter"></span></span>
                                 </div>
                             </div>
@@ -60,9 +60,9 @@ $session = Yii::$app->session;
 
                             <p style="line-height:1.5">Di tengah persoalan yang ada dihadapan kita, kita harus tetap optimis bahwa setiap langkah dan tetesan keringat yang keluar dari tubuh kita merupakan saksi bisu perjuangan yang tidak bisa kita lupakan karena Allah pasti telah mencatatnya sebagai amal ibadah yang tiada bandingannya.</p>
 
-                            <p class="f-primary-l">Atas nama Pimpinan SMA Taman Harapan Ibu bersyukur karena di tahun 2015 sekolah yng kita cintai SMA Taman Harapan bisa menikmati dan menggunakan “WEBSITE SMA TAMAN HARAPAN” sebagai sarana dalam menyampaikan aspirasi dan masukan serta kritik membangun untuk kemajuan SMA Taman Harapan yang kita cintai.</p>
+                            <p class="f-primary-l">Atas nama Pimpinan SMA Taman Harapan Ibu bersyukur karena di tahun 2015 sekolah yang kita cintai SMA Taman Harapan bisa menikmati dan menggunakan “WEBSITE SMA TAMAN HARAPAN” sebagai sarana dalam menyampaikan aspirasi dan masukan serta kritik membangun untuk kemajuan SMA Taman Harapan yang kita cintai.</p>
 
-                            <p class="f-primary-l">Anda bisa berkunjung ke setiap objek yang sudah kami lengkapi dengan photo-photo fasilitas dan prestasi sekolah serta photo bapak dan ibu guru melengkapi kebersamaan Anda di sekolah yang kita cintai yaitu SMA Taman Harapan.</p>
+                            <p class="f-primary-l">Anda bisa berkunjung ke setiap objek yang sudah kami lengkapi dengan foto-foto fasilitas dan prestasi sekolah serta foto bapak dan ibu guru melengkapi kebersamaan Anda di sekolah yang kita cintai yaitu SMA Taman Harapan.</p>
 
                             <p class="f-primary-l">Harapannya semoga website ini selalu menjadi teman Anda dalam suka dan duka, baik dalam bekerja maupun dalam keluarga sehingga menjadikan SMA Taman Harapan lebih baik dan lebih kreatif.</p>
 
@@ -71,7 +71,7 @@ $session = Yii::$app->session;
                                 Wassalamu'alaikum Wr.Wb</p>
                             <br>
                             <p class="f-primary-l">
-                                <b> SUTIANI, S.PD, MM</b></p><div class="b-article__social-info">
+                                <b> SUTIANI, S.Pd, MM</b></p><div class="b-article__social-info">
                                 <ul>
                                     <li>
                                         <div class="b-article__social">

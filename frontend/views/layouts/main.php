@@ -127,15 +127,15 @@ AppAsset::register($this);
                             </div>
                             <nav class="b-bottom-nav f-bottom-nav b-right hidden-xs">
                                 <ul>
-                                    <li><a href="../../html/homepage-1-index.html">Home</a></li>
-                                    <li><a href="../../html/portfolio_our_portfolio_1_colums.html">Visi Misi</a></li>
-                                    <li><a href="../../html/portfolio_our_portfolio_1_colums.html">Sarana & Prasarana</a></li>
-                                    <li><a href="../../html/portfolio_our_portfolio_1_colums.html">Data Guru & Siswa</a></li>
-                                    <li><a href="../../html/portfolio_our_portfolio_1_colums.html">Kegiatan Siswa</a></li>
-                                    <li><a href="../../html/portfolio_our_portfolio_1_colums.html">Sejarah</a></li>
+                                    <li><a href="<?= Yii::$app->homeUrl ?>">Home</a></li>
+                                    <li><a href="<?= Yii::$app->urlManager->createUrl('article/visi-misi')?>">Visi Misi</a></li>
+                                    <li><a href="<?= Yii::$app->urlManager->createUrl('article/sarpras')?>">Sarana & Prasarana</a></li>
+                                    <li><a href="<?= Yii::$app->urlManager->createUrl('article/guru-siswa')?>">Data Guru & Siswa</a></li>
+                                    <li><a href="<?= Yii::$app->urlManager->createUrl('article/kegiatan-siswa')?>">Kegiatan Siswa</a></li>
+                                    <li><a href="<?= Yii::$app->urlManager->createUrl('article/sejarah')?>">Sejarah</a></li>
                                     <li><a href="<?= Yii::$app->urlManager->createUrl('article/index.html?page=1&per-page=5')?>">Informasi</a></li>
-                                    <li><a href="../../html/our_blog_1_columns.html">Prestasi/ Lulusan</a></li>
-                                    <li><a href="../../html/page_search_result.html">Contact</a></li>
+                                    <li><a href="<?= Yii::$app->urlManager->createUrl('article/prestasi')?>">Prestasi/ Lulusan</a></li>
+                                    <li><a href="<?= Yii::$app->urlManager->createUrl('article/contact')?>">Contact</a></li>
                                 </ul>
                             </nav>
                         </div>
