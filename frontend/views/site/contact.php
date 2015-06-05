@@ -60,7 +60,7 @@ $this->params['breadcrumbs'][] = $this->title;
                 <div class="col-sm-6 b-contact-form-box">
                     <h3 class="f-primary-b b-title-description f-title-description">
                         contact info
-                        <div class="b-title-description__comment f-title-description__comment f-primary-l">Quisque at tortor a libero posuere laoreet vitae sed arcu nunc at augue tincidunt </div>
+                        <div class="b-title-description__comment f-title-description__comment f-primary-l">Berikut adalah beberapa informasi kontak yang dapat dihubungi. </div>
                     </h3>
                     <div class="row b-google-map__info-window-address">
                         <ul class="list-unstyled">
