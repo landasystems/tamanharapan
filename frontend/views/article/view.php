@@ -25,7 +25,7 @@ $this->title = $model->title;
                             <div data-height="385" class="j-contentwidthslider j-contentwidthslider-innerheight j-pagination-hide">
                                 <ul>
                                     <li data-transition="slotfade-vertical" data-slotamount="25" >
-                                        <img data-retina src="<?= $model->primary_image ?>">
+                                        <img data-retina src="<?= Yii::$app->homeUrl.'images/article/'.$model->primary_image; ?>">
                                     </li>
                                 </ul>
                             </div>

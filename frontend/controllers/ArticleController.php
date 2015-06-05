@@ -18,7 +18,7 @@ class ArticleController extends Controller {
         if (empty($model)) {
             throw new NotFoundHttpException('The requested page does not exist.');
         } else {
-//            $this->addHits($model);
+            $this->addHits($model);
             return $this->render('view', [
                         'model' => $model,
             ]);
@@ -58,8 +58,9 @@ class ArticleController extends Controller {
         $model = Article::findOne([
                     'id' => 17
         ]);
-        return $this->render('guruSiswa', [
-                    'model' => $model
+        $this->addHits($model);
+        return $this->render('guruSiswa',[
+            'model' => $model
         ]);
     }
 
@@ -82,8 +83,9 @@ class ArticleController extends Controller {
         $model = Article::findOne([
                     'id' => 16
         ]);
-        return $this->render('sejarah', [
-                    'model' => $model
+        $this->addHits($model);
+        return $this->render('sejarah',[
+            'model' => $model
         ]);
     }
 
@@ -100,6 +102,10 @@ class ArticleController extends Controller {
                     'models' => $query,
 //                    'pages' => $pages,
         ]);
+    }
+    public function addHits($model) {
+        $model->hits++;
+        $model->save();
     }
 
 }
