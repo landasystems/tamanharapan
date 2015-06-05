@@ -20,39 +20,12 @@ AppAsset::register($this);
         <link rel="shortcut icon" href="images/favicon.ico">
         <?= Html::csrfMetaTags() ?>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-        <!--<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">-->
-        <!-- bxslider -->
         <link type="text/css" rel='stylesheet' href="<?= Yii::$app->homeUrl ?>js/bxslider/jquery.bxslider.css">
-        <!-- End bxslider -->
-        <!-- flexslider -->
         <link type="text/css" rel='stylesheet' href="<?= Yii::$app->homeUrl ?>js/flexslider/flexslider.css">
-        <!-- End flexslider -->
-        <!-- bxslider -->
-        <link type="text/css" rel='stylesheet' href="<?= Yii::$app->homeUrl ?>js/radial-progress/style.css">
-        <!-- End bxslider -->
-
-        <!-- Animate css -->
         <link type="text/css" rel='stylesheet' href="<?= Yii::$app->homeUrl ?>css/animate.css">
-        <!-- End Animate css -->
-
-        <!-- Bootstrap css -->
-        <!--<link type="text/css" rel='stylesheet' href="<?= Yii::$app->homeUrl ?>css/bootstrap.min.css">-->
-        <link type="text/css" rel='stylesheet' href="<?= Yii::$app->homeUrl ?>js/bootstrap-progressbar/bootstrap-progressbar-3.2.0.min.css">
-        <!-- End Bootstrap css -->
-
-        <!-- Jquery UI css -->
-        <!--<link type="text/css" rel='stylesheet' href="<?= Yii::$app->homeUrl ?>js/jqueryui/jquery-ui.css">-->
         <link type="text/css" rel='stylesheet' href="<?= Yii::$app->homeUrl ?>js/jqueryui/jquery-ui.structure.css">
-        <!-- End Jquery UI css -->
-
-        <!-- Fancybox -->
-        <link type="text/css" rel='stylesheet' href="<?= Yii::$app->homeUrl ?>js/fancybox/jquery.fancybox.css">
-        <!-- End Fancybox -->
-
-        <link type="text/css" rel='stylesheet' href="<?= Yii::$app->homeUrl ?>fonts/fonts.css">
         <link type="text/css" data-themecolor="default" rel='stylesheet' href="<?= Yii::$app->homeUrl ?>css/main-default.css">
         <link type="text/css" rel='stylesheet' href="<?= Yii::$app->homeUrl ?>js/rs-plugin/css/settings.css">
-        <link type="text/css" rel='stylesheet' href="<?= Yii::$app->homeUrl ?>js/rs-plugin/css/settings-custom.css">
         <?php $this->head() ?>
     </head>
     <body>
@@ -142,46 +115,17 @@ AppAsset::register($this);
             </div>
         </footer>
         <script src="<?= Yii::$app->homeUrl ?>js/breakpoints.js"></script>
-        <script src="<?= Yii::$app->homeUrl ?>js/jquery/jquery-1.11.1.min.js"></script>
-        <!-- bootstrap -->
         <script src="<?= Yii::$app->homeUrl ?>js/scrollspy.js"></script>
-        <script src="<?= Yii::$app->homeUrl ?>js/bootstrap-progressbar/bootstrap-progressbar.js"></script>
-        <script src="<?= Yii::$app->homeUrl ?>js/bootstrap.min.js"></script>
-        <!-- end bootstrap -->
-        <script src="<?= Yii::$app->homeUrl ?>js/masonry.pkgd.min.js"></script>
-        <script src='<?= Yii::$app->homeUrl ?>js/imagesloaded.pkgd.min.js'></script>
-        <!-- bxslider -->
         <script src="<?= Yii::$app->homeUrl ?>js/bxslider/jquery.bxslider.min.js"></script>
-        <!-- end bxslider -->
-        <!-- flexslider -->
-        <script src="<?= Yii::$app->homeUrl ?>js/flexslider/jquery.flexslider.js"></script>
-        <!-- end flexslider -->
-        <!-- smooth-scroll -->
-        <script src="<?= Yii::$app->homeUrl ?>js/smooth-scroll/SmoothScroll.js"></script>
         <script src="<?= Yii::$app->homeUrl ?>js/rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
         <script src="<?= Yii::$app->homeUrl ?>js/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
         <script src="<?= Yii::$app->homeUrl ?>js/jqueryui/jquery-ui.js"></script>
-        <!-- end jquery ui -->
-        <script type="text/javascript" language="javascript"
-        src="http://maps.google.com/maps/api/js?sensor=false&key=AIzaSyCfVS1-Dv9bQNOIXsQhTSvj7jaDX7Oocvs"></script>
-<!--         Modules -->
         <script src="<?= Yii::$app->homeUrl ?>js/modules/sliders.js"></script>
         <script src="<?= Yii::$app->homeUrl ?>js/modules/ui.js"></script>
-        <script src="<?= Yii::$app->homeUrl ?>js/modules/settings.js"></script>
-        <script src="<?= Yii::$app->homeUrl ?>js/modules/maps-google.js"></script>
         <script src="<?= Yii::$app->homeUrl ?>js/modules/color-themes.js"></script>
-        <!-- End Modules -->
-
-
-        <script src="<?= Yii::$app->homeUrl ?>js/j.placeholder.js"></script>
-
-        <!-- End Fancybox -->
         <script src="<?= Yii::$app->homeUrl ?>js/user.js"></script>
-        <script src="<?= Yii::$app->homeUrl ?>js/timeline.js"></script>
         <script src="<?= Yii::$app->homeUrl ?>js/cookie.js"></script>
-        <script src="<?= Yii::$app->homeUrl ?>js/loader.js"></script>
-        <script src="<?= Yii::$app->homeUrl ?>js/scrollIt/scrollIt.min.js"></script>
-        <script src="<?= Yii::$app->homeUrl ?>js/modules/navigation-slide.js"></script>
+        
 
     </body>
     <?php $this->endBody() ?>

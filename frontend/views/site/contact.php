@@ -1,3 +1,7 @@
+<script type="text/javascript" language="javascript"
+        src="http://maps.google.com/maps/api/js?sensor=false&key=AIzaSyCfVS1-Dv9bQNOIXsQhTSvj7jaDX7Oocvs"></script>
+        
+        <script src="<?= Yii::$app->homeUrl ?>js/modules/maps-google.js"></script>
 <?php
 
 use yii\widgets\Breadcrumbs;
