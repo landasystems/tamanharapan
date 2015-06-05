@@ -18,7 +18,7 @@ $session = Yii::$app->session;
     <div class="b-inner-page-header__content">
         <div class="container">
             <h1 class="f-primary-l c-default">Prestasi Siswa dan Lulusan</h1>
-            <div class="f-primary-l f-inner-page-header_title-add c-senary">SMA Taman Harapan</div>
+            <div class="f-primary-l f-inner-page-header_title-add c-denary">SMA Taman Harapan</div>
         </div>
     </div>
 </div>
@@ -27,9 +27,8 @@ $session = Yii::$app->session;
     <div class="b-breadcrumbs f-breadcrumbs">
         <div class="container">
             <ul>
-                <li><a href="#"><i class="fa fa-home"></i>Home</a></li>
-                <li><i class="fa fa-angle-right"></i><a href="#">Blogs</a></li>
-                <li><i class="fa fa-angle-right"></i><span>One Column Default version</span></li>
+                <li><a href="<?= Yii::$app->homeUrl ?>"><i class="fa fa-home"></i>Home</a></li>
+                <li><i class="fa fa-angle-right"></i>Prestasi Siswa dan Lulusan</li>
             </ul>
         </div>
     </div>

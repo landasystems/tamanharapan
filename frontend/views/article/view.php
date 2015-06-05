@@ -11,8 +11,7 @@ $this->title = $model->title;
         <div class="container">
             <ul>
                 <li><a href=""><i class="fa fa-home"></i>Home</a></li>
-                <li><i class="fa fa-angle-right"></i><a href="">Blogs</a></li>
-                <li><i class="fa fa-angle-right"></i><span>Left Sidebar</span></li>
+                <li><i class="fa fa-angle-right"></i><?=$this->title?></li>
             </ul>
         </div>
     </div>

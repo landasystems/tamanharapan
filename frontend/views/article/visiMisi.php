@@ -19,9 +19,8 @@ $this->title = 'VISI, MISI DAN TUJUAN SEKOLAH';
     <div class="b-breadcrumbs f-breadcrumbs">
         <div class="container">
             <ul>
-                <li><a href="#"><i class="fa fa-home"></i>Home</a></li>
-                <li><i class="fa fa-angle-right"></i><a href="#">Shortcode</a></li>
-                <li><i class="fa fa-angleb-shortcode-example b-remaining-right"></i><span>Tabs Accordions</span></li>
+                <li><a href="<?= Yii::$app->homeUrl ?>"><i class="fa fa-home"></i>Home</a></li>
+                <li><i class="fa fa-angle-right"></i>Visi, Misi, dan Tujuan Sekolah</li>
             </ul>
         </div>
     </div>
