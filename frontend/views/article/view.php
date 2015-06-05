@@ -20,10 +20,10 @@ $this->title = $model->title;
             <div class="row">
                 <div class="col-md-9 col-md-push-3">
                     <?php if (!empty($model->primary_image)) { ?>
-                        <div class="b-slidercontainer b-slider b-small-arr f-small-arr">
-                            <div data-height="385" class="j-contentwidthslider j-contentwidthslider-innerheight j-pagination-hide">
+                        <div class="b-slidercontainer">
+                            <div class="j-contentwidthslider">
                                 <ul>
-                                    <li data-transition="slotfade-vertical" data-slotamount="25" >
+                                    <li>
                                         <img data-retina src="<?= Yii::$app->homeUrl.'images/article/'.$model->primary_image; ?>">
                                     </li>
                                 </ul>

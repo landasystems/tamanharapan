@@ -57,9 +57,7 @@ $session = Yii::$app->session;
                                 <img data-retina="" src="<?php echo (!empty($isi->primary_image)) ? Yii::$app->homeUrl.'images/article/'.$isi->primary_image : Yii::$app->homeUrl.'images/700x700-noimage.jpg'?>" alt="">
                                 <div class="b-item-hover-action f-center mask">
                                     <div class="b-item-hover-action__inner">
-                                        <div class="b-item-hover-action__inner-btn_group">
-                                            <a href="#" class="b-btn f-btn b-btn-light f-btn-light info"><i class="fa fa-link"></i></a>
-                                        </div>
+                                        
                                     </div>
                                 </div>
                             </div>
