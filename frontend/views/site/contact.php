@@ -95,7 +95,7 @@ $this->params['breadcrumbs'][] = $this->title;
                                     <div class="b-google-map__info-window-address-title f-google-map__info-window-address-title">
                                         email
                                     </div>
-                                    <div class="desc">info@tamanharapan.co.id</div>
+                                    <div class="desc">info@smatamanharapan.sch.id</div>
                                 </div>
                             </li>
                         </ul>

@@ -67,7 +67,7 @@ AppAsset::register($this);
             <div class="b-top-options-panel b-top-options-panel--color">
                 <div class="container">
                     <div class="b-option-contacts f-option-contacts">
-                        <a href="mailto:info@tamanharapan.sch.id"><i class="fa fa-envelope-o"></i> info@tamanharapan.sch.id</a>
+                        <a href="mailto:info@smatamanharapan.sch.id"><i class="fa fa-envelope-o"></i> info@smatamanharapan.sch.id</a>
                         <a href="#"><i class="fa fa-phone"></i> (0341) 986 386</a>
                     </div>
                 </div>
