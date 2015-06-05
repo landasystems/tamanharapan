@@ -65,11 +65,7 @@ $session = Yii::$app->session;
                         <div class="col-sm-6 col-md-8">
                             <div class="b-blog__title b-form-row f-h4-special"><a href="<?php echo Yii::$app->urlManager->createUrl('article/'.$isi->id)?>" class="f-primary-l f-title-big f-blog__title"><?php echo $isi->title ?></a></div>
                             <div class="b-form-row f-h4-special clearfix">
-                                <div class="pull-left">
-                                    <a href="#" class="b-infoblock-with-icon__icon f-infoblock-with-icon__icon fade-in-animate b-blog-one-column__info_edit">
-                                        <i class="fa fa-pencil"></i>
-                                    </a>
-                                </div>
+                                
                                 <div class="b-blog-one-column__info_container">
                                     <div class="b-blog-one-column__info">
                                         Categories : <a href="#" class="f-more"><?= $isi->category->name?></a>
