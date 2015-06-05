@@ -126,7 +126,7 @@ $session = Yii::$app->session;
                             <div id="tabs-32" class="clearfix">
                                 <h4 class="f-tabs-vertical__title f-primary-b">SSN Akreditasi A</h4>
                                 <br>
-                                <p>sekolah standar nasional (SSN) adalah sekolah yang sudah atau hampir memenuhi SNP (standar nasional pendidikan), yaitu standar kompetensi lulusan, standar isi, standar proses, standar sarana dan prasarana, standar tenaga pendidik dan kependidikan, standar manajemen, standar pembiayaan, dan standar penilaian</p>
+                                <p>sekolah standar nasional (SSN) adalah sekolah yang sudah atau hampir memenuhi SNP (standar nasional pendidikan), yaitu standar kompetensi lulusan, standar isi, standar proses, standar sarana dan prasarana, standar tenaga pendidik dan kependidikan, standar manajemen, standar pembiayaan, dan standar penilaian.</p>
                             </div>
                         </div>
                     </div>
