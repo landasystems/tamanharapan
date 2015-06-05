@@ -18,7 +18,7 @@ $session = Yii::$app->session;
     <div class="b-inner-page-header__content">
         <div class="container">
             <h1 class="f-primary-l c-default">Prestasi Siswa dan Lulusan</h1>
-            <div class="f-primary-l f-inner-page-header_title-add c-senary">SMA Taman Harapan</div>
+            <div class="f-primary-l f-inner-page-header_title-add c-denary">SMA Taman Harapan</div>
         </div>
     </div>
 </div>
@@ -27,9 +27,8 @@ $session = Yii::$app->session;
     <div class="b-breadcrumbs f-breadcrumbs">
         <div class="container">
             <ul>
-                <li><a href="#"><i class="fa fa-home"></i>Home</a></li>
-                <li><i class="fa fa-angle-right"></i><a href="#">Blogs</a></li>
-                <li><i class="fa fa-angle-right"></i><span>One Column Default version</span></li>
+                <li><a href="<?= Yii::$app->homeUrl ?>"><i class="fa fa-home"></i>Home</a></li>
+                <li><i class="fa fa-angle-right"></i>Prestasi Siswa dan Lulusan</li>
             </ul>
         </div>
     </div>
@@ -59,9 +58,7 @@ $session = Yii::$app->session;
                                 <img data-retina="" src="<?php echo (!empty($isi->primary_image)) ? Yii::$app->homeUrl.'images/article/'.$isi->primary_image : Yii::$app->homeUrl.'images/700x700-noimage.jpg'?>" alt="">
                                 <div class="b-item-hover-action f-center mask">
                                     <div class="b-item-hover-action__inner">
-                                        <div class="b-item-hover-action__inner-btn_group">
-                                            <a href="#" class="b-btn f-btn b-btn-light f-btn-light info"><i class="fa fa-link"></i></a>
-                                        </div>
+                                        
                                     </div>
                                 </div>
                             </div>
@@ -70,13 +67,10 @@ $session = Yii::$app->session;
                             <div class="b-blog__title b-form-row f-h4-special"><a href="<?php echo Yii::$app->urlManager->createUrl('article/'.$isi->id)?>" class="f-primary-l f-title-big f-blog__title"><?php echo $isi->title ?></a></div>
                             <div class="b-form-row f-h4-special clearfix">
                                 <div class="pull-left">
-                                    <a href="#" class="b-infoblock-with-icon__icon f-infoblock-with-icon__icon fade-in-animate b-blog-one-column__info_edit">
-                                        <i class="fa fa-pencil"></i>
-                                    </a>
+                                    
                                 </div>
                                 <div class="b-blog-one-column__info_container">
-                                    <div class="b-blog-one-column__info">
-                                        Categories : <a href="#" class="f-more"><?= $isi->category->name?></a>
+                                    <div class="b-blog-one-column__info">Categories : <a href="#" class="f-more"><?= $isi->category->name?></a>
                                         
                                     </div>
                                 </div>

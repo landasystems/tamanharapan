@@ -11,8 +11,7 @@ $this->title = $model->title;
         <div class="container">
             <ul>
                 <li><a href=""><i class="fa fa-home"></i>Home</a></li>
-                <li><i class="fa fa-angle-right"></i><a href="">Blogs</a></li>
-                <li><i class="fa fa-angle-right"></i><span>Left Sidebar</span></li>
+                <li><i class="fa fa-angle-right"></i><?=$this->title?></li>
             </ul>
         </div>
     </div>
@@ -21,10 +20,10 @@ $this->title = $model->title;
             <div class="row">
                 <div class="col-md-9 col-md-push-3">
                     <?php if (!empty($model->primary_image)) { ?>
-                        <div class="b-slidercontainer b-slider b-small-arr f-small-arr">
-                            <div data-height="385" class="j-contentwidthslider j-contentwidthslider-innerheight j-pagination-hide">
+                        <div class="b-slidercontainer">
+                            <div class="j-contentwidthslider">
                                 <ul>
-                                    <li data-transition="slotfade-vertical" data-slotamount="25" >
+                                    <li>
                                         <img data-retina src="<?= Yii::$app->homeUrl.'images/article/'.$model->primary_image; ?>">
                                     </li>
                                 </ul>
@@ -53,7 +52,7 @@ $this->title = $model->title;
                             <h4 class="f-primary-b b-h4-special f-h4-special--gray f-h4-special">Informasi Terbaru</h4>
 
                             <div class="b-blog-short-post b-blog-short-post--img-hover-bordered b-blog-short-post--w-img f-blog-short-post--w-img row">
-                                <div class="b-blog-short-post b-blog-short-post--img-hover-bordered b-blog-short-post--w-img f-blog-short-post--w-img row">
+                                <div class="b-blog-short-post b-blog-short-post--img-hover-bordered b-blog-short-post--w-img f-blog-short-post--w-img row-fluid">
                                     <?php
                                     $lastPost = common\models\Article::find()
                                             ->orderBy('created DESC')
@@ -63,7 +62,7 @@ $this->title = $model->title;
                                         ?>
                                         <div class="b-blog-short-post--popular col-md-12  col-xs-12 f-primary-b">
                                             <div class="b-blog-short-post__item_img">
-                                                <a href="#"><img data-retina src="<?= (!empty($isi->primary_image)) ? Yii::$app->homeUrl.'images/article/'.$isi->primary_image : Yii::$app->homeUrl.'images/700x700-noimage.jpg' ?>" width="50px" height="50px" alt=""/></a>
+                                                <a href="#"><img class="img-thumbnail" data-retina src="<?= (!empty($isi->primary_image)) ? Yii::$app->homeUrl.'images/article/'.$isi->primary_image : Yii::$app->homeUrl.'images/700x700-noimage.jpg' ?>" width="70px" height="70px" alt=""/></a>
                                             </div>
                                             <div class="b-remaining">
                                                 <div class="b-blog-short-post__item_text f-blog-short-post__item_text">

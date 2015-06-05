@@ -1,6 +1,6 @@
 <?php
 /* @var $this yii\web\View */
-$this->title = '::SMA Taman Harapan::';
+$this->title = 'SMA Taman Harapan - Sekolah Standart Nasional - Sekolah Berprestasi di Malang';
 
 //use common\models\ProductStock;
 use common\models\Article;
@@ -41,11 +41,11 @@ $session = Yii::$app->session;
                     </div>
                 </div>
                 <div class="b-detail-home-content">
-                    <?php $sambutan = Article::findOne(['id' => 19]);?>
+                    <?php $sambutan = Article::findOne(['id' => 19]); ?>
                     <div class="row">
                         <div class="col-md-12">
                             <div class="b-form-row f-primary-l f-detail-home-content_title c-secondary f-h4-special b-blog__title clearfix">
-                                <?= $sambutan->title?>
+                                <?= $sambutan->title ?>
                             </div>
                             <div class="b-form-row f-h4-special clearfix">
                                 <div class="b-blog-one-column__info_container b-blog-one-column__info_container--estate">
@@ -54,67 +54,8 @@ $session = Yii::$app->session;
                                         <span class="b-blog-one-column__info_delimiter"></span></span>
                                 </div>
                             </div>
-                            <img src="<?php echo Yii::$app->homeUrl . 'images/article/'.$sambutan->primary_image; ?>" align="left" style="width:170px; margin-right:10px" class="img-thumbnail"/>
-                            <?php echo $sambutan->content;?>
-                            <br>
-                            <p class="f-primary-l">
-                                <b> SUTIANI, S.Pd, MM</b></p><div class="b-article__social-info">
-                                <ul>
-                                    <li>
-                                        <div class="b-article__social">
-                                            <span class="b-article__social-info-name f-article__social-info-name"><i class="fa fa-share-square"></i> Share this post :</span>
-                                            <a href="#" class="b-btn-group-hor__item f-btn-group-hor__item">
-                                                <i class="fa fa-twitter"></i>
-                                            </a>
-                                            <a href="#" class="b-btn-group-hor__item f-btn-group-hor__item">
-                                                <i class="fa fa-facebook"></i>
-                                            </a>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="b-tabs f-tabs j-tabs b-tabs-reset b-tabs--secondary f-tabs--secondary">
-                        <ul>
-                            <li><a href="#tabs-31">EUE Best Case Studie Award</a></li>
-                            <li><a href="#tabs-32">SSN Akreditasi A</a></li>
-                        </ul>
-                        <div class="b-tabs__content">
-                            <div id="tabs-31" class="clearfix">
-                                <div class="row">
-                                    <div class="col-md-6">
-
-                                        <div class="b-home-detail-option f-home-detail-option">
-                                            <div class="b-some-examples__item_img view view-sixth">
-                                                <img data-retina="" src="<?php echo Yii::$app->homeUrl ?>img/sertifikat/sertifikat2.jpg" height="300px" alt="" />
-                                            </div>
-                                            <div class="b-home-detail-option_row">
-                                                <b>Sertifikat EIU Best Case Studies Award kepada "Dr. Siusana Kweldju" dari UNESCO</b>  
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="b-home-detail-option f-home-detail-option">
-                                            <div class="b-some-examples__item_img view view-sixth">
-                                                <img data-retina="" src="img/sertifikat/sertifikat1.jpg" height="300px"  alt="" />
-                                            </div>
-                                            <div class="b-home-detail-option_row">
-                                                <!--                                                            <div class="b-home-detail-option_item_title">-->
-                                                <b> Sertifikat "Global Citizenship Education for a Culture of Peace and Sustainable Future" dari UNESCO</b>
-
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="tabs-32" class="clearfix">
-                                <h4 class="f-tabs-vertical__title f-primary-b">SSN Akreditasi A</h4>
-                                <br>
-                                <p>sekolah standar nasional (SSN) adalah sekolah yang sudah atau hampir memenuhi SNP (standar nasional pendidikan), yaitu standar kompetensi lulusan, standar isi, standar proses, standar sarana dan prasarana, standar tenaga pendidik dan kependidikan, standar manajemen, standar pembiayaan, dan standar penilaian.</p>
-                            </div>
+                            <img src="<?php echo Yii::$app->homeUrl . 'images/article/' . $sambutan->primary_image; ?>" align="left" style="width:170px; margin-right:10px" class="img-thumbnail"/>
+                            <?php echo $sambutan->content; ?>
                         </div>
                     </div>
                 </div>
@@ -139,7 +80,7 @@ $session = Yii::$app->session;
                                         <img data-retina="" src="<?php echo (!empty($item->primary_image)) ? Yii::$app->homeUrl . 'images/article/' . $item->primary_image : Yii::$app->homeUrl . 'images/700x700-noimage.jpg' ?>" height="190" alt="">
                                         <div class="b-item-hover-action f-center mask">
                                             <div class="b-item-hover-action__inner">
-                                                
+
                                             </div>
                                         </div>
                                     </div>
@@ -164,10 +105,10 @@ $session = Yii::$app->session;
             <div class="col-md-3 col-md-pull-9">
                 <div class="row">
                     <div class="col-md-12">
-                        <h4 class="f-primary-b b-h4-special f-h4-special--gray">Sarana & Prasarana</h4>
-                        <div class="j-accordion b-accordion b-accordion--with-standard-icon f-accordion b-accordion--smallindent active">
+                        <h4 class="b-find_title f-find_title f-primary-b">Sarana & Prasarana</h4>
+                        <div class="j-accordion b-accordion b-accordion--with-standard-icon f-accordion b-accordion--smallindent">
+                            
                             <h3 class="b-accordion__title f-accordion__title">Lapangan Basket</h3>
-
                             <div class="b-accordion__content">
                                 <div class="b-accordion__img">
                                     <img data-retina src="images/sarpras/newbasket.jpg" alt=""/>
@@ -177,6 +118,7 @@ $session = Yii::$app->session;
 
                                 </div>
                             </div>
+                            
                             <h3 class="b-accordion__title f-accordion__title"> Kantin</h3>
 
                             <div class="b-accordion__content">
@@ -319,6 +261,14 @@ $session = Yii::$app->session;
                                         </div>
                                         <div class="b-remaining f-contacts-short-item__text f-contacts-short-item__text_email">
                                             <a href="mailto:info@smatamanharapan.sch.id">info@smatamanharapan.sch.id</a>
+                                        </div>
+                                    </div>
+                                    <div class="b-contacts-short-item col-md-12 col-sm-4 col-xs-12">
+                                        <div class="b-contacts-short-item__icon f-contacts-short-item__icon b-left f-contacts-short-item__icon_xs">
+                                            <i class="fa fa-phone"></i>
+                                        </div>
+                                        <div class="b-remaining f-contacts-short-item__text f-contacts-short-item__text_email">
+                                            (0341) 986 386
                                         </div>
                                     </div>
                                 </div>
