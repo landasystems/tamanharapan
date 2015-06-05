@@ -42,43 +42,53 @@ class ArticleController extends Controller {
 
     public function actionVisiMisi() {
         $this->layout = 'main';
-        
-        return $this->render('visiMisi',[
-            
+
+        return $this->render('visiMisi', [
         ]);
     }
+
     public function actionSarpras() {
         $this->layout = 'main';
-        return $this->render('sarpras',[
-            
+        return $this->render('sarpras', [
         ]);
     }
+
     public function actionGuruSiswa() {
         $this->layout = 'main';
         $model = Article::findOne([
-            'id' => 17
+                    'id' => 17
         ]);
         $this->addHits($model);
         return $this->render('guruSiswa',[
             'model' => $model
         ]);
     }
+
     public function actionKegiatanSiswa() {
         $this->layout = 'main';
-        return $this->render('kegiatanSiswa',[
-            
+        $query = Article::find()
+                ->where(array(
+                    'publish' => 1,
+                    'article_category_id' => '12'
+                ))
+                ->orderBy('created DESC')
+                ->all();
+        return $this->render('kegiatanSiswa', [
+                    'models' => $query,
         ]);
     }
+
     public function actionSejarah() {
         $this->layout = 'main';
         $model = Article::findOne([
-            'id' => 16
+                    'id' => 16
         ]);
         $this->addHits($model);
         return $this->render('sejarah',[
             'model' => $model
         ]);
     }
+
     public function actionPrestasi() {
         $query = Article::find()
                 ->where(array(
