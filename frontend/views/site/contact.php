@@ -48,7 +48,7 @@ $this->params['breadcrumbs'][] = $this->title;
         <section class="container b-welcome-box">
             <div class="row">
                 <div class="col-md-offset-2 col-md-8">
-                    <h1 class="is-global-title f-center">Sekolah Standart Nasional (SSA) Terakreditasi A</h1>
+                    <h1 class="is-global-title f-center">Sekolah Standart Nasional (SSN) Terakreditasi A</h1>
                     <p class="f-center">Terwujudnya Sekolah favorit/unggul berlandaskan IMTAQ
                         dan IPTEK yang berwawasan perdamaian.</p>
                 </div>
