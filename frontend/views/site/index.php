@@ -107,6 +107,7 @@ $session = Yii::$app->session;
                     <div class="col-md-12">
                         <h4 class="b-find_title f-find_title f-primary-b">Sarana & Prasarana</h4>
                         <div class="j-accordion b-accordion b-accordion--with-standard-icon f-accordion b-accordion--smallindent">
+                            
                             <h3 class="b-accordion__title f-accordion__title">Lapangan Basket</h3>
                             <div class="b-accordion__content">
                                 <div class="b-accordion__img">
@@ -117,6 +118,7 @@ $session = Yii::$app->session;
 
                                 </div>
                             </div>
+                            
                             <h3 class="b-accordion__title f-accordion__title"> Kantin</h3>
 
                             <div class="b-accordion__content">

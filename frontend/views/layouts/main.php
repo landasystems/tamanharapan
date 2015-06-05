@@ -70,6 +70,10 @@ AppAsset::register($this);
                         <a href="mailto:info@smatamanharapan.sch.id"><i class="fa fa-envelope-o"></i> info@smatamanharapan.sch.id</a>
                         <a href="#"><i class="fa fa-phone"></i> (0341) 986 386</a>
                     </div>
+                    <div class="b-option-contacts f-option-contacts" style="float: right;">
+                        <a href="#"><i class="fa fa-facebook"></i> Like</a>
+                        <a href="#"><i class="fa fa-twitter"></i> Follow</a>
+                    </div>
                 </div>
             </div>
             <div class="container b-header__box b-relative">
@@ -160,7 +164,7 @@ AppAsset::register($this);
         <!-- end jquery ui -->
         <script type="text/javascript" language="javascript"
         src="http://maps.google.com/maps/api/js?sensor=false&key=AIzaSyCfVS1-Dv9bQNOIXsQhTSvj7jaDX7Oocvs"></script>
-        <!-- Modules -->
+<!--         Modules -->
         <script src="<?= Yii::$app->homeUrl ?>js/modules/sliders.js"></script>
         <script src="<?= Yii::$app->homeUrl ?>js/modules/ui.js"></script>
         <script src="<?= Yii::$app->homeUrl ?>js/modules/settings.js"></script>
