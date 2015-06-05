@@ -15,7 +15,7 @@ $this->title = 'Sarana dan Prasarana';
     <div class="b-breadcrumbs f-breadcrumbs">
         <div class="container">
             <ul>
-                <li><a href="#"><i class="fa fa-home"></i>Home</a></li>
+                <li><a href="<?= Yii::$app->homeUrl ?>"><i class="fa fa-home"></i>Home</a></li>
                 <li><i class="fa fa-angle-right"></i><a href="#">Profil</a></li>
                 <li><i class="fa fa-angle-right"></i><span>Sarana dan Prasarana</span></li>
             </ul>

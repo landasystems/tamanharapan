@@ -3,7 +3,7 @@
   <div class="b-inner-page-header__content">
     <div class="container">
       <h1 class="f-primary-l c-default">Our Blog</h1>
-      <div class="f-primary-l f-inner-page-header_title-add c-senary">One Column Default version</div>
+      <div class="f-primary-l f-inner-page-header_title-add c-denary">One Column Default version</div>
     </div>
   </div>
 </div>

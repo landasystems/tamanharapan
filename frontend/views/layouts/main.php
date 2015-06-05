@@ -73,7 +73,7 @@ AppAsset::register($this);
                 </div>
             </div>
             <div class="container b-header__box b-relative">
-                <a href="<?= Yii::$app->homeUrl ?>" class="b-left b-logo"><img class="color-theme" data-retina src="<?= Yii::$app->homeUrl ?>img/logo2.png" alt="Logo" style="width:230px !important"/></a>
+                <a href="<?= Yii::$app->homeUrl ?>" class="b-left b-logo"><img class="color-theme" data-retina src="<?= Yii::$app->homeUrl ?>img/logo.png" alt="Logo" style=""/></a>
                 <div class="b-header-r b-right">
                     <div class="b-header-ico-group f-header-ico-group b-right">
                         <span class="b-search-box">
@@ -90,7 +90,7 @@ AppAsset::register($this);
                                 <div class="b-top-nav__dropdomn">
                                     <ul class="b-top-nav__2level_wrap">
                                         <li class="b-top-nav__2level f-top-nav__2level f-primary"><a href="<?= Yii::$app->urlManager->createUrl('article/visi-misi')?>"><i class="fa fa-angle-right"></i>Visi Misi</a></li>
-                                        <li class="b-top-nav__2level f-top-nav__2level f-primary"><a href="<?= Yii::$app->urlManager->createUrl('article/sarpras')?>"><i class="fa fa-angle-right"></i>SAPRAS</a></li>
+                                        <li class="b-top-nav__2level f-top-nav__2level f-primary"><a href="<?= Yii::$app->urlManager->createUrl('article/sarpras')?>"><i class="fa fa-angle-right"></i>Sarana & Prasarana</a></li>
                                         <li class="b-top-nav__2level f-top-nav__2level f-primary"><a href="<?= Yii::$app->urlManager->createUrl('article/guru-siswa')?>"><i class="fa fa-angle-right"></i>Data Guru & Siswa</a></li>
                                         <li class="b-top-nav__2level f-top-nav__2level f-primary"><a href="<?= Yii::$app->urlManager->createUrl('article/kegiatan-siswa')?>"><i class="fa fa-angle-right"></i>Kegiatan Siswa</a></li>
                                         <li class="b-top-nav__2level f-top-nav__2level f-primary"><a href="<?= Yii::$app->urlManager->createUrl('article/sejarah')?>"><i class="fa fa-angle-right"></i>Sejarah</a></li>
