@@ -67,7 +67,8 @@ $session = Yii::$app->session;
                             <?php
                             $news = Article::find()
                                     ->where([
-                                        'publish' => 1
+                                        'publish' => 1,
+                                        'article_category_id' => ['14','10']
                                     ])
                                     ->orderBy('created DESC')
                                     ->limit(5)

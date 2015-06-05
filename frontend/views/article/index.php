@@ -41,7 +41,8 @@ $session = Yii::$app->session;
             $offset = ($perpage * $page) + ($perpage * -1);
             $articles = Article::find()
                     ->where(array(
-                        'publish' => 1
+                        'publish' => 1,
+                        'article_category_id' => '14'
                     ))
                     ->orderBy('created DESC')
                     ->limit($perpage)
