@@ -11,7 +11,7 @@ $this->title = $model->title;
         <div class="container">
             <ul>
                 <li><a href=""><i class="fa fa-home"></i>Home</a></li>
-                <li><i class="fa fa-angle-right"></i><?=$this->title?></li>
+                <li><i class="fa fa-angle-right"></i><?= $this->title ?></li>
             </ul>
         </div>
     </div>
@@ -24,7 +24,7 @@ $this->title = $model->title;
                             <div class="j-contentwidthslider">
                                 <ul>
                                     <li>
-                                        <img data-retina src="<?= Yii::$app->homeUrl.'images/article/'.$model->primary_image; ?>">
+                                        <img data-retina src="<?= Yii::$app->homeUrl . 'images/article/' . $model->primary_image; ?>">
                                     </li>
                                 </ul>
                             </div>
@@ -55,6 +55,10 @@ $this->title = $model->title;
                                 <div class="b-blog-short-post b-blog-short-post--img-hover-bordered b-blog-short-post--w-img f-blog-short-post--w-img row-fluid">
                                     <?php
                                     $lastPost = common\models\Article::find()
+                                            ->where([
+                                                'publish' => 1,
+                                                'article_category_id' => ['14', '10']
+                                            ])
                                             ->orderBy('created DESC')
                                             ->limit(10)
                                             ->all();
@@ -62,14 +66,14 @@ $this->title = $model->title;
                                         ?>
                                         <div class="b-blog-short-post--popular col-md-12  col-xs-12 f-primary-b">
                                             <div class="b-blog-short-post__item_img">
-                                                <a href="#"><img class="img-thumbnail" data-retina src="<?= (!empty($isi->primary_image)) ? Yii::$app->homeUrl.'images/article/'.$isi->primary_image : Yii::$app->homeUrl.'images/700x700-noimage.jpg' ?>" width="70px" height="70px" alt=""/></a>
+                                                <a href="#"><img class="img-thumbnail" data-retina src="<?= (!empty($isi->primary_image)) ? Yii::$app->homeUrl . 'images/article/' . $isi->primary_image : Yii::$app->homeUrl . 'images/700x700-noimage.jpg' ?>" width="70px" height="70px" alt=""/></a>
                                             </div>
                                             <div class="b-remaining">
                                                 <div class="b-blog-short-post__item_text f-blog-short-post__item_text">
-                                                    <a href="<?= Yii::$app->urlManager->createUrl('article/'.$isi->id)?>"><?= $isi->title ?></a>
+                                                    <a href="<?= Yii::$app->urlManager->createUrl('article/' . $isi->id) ?>"><?= $isi->title ?></a>
                                                 </div>
                                                 <div class="b-blog-short-post__item_date f-blog-short-post__item_date f-primary-it">
-                                                    <?= date('d F Y',  strtotime($isi->created))?>
+                                                    <?= date('d F Y', strtotime($isi->created)) ?>
                                                 </div>
                                             </div>
                                         </div>
