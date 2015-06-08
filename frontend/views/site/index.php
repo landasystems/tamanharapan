@@ -86,9 +86,9 @@ $session = Yii::$app->session;
                                         </div>
                                     </div>
                                     <div class="b-some-examples__item_info">
-                                        <div class="b-some-examples__item_info_level b-some-examples__item_name f-some-examples__item_name f-primary-b"><a href="#"><?= $item->title ?></a></div>
+                                        <div class="b-some-examples__item_info_level b-some-examples__item_name f-some-examples__item_name f-primary-b"><a href="<?= Yii::$app->urlManager->createUrl('article/' . $item->id) ?>"><?= $item->title ?></a></div>
                                         <div class="b-some-examples__item_info_level b-some-examples__item_description f-some-examples__item_description b-info-container--home">
-                                            <?= substr(strip_tags($item->content), 0, 25); ?>
+                                            <?=substr(strip_tags($item->content), 0, 25); ?>
                                         </div>
                                     </div>
                                     <div class="b-some-examples__item_action">
