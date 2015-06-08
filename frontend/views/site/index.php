@@ -269,7 +269,7 @@ $session = Yii::$app->session;
                                             <i class="fa fa-phone"></i>
                                         </div>
                                         <div class="b-remaining f-contacts-short-item__text f-contacts-short-item__text_email">
-                                            (0341) 986 386
+                                            (0341) 362 400
                                         </div>
                                     </div>
                                 </div>

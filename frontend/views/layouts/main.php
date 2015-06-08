@@ -41,7 +41,7 @@ AppAsset::register($this);
                 <div class="container">
                     <div class="b-option-contacts f-option-contacts">
                         <a href="mailto:info@smatamanharapan.sch.id"><i class="fa fa-envelope-o"></i> info@smatamanharapan.sch.id</a>
-                        <a href="#"><i class="fa fa-phone"></i> (0341) 986 386</a>
+                        <a href="#"><i class="fa fa-phone"></i> (0341) 362 400</a>
                     </div>
                     <div class="b-option-contacts f-option-contacts" style="float: right;">
                         <a href="#"><i class="fa fa-facebook"></i> Like</a>
