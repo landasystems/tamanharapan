@@ -1,0 +1,1343 @@
+K00039','2014-02-15','B 1162 BZP','HONDA JAZZ','GE8 1.5E AT','MINIBUS','PUTIH','2012','MHRGE8860CJ204896','L15A74754084','FELIX LINTANG','2014-07-16',0.000),
+ ('MSTNK00040','2014-04-10','W 9791 NF','DAIHATSU GRAND MAX','S402RP','PICK UP ','SILVER MET','2008','MHKP3CA1J8K000566','DAH7097','GOKART','2014-06-04',2132600.000),
+ ('MSTNK00041','2014-04-10','N 8541 TD','HINO','HINO/WU302R DUTRO','TRUCK BOX','SILVER METALIC','2011','MJEC1JGX1B5005493','W04DTPJ20778','GOKART','2014-09-08',2982700.000),
+ ('MSTNK00042','2014-04-10','W 5819 SQ','HONDA REVO','NF11 B1D  MT','SEPEDA MOTOR','HITAM','2010','MH1J8C116AK624277','J8C1E1627188','SHOLEH','2015-02-01',224500.000),
+ ('MSTNK00043','2014-04-10','N 1154 VC','TOYOTA HARIER','2.4L 2WD AT','JEEP','HITAM','2008','ACU300086008','2AZB320599','FOGY LINTANG','2014-09-24',6233000.000),
+ ('MSTNK00044','2014-04-10','B 111 KTA','TOYOTA VELLFIRE','2.4 AT','MINIBUS','HITAM','2009','ANH208022796','2AZC500460','LEMAN SARIOWAN','2014-07-30',8768000.000),
+ ('MSTNK00045','2014-04-10','L 2345 AF','HARLEY DAVIDSON','FLHXI','SEPEDA MOTOR','HITAM','2006','MJ71KBW176K706166','KBW6706166','FOGY LINTANG','2014-11-09',4895000.000),
+ ('MSTNK00046','2014-04-10','W 809 PM','TOYOTA INNOVA','G XR42 DS AT','MINIBUS','ABU ABU METALIK','2011','MHFXR42G9B0008692','2KD6713869','FOGY LINTANG','2015-04-06',3408000.000),
+ ('MSTNK00047','2014-04-10','L 6079 HQ','HONDA','NC11A 2CB AT','SEPEDA MOTOR','PUTIH MERAH','2010','MH1JF3117AK226211','JF31E0225367','WASIS','2014-09-04',237000.000),
+ ('MSTNK00048','2014-04-10','L 5924 PG','HONDA SCOOPY','NC11C','SEPEDA MOTOR','VIOLET PUTIH','2011','MH1JF6115BK290038','JF61E1289225','JL. SELAMET','2014-10-08',203000.000),
+ ('MSTNK00049','2014-04-10','L 3164 M','HONDA KIRANA','ND 125','SEPEDA MOTOR','HITAM','2003','MH1JB31113K053462','JB31E1052418','YUSUF','2015-02-16',205000.000),
+ ('MSTNK00050','2014-04-10','L 1855 QK','HONDA CRV','RM3 2WD 2.4 AT','JEEP','HITAM MUTIARA','2013','MHRRM3850DJ303336','K24Z99412556','MAMA OENDAJANI','2014-07-10',4752000.000),
+ ('MSTNK00051','2014-04-10','B 1162 BZP','HONDA JAZZ','GE8 1.5E AT','MINIBUS','PUTIH','2012','MHRGE8860CJ204896','L15A74754084','FELIX LINTANG','2014-07-16',2903000.000),
+ ('MSTNK00052','2014-04-10','W 741 PM','TOYOTA INNOVA','G XR42 DS AT','MINIBUS','HITAM METALIK','2011','MHFXR42G9B0008790','2KD6723153','SUTJIPTO','2015-04-04',3408600.000),
+ ('MSTNK00053','2014-04-10','B 1768 BJF','TOYOTA FORTUNER','2.5G AT DIS','JEEP S.C HD TP','HITAM','2012','MHFZR69G8C3037675','2KD6989284','MAULIATE','2015-03-09',4643000.000),
+ ('MSTNK00054','2014-04-10','B 6304 BXE','HONDA BLADE','NF 11 A1 C MT','SEPEDA MOTOR','HITAM','2009','MH1JBB1129K133663','JBB1E1134828','SAMSUL','2014-07-06',247000.000),
+ ('MSTNK00055','2014-04-10','B 6616 BXD','HONDA BLADE','NF11 A1 C MT','SEPEDA MOTOR','BIRU ORANGE','2009','MH1JBB1109K134309','JBB1E1127915','ELYAS','2014-07-06',194000.000),
+ ('MSTNK00060','2014-04-10','B 1364 BJC','MITSUBISHI PAJERO','PJR SP 2.5 D','JEEP','PUTIH','2010','MMBGRKG10AF011112','4D56UCBX4286','LAURENTS LEONARD','2015-05-01',4493000.000),
+ ('MSTNK00061','2014-04-10','B 1769 BJF','TOYOTA FORTUNER','2.5G AT','JEEP','HITAM','2012','MHFZR69G5C3037438','2KD6987060','Y SUDARYATMO','2015-03-09',4643000.000),
+ ('MSTNK00062','2014-04-10','KT 1684 AQ','FORD EVEREST','2.5L','MINIBUS','SILVER METALIK','2008','MNBLS4D108W210208','WLAT933751','MEDAN','2014-09-11',3937000.000),
+ ('MSTNK00063','2014-04-10','N 8538 TC','ISUZU','NKR58','TRUCK','PUTIH','1997','MHCNKR58LTC003308','Y963008','AGUS YANI','2015-03-29',1099000.000),
+ ('MSTNK00065','2014-04-10','B 8709 NM','TOYOTA','AVANZA 1,3G','MINIBUS','HITAM','2008','MHFM1BA3J8K096215','DDO9239','AGUS HERMANTO','2014-04-07',1633000.000),
+ ('MSTNK00066','2014-04-10','B 1480 BKR','DAIHATSU','S401RV - ZMDEJJ','MINIBUS','SILVER METALIK','2010','MHKV3BA3JAK010787','DG34567','Linda Susanto','2014-11-05',1418000.000),
+ ('MSTNK00067','2014-04-10','L 3994 RO','HONDA','C 100 M','SEPEDA MOTOR','HITAM','1991','NC04031959','NCE1041212','OPERASIONAL WILMAR','2014-10-03',125000.000),
+ ('MSTNK00068','2014-04-10','B 819 TH','TOYOTA ALPHARD','V 2.4 2WD','MINIBUS','HITAM','2006','ANH100151412','2AZ2275887','TAMU','2014-11-22',5633000.000),
+ ('MSTNK00069','2014-04-10','B 1963 BJI ','TOYOTA','FORTUNER','JEEP S.C HDTP','HITAM METALIK','2013','MHFZR69G8D3069267','2KDU317546','HEMPY ALI','2014-06-14',4725000.000),
+ ('MSTNK00070','2014-04-10','B 1964 BJI','TOYOTA FORTUNER','2.5G AT','JEEP S.C HDTP','HITAM METALIK','2013','MHFZR69G5D3069338','2KDU318199','Kesit Joko Triyogo','2014-06-14',4725000.000),
+ ('MSTNK00072','2014-04-10','S 4609 NO','HONDA VARIO','NCC11A 3C AT','SEPEDA MOTOR','HITAM','2012','MH1JF9111CK675034','JF91E1671485','BINTI ROFIKAH','2015-02-13',263500.000),
+ ('MSTNK00073','2014-04-10','B 7506 BDA','TOYOTA HIACE ','HIACE COMMUTER','MICRO/MINIBUS','PUTIH','2013','JTFSS22P 7D0125728','2KDA107816','-','2014-10-02',5130000.000),
+ ('MSTNK00074','2014-04-10','B 7890 IE','ISUZU','NHR 55 E2','MICRO/ MINIBUS','HITAM','2009','MHCNH55EY9J026679','M026679','-','2014-10-19',2197000.000),
+ ('MSTNK00075','2014-04-10','L 2345 PF','KAWASAKI','EX250L','SEPEDA MOTOR','MERAH','2013','JKAEX250LDDA34759','EX250LEA37479','FELIX LINTANG','2014-10-26',4995000.000),
+ ('MSTNK00076','2014-05-21','L 8031 JA','MITSUBISHI','L 300 DS','MOBIL BARANG','HITAM','1996','L300DP242432','4D56C697797','Agus Yani','2015-05-21',1236000.000),
+ ('MSTNK00077','2014-05-21','L 1044 OG','MERC BENZ','S 320 L','SEDAN','SILVER MET','2000','WDB2201652A082503','11294430593108','THERESIA MARIA','2015-05-09',16503000.000),
+ ('MSTNK00078','2014-05-21','B 1027 BZL','TOYOTA ALPHARD','2.4 G AT','MINIBUS','PUTIH METALIK','2012','JTEGD21H9C8213162','2AZH846614','LEMAN SARIOWAN','2015-05-31',0.000),
+ ('MSTNK00079','2014-05-21','B 1018 BZL','TOYOTA ALPHARD','2.4 G AT','MINIBUS','HITAM','2012','JTEGD21H3C8212752','2AZH850235','LUCKY LEONARD','2015-05-31',0.000),
+ ('MSTNK00080','2014-05-24','N 8685 TE','MITSUBISHI','L300 STD R 4X2 MT','PICK UP BOX','SILVER','2013','MHMLOPU39DK116762','4D560J26317','Hariyono','2015-05-01',3149000.000);
+/*!40000 ALTER TABLE `tbl_monitoring_stnk` ENABLE KEYS */;
+
+
+--
+-- Definition of table `tbl_pemakian_lat`
+--
+
+DROP TABLE IF EXISTS `tbl_pemakian_lat`;
+CREATE TABLE `tbl_pemakian_lat` (
+  `no_pemakian` varchar(20) NOT NULL,
+  `tgl` date DEFAULT NULL,
+  `biaya` varchar(200) DEFAULT NULL,
+  `kantor` varchar(200) DEFAULT NULL,
+  `no_telp` varchar(100) DEFAULT NULL,
+  `provider` varchar(200) DEFAULT NULL,
+  `user` varchar(200) DEFAULT NULL,
+  `no_reff` varchar(20) DEFAULT NULL,
+  `tgl_reff` date DEFAULT NULL,
+  `jmlh` double(15,3) DEFAULT NULL,
+  PRIMARY KEY (`no_pemakian`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `tbl_pemakian_lat`
+--
+
+/*!40000 ALTER TABLE `tbl_pemakian_lat` DISABLE KEYS */;
+INSERT INTO `tbl_pemakian_lat` (`no_pemakian`,`tgl`,`biaya`,`kantor`,`no_telp`,`provider`,`user`,`no_reff`,`tgl_reff`,`jmlh`) VALUES 
+ ('PLAT00000001','2014-03-29','Biaya Telphone','SUKOREJO','0343-612688','Telkom','FAX','BKK-00242','2014-01-23',184624.000),
+ ('PLAT00000002','2014-03-29','Biaya Telphone','SUKOREJO','0343-611161','Telkom','HUNTING','BKK-00242','2014-01-23',121638.000),
+ ('PLAT00000003','2014-03-29','Biaya Telphone','SUKOREJO','613415','Telkom','DIREKSI','BKK-00242','2014-01-03',63360.000),
+ ('PLAT00000004','2014-03-29','Biaya Telphone','SUKOREJO','0343-613321','Telkom','PURCHASING','BKK-00242','2014-01-03',71420.000),
+ ('PLAT00000006','2014-03-29','Biaya Telphone','JAKARTA','021-5600163','Telkom','ADMIN','BKK-00242','2014-01-23',35860.000),
+ ('PLAT00000007','2014-03-15','Biaya Telphone','JAKARTA','021-5671640','Telkom','FAX','BKK-00671','2014-02-27',59921.000),
+ ('PLAT00000008','2014-03-29','Biaya Telphone','JAKARTA','021-5671640','Telkom','FAX','BKK-00242','2014-01-23',53735.000),
+ ('PLAT00000009','2014-03-29','Biaya Telphone','JAKARTA','021-5600147','Telkom','MARKETING','BKK-242','2014-01-23',463970.000),
+ ('PLAT00000014','2014-04-14','Biaya Listrik','SUKOREJO','','','','BKK-00191','2014-01-18',24597487.000),
+ ('PLAT00000015','2014-04-14','Biaya Listrik','JAKARTA','','','','BKK-00242','2014-01-23',2920695.000),
+ ('PLAT00000020','2014-04-14','Biaya Telphone','SUKOREJO','0343-615151','Telkom','SALES SUPORT','BKK-00242','2014-01-20',55500.000),
+ ('PLAT00000021','2014-04-15','Biaya Telphone','SUKOREJO','0343-613860','Telkom','DIREKSI','-','2014-01-03',54010.000),
+ ('PLAT00000022','2014-04-15','Biaya Telphone','JAKARTA','021-5642225','Telkom','MARKETING','-','2014-01-03',35860.000),
+ ('PLAT00000023','2014-04-15','Biaya Telphone','SUKOREJO','082895250535','Ceria','HUNTING','-','2014-01-03',508715.000),
+ ('PLAT00000024','2014-04-15','Biaya Telphone','SUKOREJO','082895250536','Ceria','DIREKSI','-','2014-01-03',98714.000),
+ ('PLAT00000025','2014-04-15','Biaya Telphone','SUKOREJO','082895250532','Ceria','PURCHASING','-','2014-01-03',670866.000),
+ ('PLAT00000026','2014-04-15','Biaya Telphone','SUKOREJO','082895250531','Ceria','SALES SUPORT','-','2014-01-03',198328.000),
+ ('PLAT00000027','2014-04-15','Biaya Telphone','SURABAYA','031-8548152','Telkom','Speedy','-','2014-01-03',102179.000),
+ ('PLAT00000028','2014-04-15','Biaya Telphone','SURABAYA','031-8531353','Telkom','Admin','-','2014-01-03',118075.000),
+ ('PLAT00000029','2014-04-15','Biaya Telphone','SURABAYA','031-8531927','Telkom','Fax','-','2014-01-03',99913.000),
+ ('PLAT00000030','2014-04-15','Biaya Telphone','JAKARTA','082817069026','Ceria','MARKETING','-','2014-01-03',1834.000),
+ ('PLAT00000031','2014-04-15','Biaya Telphone','JAKARTA','082817069029','Ceria','MARKETING','-','2014-01-03',1881.000),
+ ('PLAT00000032','2014-04-15','Biaya Telphone','JAKARTA','082817069027','Ceria','HUNTING','-','2014-01-03',1834.000),
+ ('PLAT00000033','2014-03-15','Biaya Listrik','SUKOREJO','','','','BKK-00561','2014-02-20',22693788.000),
+ ('PLAT00000034','2014-03-15','Biaya Listrik','JAKARTA','','','','BKK-00671','2014-02-27',2110358.000),
+ ('PLAT00000035','2014-03-15','Biaya Telphone','JAKARTA','021-5600163','Telkom','ADMIN','BKK-00671','2014-02-27',39160.000),
+ ('PLAT00000036','2014-03-15','Biaya Telphone','JAKARTA','021-5642224','Telkom','LEMAN SARIOWAN','BKK-00671','2014-02-27',61985.000),
+ ('PLAT00000037','2014-03-15','Biaya Telphone','JAKARTA','021-5600147','Telkom','MARKETING','BKK-00671','2014-02-27',145608.000),
+ ('PLAT00000038','2014-03-15','Biaya Telphone','JAKARTA','021-5642225','Telkom','MARKETING','BKK-00671','2014-02-27',35860.000),
+ ('PLAT00000039','2014-03-15','Biaya Telphone','JAKARTA','021-5667770','Telkom','HUNTING','BKK-00671','2014-02-27',226975.000),
+ ('PLAT00000040','2014-03-15','Biaya Telphone','SUKOREJO','0343-612688','Telkom','FAX','BKK-00671','2014-02-27',261800.000),
+ ('PLAT00000041','2014-03-15','Biaya Telphone','SUKOREJO','0343-611161','Telkom','HUNTING','BKK-00671','2014-04-19',110768.000),
+ ('PLAT00000042','2014-03-15','Biaya Telphone','SUKOREJO','0343-613860','Telkom','DIREKSI','BKK-00671','2014-02-27',54010.000),
+ ('PLAT00000043','2014-03-15','Biaya Telphone','SUKOREJO','0343-613321','Telkom','PURCHASING','BKK-00671','2014-02-27',89100.000),
+ ('PLAT00000044','2014-03-15','Biaya Telphone','SUKOREJO','0343-613415','Telkom','DIREKSI','BKK-00671','2014-02-27',230856.000),
+ ('PLAT00000045','2014-03-15','Biaya Telphone','SUKOREJO','0343-615151','Telkom','SALES SUPORT','BKK-00572','2014-02-20',55000.000),
+ ('PLAT00000046','2014-03-15','Biaya Air','JAKARTA','','','','BKK-00671','2014-02-27',1429408.000),
+ ('PLAT00000047','2014-03-15','Biaya Telphone','SURABAYA','031-8548152','Telkom','Speedy','BKK-00386','2014-02-06',394160.000),
+ ('PLAT00000048','2014-03-15','Biaya Telphone','SURABAYA','031-8531927','Telkom','Fax','BKK-00386','2014-02-06',69025.000);
+/*!40000 ALTER TABLE `tbl_pemakian_lat` ENABLE KEYS */;
+
+
+--
+-- Definition of table `tbl_penilaian_karyawan`
+--
+
+DROP TABLE IF EXISTS `tbl_penilaian_karyawan`;
+CREATE TABLE `tbl_penilaian_karyawan` (
+  `no_penilaian` varchar(20) NOT NULL,
+  `nik` varchar(20) DEFAULT NULL,
+  `nama` varchar(200) DEFAULT NULL,
+  `department` varchar(200) DEFAULT NULL,
+  `sub_section` varchar(200) DEFAULT NULL,
+  `periode` date DEFAULT NULL,
+  `i1` varchar(20) DEFAULT NULL,
+  `i2` varchar(20) DEFAULT NULL,
+  `i3` varchar(20) DEFAULT NULL,
+  `i4` varchar(20) DEFAULT NULL,
+  `i5` varchar(20) DEFAULT NULL,
+  `i6` varchar(20) DEFAULT NULL,
+  `i7` varchar(20) DEFAULT NULL,
+  `i8` varchar(20) DEFAULT NULL,
+  `ii1` varchar(20) DEFAULT NULL,
+  `ii2` varchar(20) DEFAULT NULL,
+  `ii3` varchar(20) DEFAULT NULL,
+  `iii1` varchar(20) DEFAULT NULL,
+  `iii2` varchar(20) DEFAULT NULL,
+  `keterampilan` varchar(20) DEFAULT NULL,
+  `managerial` varchar(20) DEFAULT NULL,
+  `kepegawaian` varchar(20) DEFAULT NULL,
+  `nilai_final` varchar(20) DEFAULT NULL,
+  PRIMARY KEY (`no_penilaian`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `tbl_penilaian_karyawan`
+--
+
+/*!40000 ALTER TABLE `tbl_penilaian_karyawan` DISABLE KEYS */;
+/*!40000 ALTER TABLE `tbl_penilaian_karyawan` ENABLE KEYS */;
+
+
+--
+-- Definition of table `tbl_penilaian_kontrak`
+--
+
+DROP TABLE IF EXISTS `tbl_penilaian_kontrak`;
+CREATE TABLE `tbl_penilaian_kontrak` (
+  `no_kntrk` varchar(20) DEFAULT NULL,
+  `tgl` date DEFAULT NULL,
+  `nm_kontrak` varchar(20) DEFAULT NULL,
+  `penilaian` varchar(20) DEFAULT NULL,
+  `keterangan` varchar(100) DEFAULT NULL,
+  KEY `no_kntrk` (`no_kntrk`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `tbl_penilaian_kontrak`
+--
+
+/*!40000 ALTER TABLE `tbl_penilaian_kontrak` DISABLE KEYS */;
+INSERT INTO `tbl_penilaian_kontrak` (`no_kntrk`,`tgl`,`nm_kontrak`,`penilaian`,`keterangan`) VALUES 
+ ('KK00001','2013-08-06','Kontrak 1','1','Baik'),
+ ('KK00001','2013-09-06','Kontrak 1','2','Kurang Baik'),
+ ('KK00001','2013-10-06','Kontrak 2','1','Cukup'),
+ ('KK00002','2013-10-06','Kontrak 1','1','Baik');
+/*!40000 ALTER TABLE `tbl_penilaian_kontrak` ENABLE KEYS */;
+
+
+--
+-- Definition of table `tbl_potongan`
+--
+
+DROP TABLE IF EXISTS `tbl_potongan`;
+CREATE TABLE `tbl_potongan` (
+  `kode_potongan` varchar(20) NOT NULL,
+  `nm_potongan` varchar(50) DEFAULT NULL,
+  PRIMARY KEY (`kode_potongan`),
+  KEY `nm_potongan` (`nm_potongan`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `tbl_potongan`
+--
+
+/*!40000 ALTER TABLE `tbl_potongan` DISABLE KEYS */;
+/*!40000 ALTER TABLE `tbl_potongan` ENABLE KEYS */;
+
+
+--
+-- Definition of table `tbl_prakerin`
+--
+
+DROP TABLE IF EXISTS `tbl_prakerin`;
+CREATE TABLE `tbl_prakerin` (
+  `no_prakerin` varchar(20) NOT NULL,
+  `tgl` date DEFAULT NULL,
+  `nama` varchar(20) DEFAULT NULL,
+  `no_surat_rekomendasi` varchar(20) DEFAULT NULL,
+  `asal_sekolah` varchar(50) DEFAULT NULL,
+  `tgl_mulai` date DEFAULT NULL,
+  `tgl_selesai` date DEFAULT NULL,
+  `bagian` varchar(30) DEFAULT NULL,
+  `foto` varchar(500) DEFAULT NULL,
+  PRIMARY KEY (`no_prakerin`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `tbl_prakerin`
+--
+
+/*!40000 ALTER TABLE `tbl_prakerin` DISABLE KEYS */;
+INSERT INTO `tbl_prakerin` (`no_prakerin`,`tgl`,`nama`,`no_surat_rekomendasi`,`asal_sekolah`,`tgl_mulai`,`tgl_selesai`,`bagian`,`foto`) VALUES 
+ ('PR00001','2014-03-03','MUHAMMAD USMAN','421.5/261/424.051.09','SMK NEGERI 2 SUKOREJO','2014-01-06','2014-07-05','SUB ASSY & COMPONENT',''),
+ ('PR00002','2014-03-03','MUHAMMAD ARDIANSYAH','421.5/261/424.051.09','SMK NEGERI 2 SUKOREJO','2014-01-06','2014-07-05','SUB ASSY & COMPONENT',''),
+ ('PR00003','2014-03-03','MUHAMMAD EFFENDI','421.5/261/424.051.09','SMK NEGERI 2 SUKOREJO','2014-01-06','2014-07-05','SUB ASSY & COMPONENT',''),
+ ('PR00004','2014-03-03','IBRAHIM','421.5/261/424.051.09','SMK NEGERI 2 SUKOREJO','2014-01-06','2014-07-05','SUB ASSY & COMPONENT',''),
+ ('PR00005','2014-03-03','BARUR ROZI','421.5/261/424.051.09','SMK NEGERI 2 SUKOREJO ','2014-01-06','2014-07-05','SUB ASSY & COMPONENT',''),
+ ('PR00006','2014-03-03','CHOIRUL ANAM ','421.5/261/424.051.09','SMK NEGERI 2 SUKREJO','2014-01-06','2014-07-05','SUB ASSY & COMPONENT',''),
+ ('PR00007','2014-03-03','DEDI','421.5/261/424.051.09','SMK NEGERI 2 SUKOREJO','2014-01-06','2014-07-05','COMPONENT B',''),
+ ('PR00008','2014-03-03','EDI SUCIPTO','421.5/261/424.051.09','SMK NEGERI 2 SUKOREJO','2014-01-06','2014-07-05','COMPONENT B',''),
+ ('PR00009','2014-03-03','FEBRI WAHYU PRATAMA','421.5/261/424.051.09','SMK NEGERI 2 SUKOREJO','2014-01-06','2014-07-05','FINISHING',''),
+ ('PR00010','2014-03-03','KURNIA DWI PRASETYO','421.5/261/424.051.09','SMK NEGERI 2 SUKOREJO','2014-01-06','2014-07-05','FINISHING',''),
+ ('PR00011','2014-03-03','MOH SAIFUDDIN','421.5/261/424.051.09','SMK NEGERI 2 SUKOREJO','2014-01-06','2014-07-05','FINISHING',''),
+ ('PR00012','2014-03-03','MUHAMAD SYAHRONI','421.5/261/424.051.09','SMK NEGERI 2 SUKOREJO','2014-01-06','2014-07-05','FINISHING',''),
+ ('PR00013','2014-03-03','MUJAYIN','421.5/261/424.051.09','SMK NEGERI 2 SUKOREJO','2014-01-06','2014-07-05','FINISHING',''),
+ ('PR00014','2014-03-03','WAHYU TRI ANDI K','421.5/261/424.051.09','SMK NEGERI 2 SUKOREJO','2014-01-06','2014-07-05','FINISHING',''),
+ ('PR00015','2014-03-03','M. FAISOL','052/Prakerin.SMKN.TK','SMK NEGERI 1 WONOREJO PASURUAN','2014-02-01','2014-07-31','FINISHING','');
+/*!40000 ALTER TABLE `tbl_prakerin` ENABLE KEYS */;
+
+
+--
+-- Definition of table `tbl_proposal`
+--
+
+DROP TABLE IF EXISTS `tbl_proposal`;
+CREATE TABLE `tbl_proposal` (
+  `no_proposal` varchar(20) NOT NULL,
+  `no_surat` varchar(100) DEFAULT NULL,
+  `tgl` date DEFAULT NULL,
+  `dari` varchar(200) DEFAULT NULL,
+  `untuk` varchar(200) DEFAULT NULL,
+  `perihal` varchar(1000) DEFAULT NULL,
+  `tindak_lanjut` varchar(1000) DEFAULT NULL,
+  PRIMARY KEY (`no_proposal`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `tbl_proposal`
+--
+
+/*!40000 ALTER TABLE `tbl_proposal` DISABLE KEYS */;
+INSERT INTO `tbl_proposal` (`no_proposal`,`no_surat`,`tgl`,`dari`,`untuk`,`perihal`,`tindak_lanjut`) VALUES 
+ ('PP00001','-','2014-04-17','UPT SMK NEGERI 2 SUKOREJO','HRD','PROPOSAL CSR',''),
+ ('PP00002','-','2014-04-17','Tim Penerbit Peta Resmi Jalur Mudik Lebaran Tahun 2014','-','Sponsor Penerbitan Peta Resmi Mudik Lebaran Tahun 2014',''),
+ ('PP00003','421.5/625/424.051.09.04/2014','2014-04-17','UPT SMK NEGERI 2 SUKOREJO','HRD','Permohonan Siswa Magang 1 Orang atas nama Sandy Aditya',''),
+ ('PP00004','339/VI/HCS/2014','2014-04-23','HOSANNA PATEN ( Copy Right, Patent, Trade Mark )','Pimpinan PT. Karya Tugas Anda','Penawaran Perpanjangan Merk Dagang',''),
+ ('PP00005','551.21/1166/104/2014','2014-04-23','PEMERINTAH PROVINSI JATIM DISHUB & LLAJ SURABAYA','DIREKTUR PT. KARYA TUGAS ANDA','PARTISIPASI PERSIAPAN LEBARAN TAHUN 2014',''),
+ ('PP00006','020380/IT2/KS.00.03/2014','2014-04-23','KEMENTRIAN PENDIDIKAN DAN KEBUDAYAAN INSTITUT TEKNOLOGI SEPULUH NOVEMBER ','DIRUT PT. KARYA TUGAS ANDA','Penerbitan Buku Karya Riset ITS 2013 -2014',''),
+ ('PP00007','-','2014-04-24','VANETA SYSTEM Catridge Refill Center','Bagian Umum, Purchasing, Pengadaan','Pengenalan dan Penawaran Produk Refill Inkjek, Toner & Ribbon Vaneta System',''),
+ ('PP00008','2088/K/UND/IV/2014','2014-04-24','Kmara Dagang Dan Industri Jawa Timur','Pimpinan / Direksi','Undangan Sosialisasi Tindakan Pengamanan Perdagangan dan Konsultasi One on One','Akan dihadiri oleh Ibu Binti Rofikah \r\nPada hari rabu, 7 Mei 2014'),
+ ('PP00009','421.5/669/424.051.09.04/2014','2014-04-25','UPT SMK NEGERI 2 SUKOREJO','-','Permohonan Siswa Magang','Belum bisa menerima siswa magang di office'),
+ ('PP00010','B/152/IV/2014/SATLANTAS','2014-04-26','KEPOLISIAN NEGARA RI DAERAH JAWA TIMUR','PIMPINAN PT. KARYA TUGAS ANDA','Permohonan Sponsorship','');
+/*!40000 ALTER TABLE `tbl_proposal` ENABLE KEYS */;
+
+
+--
+-- Definition of table `tbl_section`
+--
+
+DROP TABLE IF EXISTS `tbl_section`;
+CREATE TABLE `tbl_section` (
+  `id_section` varchar(20) NOT NULL,
+  `section` varchar(100) DEFAULT NULL,
+  `dept` varchar(20) DEFAULT NULL,
+  PRIMARY KEY (`id_section`),
+  KEY `dept` (`dept`),
+  KEY `section` (`section`),
+  CONSTRAINT `tbl_section_fk` FOREIGN KEY (`dept`) REFERENCES `tbl_department` (`id_department`) ON DELETE CASCADE ON UPDATE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `tbl_section`
+--
+
+/*!40000 ALTER TABLE `tbl_section` DISABLE KEYS */;
+INSERT INTO `tbl_section` (`id_section`,`section`,`dept`) VALUES 
+ ('SCT001','ACCOUNTING & FINANCE','DPRT003'),
+ ('SCT002','FINISHING','DPRT004'),
+ ('SCT003','METAL','DPRT004'),
+ ('SCT004','ENGINEERING','DPRT004'),
+ ('SCT005','HRD','DPRT001'),
+ ('SCT007','LOGISTIK','DPRT001'),
+ ('SCT008','MANAJEMEN HEAD OFFICE','DPRT002'),
+ ('SCT009','MANAJEMEN KAROSERI','DPRT002'),
+ ('SCT010','PRODUCTION PLANING','DPRT004'),
+ ('SCT011','SALES & PRODUCTION S','DPRT005'),
+ ('SCT012','SALES OPERATION','DPRT005'),
+ ('SCT013','SALES OPERATION-GSO','DPRT005'),
+ ('SCT015','QUALITY ASSURANCE','DPRT004'),
+ ('SCT017','-','DPRT007');
+/*!40000 ALTER TABLE `tbl_section` ENABLE KEYS */;
+
+
+--
+-- Definition of table `tbl_spermohonan_cuti`
+--
+
+DROP TABLE IF EXISTS `tbl_spermohonan_cuti`;
+CREATE TABLE `tbl_spermohonan_cuti` (
+  `no_cuti` varchar(20) NOT NULL,
+  `nik` varchar(20) DEFAULT NULL,
+  `nama` varchar(20) DEFAULT NULL,
+  `jabatan` varchar(20) DEFAULT NULL,
+  `mkerja` varchar(20) DEFAULT NULL,
+  `tgl_cuti` date DEFAULT NULL,
+  `tgl_selesai_cuti` date DEFAULT NULL,
+  `lama_cuti` int(11) DEFAULT NULL,
+  `lama_cuti_huruf` varchar(20) DEFAULT NULL,
+  `keperluan` varchar(200) DEFAULT NULL,
+  PRIMARY KEY (`no_cuti`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `tbl_spermohonan_cuti`
+--
+
+/*!40000 ALTER TABLE `tbl_spermohonan_cuti` DISABLE KEYS */;
+INSERT INTO `tbl_spermohonan_cuti` (`no_cuti`,`nik`,`nama`,`jabatan`,`mkerja`,`tgl_cuti`,`tgl_selesai_cuti`,`lama_cuti`,`lama_cuti_huruf`,`keperluan`) VALUES 
+ ('CT00001','325','ISTIYA BUDI','J058','06/10/2000','2013-10-22','2013-10-23',2,'Dua','Kesusahan'),
+ ('CT00002','9','AHMAD GHUFRON','J046','10/10/1997','2013-10-19','2013-10-19',1,'Satu','-'),
+ ('CT00003','8','EFRON ARI NUGRAHA','J046','22/10/1990','2013-10-22','2013-10-23',2,'Dua','');
+/*!40000 ALTER TABLE `tbl_spermohonan_cuti` ENABLE KEYS */;
+
+
+--
+-- Definition of table `tbl_stock_apd`
+--
+
+DROP TABLE IF EXISTS `tbl_stock_apd`;
+CREATE TABLE `tbl_stock_apd` (
+  `kode_apd` varchar(20) NOT NULL,
+  `nama_apd` varchar(20) DEFAULT NULL,
+  `jumlah_apd` int(11) DEFAULT NULL,
+  `min_stock` int(11) DEFAULT NULL,
+  PRIMARY KEY (`kode_apd`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `tbl_stock_apd`
+--
+
+/*!40000 ALTER TABLE `tbl_stock_apd` DISABLE KEYS */;
+INSERT INTO `tbl_stock_apd` (`kode_apd`,`nama_apd`,`jumlah_apd`,`min_stock`) VALUES 
+ ('APD001','Masker Kain',307,538),
+ ('APD002','Masker Single 3M',0,5),
+ ('APD003','Masker Double 3M',0,5),
+ ('APD004','Filter Masker Single',0,4),
+ ('APD005','Filter Masker Double',0,4),
+ ('APD006','Kaca mata las hitam',0,25),
+ ('APD007','Kaca mata gerenda',96,31),
+ ('APD008','Sarung tangan kain',832,152),
+ ('APD009','Sarung tangan kulit',14,42),
+ ('APD010','Sarung tangan karet',0,3),
+ ('APD011','Ear plug',104,23);
+/*!40000 ALTER TABLE `tbl_stock_apd` ENABLE KEYS */;
+
+
+--
+-- Definition of table `tbl_stock_atk`
+--
+
+DROP TABLE IF EXISTS `tbl_stock_atk`;
+CREATE TABLE `tbl_stock_atk` (
+  `kode_brng` varchar(20) NOT NULL,
+  `nama_brng` varchar(200) DEFAULT NULL,
+  `jumlah_brng` int(11) DEFAULT NULL,
+  `min_stock` int(11) DEFAULT NULL,
+  PRIMARY KEY (`kode_brng`),
+  KEY `nama_brng` (`nama_brng`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `tbl_stock_atk`
+--
+
+/*!40000 ALTER TABLE `tbl_stock_atk` DISABLE KEYS */;
+INSERT INTO `tbl_stock_atk` (`kode_brng`,`nama_brng`,`jumlah_brng`,`min_stock`) VALUES 
+ ('ATK002','Acco Plastik Joyco',3,2),
+ ('ATK009','Batrei ABC Kecil',0,2),
+ ('ATK010','Batrei ABC Besar',8,2),
+ ('ATK011','BAtrei Alkaline AA',1,2),
+ ('ATK012','Batrei Alkaline AAA',5,2),
+ ('ATK013','Buku Besar',4,2),
+ ('ATK014','Buku Kecil Tebal',0,2),
+ ('ATK015','Buku Kecil',2,2),
+ ('ATK016','Binder Clip 105',9,2),
+ ('ATK017','Binder Clip 107',7,2),
+ ('ATK018','Binder Clip 111',90,2),
+ ('ATK019','Binder Clip 155',114,2),
+ ('ATK021','Bolpoint Pilot G-2 H',12,5),
+ ('ATK022','Bolpoint Pilot G-2 B',12,5),
+ ('ATK025','Businessfile',6,5),
+ ('ATK026','Bantex A4',244,20),
+ ('ATK027','Bantex F4',309,20),
+ ('ATK028','Cutter Kecil',5,2),
+ ('ATK029','Cutter Besar',0,2),
+ ('ATK030','Carbon',21,5),
+ ('ATK031','Flashdisc 4 GB',5,2),
+ ('ATK032','Flashdisc 8 GB',2,2),
+ ('ATK033','Flashdisc 16 Gb',4,2),
+ ('ATK034','Flashdisc 32 Gb',1,1),
+ ('ATK035','Gunting',7,2),
+ ('ATK036','Isi Bolpoint Hitam',11,5),
+ ('ATK037','Isi Bolpoint Biru',12,5),
+ ('ATK038','Isi Cutter Kecil',36,10),
+ ('ATK039','Isi Cutter Besar',5,10),
+ ('ATK040','ISi Staples Kecil',25,5),
+ ('ATK041','Isi Staples Besar',47,5),
+ ('ATK042','Isi Ulang Bolpoint P',0,5),
+ ('ATK043','Isi Ulang Bolpoint P',0,5),
+ ('ATK044','Kertas A4',5,5),
+ ('ATK045','Kertas F4',23,5),
+ ('ATK046','Kertas Buram',6,2),
+ ('ATK048','Kwitansi',3,2),
+ ('ATK049','Label',4,0),
+ ('ATK050','Lem Kertas Povinal',3,2),
+ ('ATK051','Loose Leaf',3,0),
+ ('ATK052','Map Kertas Ako',50,0),
+ ('ATK053','Map Plastik L A4',18,5),
+ ('ATK054','Map Plastik L F4',6,5),
+ ('ATK055','Odner kecil',10,2),
+ ('ATK056','Odner Besar',4,2),
+ ('ATK057','Penggaris Mika',3,2),
+ ('ATK058','Penghapus Pensil Sta',35,2),
+ ('ATK059','Pensil 2B',5,5),
+ ('ATK060','Papan Dada',9,2),
+ ('ATK061','Paper Clip No.1',5,5),
+ ('ATK062','Paper Clip No.3',11,5),
+ ('ATK063','Paper Clip No.5',5,5),
+ ('ATK064','Post It Kecil',0,2),
+ ('ATK065','Post It Besar',3,2),
+ ('ATK066','Pita Film Panasonic',9,2),
+ ('ATK067','Penghapus White Board',3,2),
+ ('ATK068','Remover',8,2),
+ ('ATK069','Spidol Kecil Hitam',16,5),
+ ('ATK070','Spidol Kecil Biru',9,5),
+ ('ATK071','Spidol Kecil Merah',18,5),
+ ('ATK078','Stabilo Hijau Muda',6,2),
+ ('ATK079','Stabilo Hijau Tua',3,2),
+ ('ATK080','Stabilo Orange',0,2),
+ ('ATK081','Stabilo Pink',9,2),
+ ('ATK082','Tip-x',5,2),
+ ('ATK083','Trodat',1,1),
+ ('ATK084','Tas Folder',5,2),
+ ('ATK085','Tinta Stamp Pad Hitam',3,2),
+ ('ATK086','Tinta Stamp Pad Biru',0,0),
+ ('ATK087','Tinta Stampad Merah',0,0),
+ ('ATK088','Spidol Kaca',9,2),
+ ('ATK089','Eraser',0,0),
+ ('ATK090','Stampad',0,0),
+ ('ATK091','Tinta Stampad',0,0),
+ ('ATK092','Purpurator',0,0),
+ ('ATK093','Spidol Permanent Hitam',16,2),
+ ('ATK094','Spidol Permanent Biru',9,2),
+ ('ATK095','Spidol Permanent Merah',12,2),
+ ('ATK096','Spidol Whiteboard Hitam',4,2),
+ ('ATK097','Spidol Whiteboard Biru',6,2),
+ ('ATK098','Spidol Whiteboard Merah',7,2),
+ ('ATK103','Kertas Bufalo Merah',50,5),
+ ('ATK104','Kertas Bufalo Orange',50,5),
+ ('ATK105','Kertas Bufalo Biru',50,5),
+ ('ATK106','Kertas Bufalo Putih',50,5),
+ ('ATK107','Kertas Bufalo Hijau',0,0),
+ ('ATK108','Bolpoint Standar Hitam',5,5),
+ ('ATK109','Bolpoint Standar Biru',6,5),
+ ('ATK110','Bolpoint Standar Merah',14,5),
+ ('ATK111','STAPLER',8,0),
+ ('ATK113','Buku Expedisi',5,1),
+ ('ATK114','Document Keper',6,2);
+/*!40000 ALTER TABLE `tbl_stock_atk` ENABLE KEYS */;
+
+
+--
+-- Definition of table `tbl_tdk_masuk`
+--
+
+DROP TABLE IF EXISTS `tbl_tdk_masuk`;
+CREATE TABLE `tbl_tdk_masuk` (
+  `tgl` date DEFAULT NULL,
+  `kd_tdk_masuk` varchar(20) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `tbl_tdk_masuk`
+--
+
+/*!40000 ALTER TABLE `tbl_tdk_masuk` DISABLE KEYS */;
+INSERT INTO `tbl_tdk_masuk` (`tgl`,`kd_tdk_masuk`) VALUES 
+ ('2014-01-28','TR20141222135454'),
+ ('2014-12-05','TR20141222140515'),
+ ('2014-12-06','TR20141222140515'),
+ ('2014-12-11','TR20141222140645'),
+ ('2014-12-01','TR20141222140645'),
+ ('2014-11-25','TR20141222140822'),
+ ('2014-12-02','TR20141222141014'),
+ ('2014-11-21','TR20141222141103'),
+ ('2014-11-25','TR20141222141139'),
+ ('2014-11-27','TR20141222141211'),
+ ('2014-11-28','TR20141222141247'),
+ ('2014-12-01','TR20141222141313'),
+ ('2014-12-02','TR20141222141337'),
+ ('2014-11-25','TR20141222141347'),
+ ('2014-11-24','TR20141222141523'),
+ ('2014-11-25','TR20141222141523'),
+ ('2014-11-27','TR20141222141610'),
+ ('2014-11-21','TR20141222141624'),
+ ('2014-11-29','TR20141222141700'),
+ ('2014-12-01','TR20141222141736'),
+ ('2014-12-02','TR20141222141932'),
+ ('2014-12-03','TR20141222142001'),
+ ('2014-11-25','TR20141222142022'),
+ ('2014-12-06','TR20141222142036'),
+ ('2014-12-01','TR20141222142111'),
+ ('2014-12-04','TR20141222142129'),
+ ('2014-12-05','TR20141222142129'),
+ ('2014-11-27','TR20141222142208'),
+ ('2014-11-28','TR20141222142255'),
+ ('2014-12-08','TR20141222142314'),
+ ('2014-11-26','TR20141222142339'),
+ ('2014-11-27','TR20141222142339'),
+ ('2014-11-28','TR20141222142405'),
+ ('2014-11-21','TR20141222142415'),
+ ('2014-11-22','TR20141222142415'),
+ ('2014-11-24','TR20141222142450'),
+ ('2014-11-25','TR20141222142450'),
+ ('2014-11-28','TR20141222142510'),
+ ('2014-12-02','TR20141222142528'),
+ ('2014-12-04','TR20141222142539'),
+ ('2014-12-05','TR20141222142539'),
+ ('2014-12-06','TR20141222142539'),
+ ('2014-12-07','TR20141222142539'),
+ ('2014-12-08','TR20141222142539'),
+ ('2014-11-29','TR20141222142608'),
+ ('2014-12-01','TR20141222142636'),
+ ('2014-11-27','TR20141222142657'),
+ ('2014-11-28','TR20141222142719'),
+ ('2014-11-27','TR20141222142740'),
+ ('2014-12-08','TR20141222142751'),
+ ('2014-12-10','TR20141222142818'),
+ ('2014-11-21','TR20141222142838'),
+ ('2014-11-27','TR20141222142858'),
+ ('2014-11-25','TR20141222142912'),
+ ('2014-11-28','TR20141222143017'),
+ ('2014-11-28','TR20141222143048'),
+ ('2014-11-21','TR20141222143111'),
+ ('2014-12-08','TR20141222143122'),
+ ('2014-11-25','TR20141222143150'),
+ ('2014-11-26','TR20141222143211'),
+ ('2014-12-08','TR20141222143239'),
+ ('2014-12-09','TR20141222143239'),
+ ('2014-11-24','TR20141222143314'),
+ ('2014-12-02','TR20141222143338'),
+ ('2014-11-26','TR20141222143359'),
+ ('2014-11-26','TR20141222143425'),
+ ('2014-11-27','TR20141222143447'),
+ ('2014-12-04','TR20141222143521'),
+ ('2014-11-24','TR20141222143620'),
+ ('2014-12-01','TR20141222143643'),
+ ('2014-12-02','TR20141222143643'),
+ ('2014-11-27','TR20141222143704'),
+ ('2014-12-03','TR20141222143721'),
+ ('2014-12-04','TR20141222143721'),
+ ('2014-11-28','TR20141222143750'),
+ ('2014-12-08','TR20141222143826'),
+ ('2014-12-09','TR20141222143826'),
+ ('2014-12-06','TR20141222143845'),
+ ('2014-11-25','TR20141222143908'),
+ ('2014-11-26','TR20141222143908'),
+ ('2014-11-28','TR20141222144028'),
+ ('2014-12-24','TR20141222144054'),
+ ('2014-11-24','TR20141222144156'),
+ ('2014-12-08','TR20141222144221'),
+ ('2014-12-02','TR20141222144248'),
+ ('2014-01-28','TR20141222144304'),
+ ('2014-12-02','TR20141222144349'),
+ ('2014-12-09','TR20141222144421'),
+ ('2014-11-27','TR20141222144443'),
+ ('2014-12-27','TR20141222144459'),
+ ('2014-11-25','TR20141222144523'),
+ ('2014-11-27','TR20141222144543'),
+ ('2014-12-01','TR20141222144607'),
+ ('2014-11-26','TR20141222144633'),
+ ('2014-12-02','TR20141222144706'),
+ ('2014-12-27','TR20141229094729'),
+ ('2014-12-29','TR20141229094750'),
+ ('2014-12-27','TR20141229114726'),
+ ('2014-12-25','TR20141229114913'),
+ ('2014-12-26','TR20141229114913');
+/*!40000 ALTER TABLE `tbl_tdk_masuk` ENABLE KEYS */;
+
+
+--
+-- Definition of table `tbl_tim_p2k3`
+--
+
+DROP TABLE IF EXISTS `tbl_tim_p2k3`;
+CREATE TABLE `tbl_tim_p2k3` (
+  `no_tim` varchar(20) NOT NULL,
+  `tgl` date DEFAULT NULL,
+  `nama` varchar(50) DEFAULT NULL,
+  `bagian` varchar(20) DEFAULT NULL,
+  PRIMARY KEY (`no_tim`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `tbl_tim_p2k3`
+--
+
+/*!40000 ALTER TABLE `tbl_tim_p2k3` DISABLE KEYS */;
+/*!40000 ALTER TABLE `tbl_tim_p2k3` ENABLE KEYS */;
+
+
+--
+-- Definition of table `tbl_trans_tdk_msk`
+--
+
+DROP TABLE IF EXISTS `tbl_trans_tdk_msk`;
+CREATE TABLE `tbl_trans_tdk_msk` (
+  `kd_tdk_masuk` varchar(20) DEFAULT NULL,
+  `nik` varchar(20) DEFAULT NULL,
+  `alasan` varchar(10) DEFAULT NULL,
+  `ket` varchar(100) DEFAULT NULL,
+  `jam1` varchar(5) DEFAULT NULL,
+  `jam2` varchar(5) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `tbl_trans_tdk_msk`
+--
+
+/*!40000 ALTER TABLE `tbl_trans_tdk_msk` DISABLE KEYS */;
+INSERT INTO `tbl_trans_tdk_msk` (`kd_tdk_masuk`,`nik`,`alasan`,`ket`,`jam1`,`jam2`) VALUES 
+ ('TR20141222135454','00585','I','-','-','-'),
+ ('TR20141222140515','00002','SD','-','-','-'),
+ ('TR20141222140645','00010','I','-','-','-'),
+ ('TR20141222140822','00016','DL','-','-','-'),
+ ('TR20141222141014','00027','S','-','-','-'),
+ ('TR20141222141103','00031','DL','-','-','-'),
+ ('TR20141222141139','00031','DL','-','-','-'),
+ ('TR20141222141211','00031','SD','-','-','-'),
+ ('TR20141222141247','00031','DL','-','-','-'),
+ ('TR20141222141313','00031','DL','-','-','-'),
+ ('TR20141222141337','00059','DL','-','-','-'),
+ ('TR20141222141347','00089','SD','-','-','-'),
+ ('TR20141222141523','00090','SD','-','-','-'),
+ ('TR20141222141610','00092','DL','-','-','-'),
+ ('TR20141222141624','00115','DL','-','-','-'),
+ ('TR20141222141700','00115','DL','-','-','-'),
+ ('TR20141222141736','00243','SH','-','-','-'),
+ ('TR20141222141932','00243','SD','-','-','-'),
+ ('TR20141222142001','00296','SH','-','-','-'),
+ ('TR20141222142022','00311','DL','-','-','-'),
+ ('TR20141222142036','00327','I','-','-','-'),
+ ('TR20141222142111','00329','SD','-','-','-'),
+ ('TR20141222142129','00331','SD','-','-','-'),
+ ('TR20141222142208','00332','SH','-','-','-'),
+ ('TR20141222142255','00335','I','-','-','-'),
+ ('TR20141222142314','00335','SD','-','-','-'),
+ ('TR20141222142339','00342','S','-','-','-'),
+ ('TR20141222142405','00342','I','-','-','-'),
+ ('TR20141222142415','00347','SD','-','-','-'),
+ ('TR20141222142450','00347','SD','-','-','-'),
+ ('TR20141222142510','00347','SH','-','-','-'),
+ ('TR20141222142528','00347','SH','-','-','-'),
+ ('TR20141222142539','00347','SD','-','-','-'),
+ ('TR20141222142608','00351','S','-','-','-'),
+ ('TR20141222142636','00351','SD','-','-','-'),
+ ('TR20141222142657','00353','SD','-','-','-'),
+ ('TR20141222142719','00371','SD','-','-','-'),
+ ('TR20141222142740','00373','SD','-','-','-'),
+ ('TR20141222142751','00373','SD','-','-','-'),
+ ('TR20141222142818','00376','SD','-','-','-'),
+ ('TR20141222142838','00389','SD','-','-','-'),
+ ('TR20141222142858','00389','SH','-','-','-'),
+ ('TR20141222142912','00431','I','-','-','-'),
+ ('TR20141222142944','00443','SD','-','-','-'),
+ ('TR20141222143017','00463','S','-','-','-'),
+ ('TR20141222143048','00468','DL','-','-','-'),
+ ('TR20141222143111','00470','SD','-','-','-'),
+ ('TR20141222143122','00470','SD','-','-','-'),
+ ('TR20141222143150','00479','I','-','-','-'),
+ ('TR20141222143211','00480','S','-','-','-'),
+ ('TR20141222143239','00510','SD','-','-','-'),
+ ('TR20141222143314','00511','SD','-','-','-'),
+ ('TR20141222143338','00514','SD','-','-','-'),
+ ('TR20141222143359','00518','I','-','-','-'),
+ ('TR20141222143425','00528','SH','-','-','-'),
+ ('TR20141222143447','00529','SH','-','-','-'),
+ ('TR20141222143521','00530','SD','-','-','-'),
+ ('TR20141222143620','00556','I','-','-','-'),
+ ('TR20141222143643','00557','S','-','-','-'),
+ ('TR20141222143704','00563','I','-','-','-'),
+ ('TR20141222143721','00563','SD','-','-','-'),
+ ('TR20141222143750','00566','SD','-','-','-'),
+ ('TR20141222143826','00566','SD','-','-','-'),
+ ('TR20141222143845','00569','SD','-','-','-'),
+ ('TR20141222143908','00570','SD','-','-','-'),
+ ('TR20141222144028','00572','S','-','-','-'),
+ ('TR20141222144054','00577','SD','-','-','-'),
+ ('TR20141222144156','00578','I','-','-','-'),
+ ('TR20141222144221','00583','SD','-','-','-'),
+ ('TR20141222144248','00584','SD','-','-','-'),
+ ('TR20141222144304','00585','I','-','-','-'),
+ ('TR20141222144349','00602','SD','-','-','-'),
+ ('TR20141222144421','00606','SD','-','-','-'),
+ ('TR20141222144443','00634','SD','-','-','-'),
+ ('TR20141222144459','00634','SD','-','-','-'),
+ ('TR20141222144523','00636','SH','-','-','-'),
+ ('TR20141222144543','00651','I','-','-','-'),
+ ('TR20141222144607','00651','I','-','-','-'),
+ ('TR20141222144633','00656','I','-','-','-'),
+ ('TR20141222144706','B0187','SD','-','-','-'),
+ ('TR20141229094729','00612','SD','','',''),
+ ('TR20141229094750','00092','SD','','',''),
+ ('TR20141229114726','00358','I','','',''),
+ ('TR20141229114913','00584','C','Istri Melahirkan Anak ke 2','','');
+/*!40000 ALTER TABLE `tbl_trans_tdk_msk` ENABLE KEYS */;
+
+
+--
+-- Definition of table `tbl_umk`
+--
+
+DROP TABLE IF EXISTS `tbl_umk`;
+CREATE TABLE `tbl_umk` (
+  `no_umk` varchar(20) NOT NULL,
+  `umk` double(15,3) DEFAULT NULL,
+  PRIMARY KEY (`no_umk`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `tbl_umk`
+--
+
+/*!40000 ALTER TABLE `tbl_umk` DISABLE KEYS */;
+INSERT INTO `tbl_umk` (`no_umk`,`umk`) VALUES 
+ ('UMK001',2190000.000);
+/*!40000 ALTER TABLE `tbl_umk` ENABLE KEYS */;
+
+
+--
+-- Definition of table `temp`
+--
+
+DROP TABLE IF EXISTS `temp`;
+CREATE TABLE `temp` (
+  `1a` varchar(1000) DEFAULT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `temp`
+--
+
+/*!40000 ALTER TABLE `temp` DISABLE KEYS */;
+/*!40000 ALTER TABLE `temp` ENABLE KEYS */;
+
+
+--
+-- Definition of table `temp_abs_prod`
+--
+
+DROP TABLE IF EXISTS `temp_abs_prod`;
+CREATE TABLE `temp_abs_prod` (
+  `1_h_t` int(11) DEFAULT NULL,
+  `1_b_t` int(11) DEFAULT NULL,
+  `1_h` int(11) DEFAULT NULL,
+  `1_b` int(11) DEFAULT NULL,
+  `2_h_t` int(11) DEFAULT NULL,
+  `2_b_t` int(11) DEFAULT NULL,
+  `2_h` int(11) DEFAULT NULL,
+  `2_b` int(11) DEFAULT NULL,
+  `3_h_t` int(11) DEFAULT NULL,
+  `3_b_t` int(11) DEFAULT NULL,
+  `3_h` int(11) DEFAULT NULL,
+  `3_b` int(11) DEFAULT NULL,
+  `4_h_t` int(11) DEFAULT NULL,
+  `4_b_t` int(11) DEFAULT NULL,
+  `4_h` int(11) DEFAULT NULL,
+  `4_b` int(11) DEFAULT NULL,
+  `5_h_t` int(11) DEFAULT NULL,
+  `5_b_t` int(11) DEFAULT NULL,
+  `5_h` int(11) DEFAULT NULL,
+  `5_b` int(11) DEFAULT NULL,
+  `6_h_t` int(11) DEFAULT NULL,
+  `6_b_t` int(11) DEFAULT NULL,
+  `6_h` int(11) DEFAULT NULL,
+  `6_b` int(11) DEFAULT NULL,
+  `7_h_t` int(11) DEFAULT NULL,
+  `7_b_t` int(11) DEFAULT NULL,
+  `7_h` int(11) DEFAULT NULL,
+  `7_b` int(11) DEFAULT NULL,
+  `8_h_t` int(11) DEFAULT NULL,
+  `8_b_t` int(11) DEFAULT NULL,
+  `8_h` int(11) DEFAULT NULL,
+  `8_b` int(11) DEFAULT NULL,
+  `9_h_t` int(11) DEFAULT NULL,
+  `9_b_t` int(11) DEFAULT NULL,
+  `9_h` int(11) DEFAULT NULL,
+  `9_b` int(11) DEFAULT NULL,
+  `10_h_t` int(11) DEFAULT NULL,
+  `10_b_t` int(11) DEFAULT NULL,
+  `10_h` int(11) DEFAULT NULL,
+  `10_b` int(11) DEFAULT NULL,
+  `11_h_t` int(11) DEFAULT NULL,
+  `11_b_t` int(11) DEFAULT NULL,
+  `11_h` int(11) DEFAULT NULL,
+  `11_b` int(11) DEFAULT NULL,
+  `12_h_t` int(11) DEFAULT NULL,
+  `12_b_t` int(11) DEFAULT NULL,
+  `12_h` int(11) DEFAULT NULL,
+  `12_b` int(11) DEFAULT NULL,
+  `13_h_t` int(11) DEFAULT NULL,
+  `13_b_t` int(11) DEFAULT NULL,
+  `13_h` int(11) DEFAULT NULL,
+  `13_b` int(11) DEFAULT NULL,
+  `14_h_t` int(11) DEFAULT NULL,
+  `14_b_t` int(11) DEFAULT NULL,
+  `14_h` int(11) DEFAULT NULL,
+  `14_b` int(11) DEFAULT NULL,
+  `15_h_t` int(11) DEFAULT NULL,
+  `15_b_t` int(11) DEFAULT NULL,
+  `15_h` int(11) DEFAULT NULL,
+  `15_b` int(11) DEFAULT NULL,
+  `16_h_t` int(11) DEFAULT NULL,
+  `16_b_t` int(11) DEFAULT NULL,
+  `16_h` int(11) DEFAULT NULL,
+  `16_b` int(11) DEFAULT NULL,
+  `17_h_t` int(11) DEFAULT NULL,
+  `17_b_t` int(11) DEFAULT NULL,
+  `17_h` int(11) DEFAULT NULL,
+  `17_b` int(11) DEFAULT NULL,
+  `18_h_t` int(11) DEFAULT NULL,
+  `18_b_t` int(11) DEFAULT NULL,
+  `18_h` int(11) DEFAULT NULL,
+  `18_b` int(11) DEFAULT NULL,
+  `19_h_t` int(11) DEFAULT NULL,
+  `19_b_t` int(11) DEFAULT NULL,
+  `19_h` int(11) DEFAULT NULL,
+  `19_b` int(11) DEFAULT NULL,
+  `20_h_t` int(11) DEFAULT NULL,
+  `20_b_t` int(11) DEFAULT NULL,
+  `20_h` int(11) DEFAULT NULL,
+  `20_b` int(11) DEFAULT NULL,
+  `21_h_t` int(11) DEFAULT NULL,
+  `21_b_t` int(11) DEFAULT NULL,
+  `21_h` int(11) DEFAULT NULL,
+  `21_b` int(11) DEFAULT NULL,
+  `22_h_t` int(11) DEFAULT NULL,
+  `22_b_t` int(11) DEFAULT NULL,
+  `22_h` int(11) DEFAULT NULL,
+  `22_b` int(11) DEFAULT NULL,
+  `23_h_t` int(11) DEFAULT NULL,
+  `23_b_t` int(11) DEFAULT NULL,
+  `23_h` int(11) DEFAULT NULL,
+  `23_b` int(11) DEFAULT NULL,
+  `24_h_t` int(11) DEFAULT NULL,
+  `24_b_t` int(11) DEFAULT NULL,
+  `24_h` int(11) DEFAULT NULL,
+  `24_b` int(11) DEFAULT NULL,
+  `25_h_t` int(11) DEFAULT NULL,
+  `25_b_t` int(11) DEFAULT NULL,
+  `25_h` int(11) DEFAULT NULL,
+  `25_b` int(11) DEFAULT NULL,
+  `26_h_t` int(11) DEFAULT NULL,
+  `26_b_t` int(11) DEFAULT NULL,
+  `26_h` int(11) DEFAULT NULL,
+  `26_b` int(11) DEFAULT NULL,
+  `27_h_t` int(11) DEFAULT NULL,
+  `27_b_t` int(11) DEFAULT NULL,
+  `27_h` int(11) DEFAULT NULL,
+  `27_b` int(11) DEFAULT NULL,
+  `28_h_t` int(11) DEFAULT NULL,
+  `28_b_t` int(11) DEFAULT NULL,
+  `28_h` int(11) DEFAULT NULL,
+  `28_b` int(11) DEFAULT NULL,
+  `29_h_t` int(11) DEFAULT NULL,
+  `29_b_t` int(11) DEFAULT NULL,
+  `29_h` int(11) DEFAULT NULL,
+  `29_b` int(11) DEFAULT NULL,
+  `30_h_t` int(11) DEFAULT NULL,
+  `30_b_t` int(11) DEFAULT NULL,
+  `30_h` int(11) DEFAULT NULL,
+  `30_b` int(11) DEFAULT NULL,
+  `31_h_t` int(11) DEFAULT NULL,
+  `31_b_t` int(11) DEFAULT NULL,
+  `31_h` int(11) DEFAULT NULL,
+  `31_b` int(11) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `temp_abs_prod`
+--
+
+/*!40000 ALTER TABLE `temp_abs_prod` DISABLE KEYS */;
+INSERT INTO `temp_abs_prod` (`1_h_t`,`1_b_t`,`1_h`,`1_b`,`2_h_t`,`2_b_t`,`2_h`,`2_b`,`3_h_t`,`3_b_t`,`3_h`,`3_b`,`4_h_t`,`4_b_t`,`4_h`,`4_b`,`5_h_t`,`5_b_t`,`5_h`,`5_b`,`6_h_t`,`6_b_t`,`6_h`,`6_b`,`7_h_t`,`7_b_t`,`7_h`,`7_b`,`8_h_t`,`8_b_t`,`8_h`,`8_b`,`9_h_t`,`9_b_t`,`9_h`,`9_b`,`10_h_t`,`10_b_t`,`10_h`,`10_b`,`11_h_t`,`11_b_t`,`11_h`,`11_b`,`12_h_t`,`12_b_t`,`12_h`,`12_b`,`13_h_t`,`13_b_t`,`13_h`,`13_b`,`14_h_t`,`14_b_t`,`14_h`,`14_b`,`15_h_t`,`15_b_t`,`15_h`,`15_b`,`16_h_t`,`16_b_t`,`16_h`,`16_b`,`17_h_t`,`17_b_t`,`17_h`,`17_b`,`18_h_t`,`18_b_t`,`18_h`,`18_b`,`19_h_t`,`19_b_t`,`19_h`,`19_b`,`20_h_t`,`20_b_t`,`20_h`,`20_b`,`21_h_t`,`21_b_t`,`21_h`,`21_b`,`22_h_t`,`22_b_t`,`22_h`,`22_b`,`23_h_t`,`23_b_t`,`23_h`,`23_b`,`24_h_t`,`24_b_t`,`24_h`,`24_b`,`25_h_t`,`25_b_t`,`25_h`,`25_b`,`26_h_t`,`26_b_t`,`26_h`,`26_b`,`27_h_t`,`27_b_t`,`27_h`,`27_b`,`28_h_t`,`28_b_t`,`28_h`,`28_b`,`29_h_t`,`29_b_t`,`29_h`,`29_b`,`30_h_t`,`30_b_t`,`30_h`,`30_b`,`31_h_t`,`31_b_t`,`31_h`,`31_b`) VALUES 
+ (6,6,0,0,6,6,0,0,6,6,0,0,6,6,0,0,6,6,0,0,6,6,0,0,3,6,3,0,6,6,0,0,6,6,0,0,6,6,0,0,6,6,0,0,6,6,0,0,6,6,0,0,6,6,0,0,6,6,0,0,6,6,0,0,6,6,0,0,6,6,0,0,6,6,0,0,6,6,0,0,6,6,0,0,6,6,0,0,6,6,0,0,6,6,0,0,6,6,0,0,6,6,0,0,6,6,0,0,6,6,0,0,6,6,0,0,6,6,0,0,6,6,0,0);
+/*!40000 ALTER TABLE `temp_abs_prod` ENABLE KEYS */;
+
+
+--
+-- Definition of table `temp_absensi_kar`
+--
+
+DROP TABLE IF EXISTS `temp_absensi_kar`;
+CREATE TABLE `temp_absensi_kar` (
+  `kd_kerja` varchar(10) DEFAULT NULL,
+  `nik` varchar(20) DEFAULT NULL,
+  `status_kar` varchar(20) DEFAULT NULL,
+  `1` varchar(2) DEFAULT NULL,
+  `2` varchar(2) DEFAULT NULL,
+  `3` varchar(2) DEFAULT NULL,
+  `4` varchar(2) DEFAULT NULL,
+  `5` varchar(2) DEFAULT NULL,
+  `6` varchar(2) DEFAULT NULL,
+  `7` varchar(2) DEFAULT NULL,
+  `8` varchar(2) DEFAULT NULL,
+  `9` varchar(2) DEFAULT NULL,
+  `10` varchar(2) DEFAULT NULL,
+  `11` varchar(2) DEFAULT NULL,
+  `12` varchar(2) DEFAULT NULL,
+  `13` varchar(2) DEFAULT NULL,
+  `14` varchar(2) DEFAULT NULL,
+  `15` varchar(2) DEFAULT NULL,
+  `16` varchar(2) DEFAULT NULL,
+  `17` varchar(2) DEFAULT NULL,
+  `18` varchar(2) DEFAULT NULL,
+  `19` varchar(2) DEFAULT NULL,
+  `20` varchar(2) DEFAULT NULL,
+  `21` varchar(2) DEFAULT NULL,
+  `22` varchar(2) DEFAULT NULL,
+  `23` varchar(2) DEFAULT NULL,
+  `24` varchar(2) DEFAULT NULL,
+  `25` varchar(2) DEFAULT NULL,
+  `26` varchar(2) DEFAULT NULL,
+  `27` varchar(2) DEFAULT NULL,
+  `28` varchar(2) DEFAULT NULL,
+  `29` varchar(2) DEFAULT NULL,
+  `30` varchar(2) DEFAULT NULL,
+  `31` varchar(2) DEFAULT NULL,
+  `st` int(2) DEFAULT NULL,
+  `kd` int(2) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `temp_absensi_kar`
+--
+
+/*!40000 ALTER TABLE `temp_absensi_kar` DISABLE KEYS */;
+INSERT INTO `temp_absensi_kar` (`kd_kerja`,`nik`,`status_kar`,`1`,`2`,`3`,`4`,`5`,`6`,`7`,`8`,`9`,`10`,`11`,`12`,`13`,`14`,`15`,`16`,`17`,`18`,`19`,`20`,`21`,`22`,`23`,`24`,`25`,`26`,`27`,`28`,`29`,`30`,`31`,`st`,`kd`) VALUES 
+ ('BG0017','B0170','Borongan','-','-','-','-','-','-','-','-','-','-','-','-','-','-','-','-','-','-','-','-','-','-','-','-','-','-','-','-','-','-','-',1,0);
+/*!40000 ALTER TABLE `temp_absensi_kar` ENABLE KEYS */;
+
+
+--
+-- Definition of table `temp_absensi_prod`
+--
+
+DROP TABLE IF EXISTS `temp_absensi_prod`;
+CREATE TABLE `temp_absensi_prod` (
+  `kd_kerja` varchar(10) DEFAULT NULL,
+  `jml_tetap` int(11) DEFAULT NULL,
+  `jml_kontrak` int(11) DEFAULT NULL,
+  `jml_harian` int(11) DEFAULT NULL,
+  `jml_borongan` int(11) DEFAULT NULL,
+  `total_org` int(11) DEFAULT NULL,
+  `1_t` int(11) DEFAULT NULL,
+  `1_k` int(11) DEFAULT NULL,
+  `1_h` int(11) DEFAULT NULL,
+  `1_b` int(11) DEFAULT NULL,
+  `2_t` int(11) DEFAULT NULL,
+  `2_k` int(11) DEFAULT NULL,
+  `2_h` int(11) DEFAULT NULL,
+  `2_b` int(11) DEFAULT NULL,
+  `3_t` int(11) DEFAULT NULL,
+  `3_k` int(11) DEFAULT NULL,
+  `3_h` int(11) DEFAULT NULL,
+  `3_b` int(11) DEFAULT NULL,
+  `4_t` int(11) DEFAULT NULL,
+  `4_k` int(11) DEFAULT NULL,
+  `4_h` int(11) DEFAULT NULL,
+  `4_b` int(11) DEFAULT NULL,
+  `5_t` int(11) DEFAULT NULL,
+  `5_k` int(11) DEFAULT NULL,
+  `5_h` int(11) DEFAULT NULL,
+  `5_b` int(11) DEFAULT NULL,
+  `6_t` int(11) DEFAULT NULL,
+  `6_k` int(11) DEFAULT NULL,
+  `6_h` int(11) DEFAULT NULL,
+  `6_b` int(11) DEFAULT NULL,
+  `7_t` int(11) DEFAULT NULL,
+  `7_k` int(11) DEFAULT NULL,
+  `7_h` int(11) DEFAULT NULL,
+  `7_b` int(11) DEFAULT NULL,
+  `8_t` int(11) DEFAULT NULL,
+  `8_k` int(11) DEFAULT NULL,
+  `8_h` int(11) DEFAULT NULL,
+  `8_b` int(11) DEFAULT NULL,
+  `9_t` int(11) DEFAULT NULL,
+  `9_k` int(11) DEFAULT NULL,
+  `9_h` int(11) DEFAULT NULL,
+  `9_b` int(11) DEFAULT NULL,
+  `10_t` int(11) DEFAULT NULL,
+  `10_k` int(11) DEFAULT NULL,
+  `10_h` int(11) DEFAULT NULL,
+  `10_b` int(11) DEFAULT NULL,
+  `11_t` int(11) DEFAULT NULL,
+  `11_k` int(11) DEFAULT NULL,
+  `11_h` int(11) DEFAULT NULL,
+  `11_b` int(11) DEFAULT NULL,
+  `12_t` int(11) DEFAULT NULL,
+  `12_k` int(11) DEFAULT NULL,
+  `12_h` int(11) DEFAULT NULL,
+  `12_b` int(11) DEFAULT NULL,
+  `13_t` int(11) DEFAULT NULL,
+  `13_k` int(11) DEFAULT NULL,
+  `13_h` int(11) DEFAULT NULL,
+  `13_b` int(11) DEFAULT NULL,
+  `14_t` int(11) DEFAULT NULL,
+  `14_k` int(11) DEFAULT NULL,
+  `14_h` int(11) DEFAULT NULL,
+  `14_b` int(11) DEFAULT NULL,
+  `15_t` int(11) DEFAULT NULL,
+  `15_k` int(11) DEFAULT NULL,
+  `15_h` int(11) DEFAULT NULL,
+  `15_b` int(11) DEFAULT NULL,
+  `16_t` int(11) DEFAULT NULL,
+  `16_k` int(11) DEFAULT NULL,
+  `16_h` int(11) DEFAULT NULL,
+  `16_b` int(11) DEFAULT NULL,
+  `17_t` int(11) DEFAULT NULL,
+  `17_k` int(11) DEFAULT NULL,
+  `17_h` int(11) DEFAULT NULL,
+  `17_b` int(11) DEFAULT NULL,
+  `18_t` int(11) DEFAULT NULL,
+  `18_k` int(11) DEFAULT NULL,
+  `18_h` int(11) DEFAULT NULL,
+  `18_b` int(11) DEFAULT NULL,
+  `19_t` int(11) DEFAULT NULL,
+  `19_k` int(11) DEFAULT NULL,
+  `19_h` int(11) DEFAULT NULL,
+  `19_b` int(11) DEFAULT NULL,
+  `20_t` int(11) DEFAULT NULL,
+  `20_k` int(11) DEFAULT NULL,
+  `20_h` int(11) DEFAULT NULL,
+  `20_b` int(11) DEFAULT NULL,
+  `21_t` int(11) DEFAULT NULL,
+  `21_k` int(11) DEFAULT NULL,
+  `21_h` int(11) DEFAULT NULL,
+  `21_b` int(11) DEFAULT NULL,
+  `22_t` int(11) DEFAULT NULL,
+  `22_k` int(11) DEFAULT NULL,
+  `22_h` int(11) DEFAULT NULL,
+  `22_b` int(11) DEFAULT NULL,
+  `23_t` int(11) DEFAULT NULL,
+  `23_k` int(11) DEFAULT NULL,
+  `23_h` int(11) DEFAULT NULL,
+  `23_b` int(11) DEFAULT NULL,
+  `24_t` int(11) DEFAULT NULL,
+  `24_k` int(11) DEFAULT NULL,
+  `24_h` int(11) DEFAULT NULL,
+  `24_b` int(11) DEFAULT NULL,
+  `25_t` int(11) DEFAULT NULL,
+  `25_k` int(11) DEFAULT NULL,
+  `25_h` int(11) DEFAULT NULL,
+  `25_b` int(11) DEFAULT NULL,
+  `26_t` int(11) DEFAULT NULL,
+  `26_k` int(11) DEFAULT NULL,
+  `26_h` int(11) DEFAULT NULL,
+  `26_b` int(11) DEFAULT NULL,
+  `27_t` int(11) DEFAULT NULL,
+  `27_k` int(11) DEFAULT NULL,
+  `27_h` int(11) DEFAULT NULL,
+  `27_b` int(11) DEFAULT NULL,
+  `28_t` int(11) DEFAULT NULL,
+  `28_k` int(11) DEFAULT NULL,
+  `28_h` int(11) DEFAULT NULL,
+  `28_b` int(11) DEFAULT NULL,
+  `29_t` int(11) DEFAULT NULL,
+  `29_k` int(11) DEFAULT NULL,
+  `29_h` int(11) DEFAULT NULL,
+  `29_b` int(11) DEFAULT NULL,
+  `30_t` int(11) DEFAULT NULL,
+  `30_k` int(11) DEFAULT NULL,
+  `30_h` int(11) DEFAULT NULL,
+  `30_b` int(11) DEFAULT NULL,
+  `31_t` int(11) DEFAULT NULL,
+  `31_k` int(11) DEFAULT NULL,
+  `31_h` int(11) DEFAULT NULL,
+  `31_b` int(11) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `temp_absensi_prod`
+--
+
+/*!40000 ALTER TABLE `temp_absensi_prod` DISABLE KEYS */;
+INSERT INTO `temp_absensi_prod` (`kd_kerja`,`jml_tetap`,`jml_kontrak`,`jml_harian`,`jml_borongan`,`total_org`,`1_t`,`1_k`,`1_h`,`1_b`,`2_t`,`2_k`,`2_h`,`2_b`,`3_t`,`3_k`,`3_h`,`3_b`,`4_t`,`4_k`,`4_h`,`4_b`,`5_t`,`5_k`,`5_h`,`5_b`,`6_t`,`6_k`,`6_h`,`6_b`,`7_t`,`7_k`,`7_h`,`7_b`,`8_t`,`8_k`,`8_h`,`8_b`,`9_t`,`9_k`,`9_h`,`9_b`,`10_t`,`10_k`,`10_h`,`10_b`,`11_t`,`11_k`,`11_h`,`11_b`,`12_t`,`12_k`,`12_h`,`12_b`,`13_t`,`13_k`,`13_h`,`13_b`,`14_t`,`14_k`,`14_h`,`14_b`,`15_t`,`15_k`,`15_h`,`15_b`,`16_t`,`16_k`,`16_h`,`16_b`,`17_t`,`17_k`,`17_h`,`17_b`,`18_t`,`18_k`,`18_h`,`18_b`,`19_t`,`19_k`,`19_h`,`19_b`,`20_t`,`20_k`,`20_h`,`20_b`,`21_t`,`21_k`,`21_h`,`21_b`,`22_t`,`22_k`,`22_h`,`22_b`,`23_t`,`23_k`,`23_h`,`23_b`,`24_t`,`24_k`,`24_h`,`24_b`,`25_t`,`25_k`,`25_h`,`25_b`,`26_t`,`26_k`,`26_h`,`26_b`,`27_t`,`27_k`,`27_h`,`27_b`,`28_t`,`28_k`,`28_h`,`28_b`,`29_t`,`29_k`,`29_h`,`29_b`,`30_t`,`30_k`,`30_h`,`30_b`,`31_t`,`31_k`,`31_h`,`31_b`) VALUES 
+ ('KR00019',16,34,1,0,51,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,13,12,0,0,13,14,0,0,13,14,0,0,13,12,0,0,13,13,0,0,4,5,0,0,1,1,0,0,12,12,0,0,13,10,0,0,11,12,0,0,12,13,0,0,12,11,0,0,6,5,0,0,1,0,0,0,13,12,0,0,12,13,0,0,0,0,0,0,12,12,0,0,13,12,0,0,9,14,0,0,0,0,0,0,10,11,0,0,4,5,0,0,1,1,0,0,13,12,0,0,13,14,0,0,13,13,0,0),
+ ('KR00015',2,2,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,0,1,2,0,0,1,2,0,0,1,2,0,0,1,2,0,0,0,1,0,0,0,0,0,0,1,2,0,0,1,2,0,0,1,2,0,0,1,2,0,0,1,2,0,0,1,0,0,0,0,0,0,0,1,2,0,0,1,2,0,0,0,0,0,0,1,2,0,0,1,2,0,0,1,2,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,1,2,0,0,1,2,0,0,1,2,0,0),
+ ('KR00013',4,3,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,2,0,0,4,2,0,0,4,2,0,0,4,2,0,0,4,1,0,0,3,2,0,0,1,0,0,0,4,2,0,0,4,2,0,0,4,2,0,0,4,2,0,0,4,2,0,0,4,2,0,0,0,0,0,0,4,2,0,0,3,2,0,0,0,0,0,0,4,2,0,0,4,2,0,0,4,2,0,0,0,0,0,0,4,2,0,0,4,2,0,0,1,0,0,0,4,2,0,0,4,2,0,0,4,1,0,0),
+ ('KR00012',5,6,0,0,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,4,5,0,0,4,4,0,0,5,6,0,0,4,4,0,0,4,6,0,0,3,5,0,0,5,6,0,0,4,4,0,0,5,5,0,0,4,4,0,0,3,4,0,0),
+ ('KR00009',1,5,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,0,1,2,0,0,1,2,0,0,1,2,0,0,1,2,0,0,1,0,0,0,0,0,0,0,1,2,0,0,1,2,0,0,1,1,0,0,1,2,0,0,1,2,0,0,1,1,0,0,0,0,0,0,1,2,0,0,1,2,0,0,0,0,0,0,1,0,0,0,1,1,0,0,1,1,0,0,0,0,0,0,1,2,0,0,1,1,0,0,0,0,0,0,1,1,0,0,1,2,0,0,1,2,0,0),
+ ('KR00010',1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0),
+ ('KR00007',0,3,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,3,0,0,0,3,0,0,0,2,0,0,0,2,0,0,0,2,0,0,0,0,0,0,0,2,0,0,0,2,0,0,0,2,0,0,0,2,0,0,0,1,0,0,0,2,0,0,0,0,0,0,0,2,0,0,0,2,0,0,0,0,0,0,0,2,0,0,0,2,0,0,0,2,0,0,0,0,0,0,0,2,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,2,0,0),
+ ('KR00002',1,1,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,1,1,0,0,1,1,0,0,1,1,0,0,0,0,0,0,1,1,0,0,1,1,0,0,0,0,0,0,1,1,0,0,1,1,0,0,1,1,0,0),
+ ('KR00017',1,3,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,2,0,0,0,3,0,0,0,3,0,0,0,3,0,0,0,3,0,0,0,0,0,0,0,3,0,0,0,3,0,0,0,3,0,0,0,2,0,0,0,3,0,0,0,3,0,0,0,0,0,0,0,3,0,0,0,3,0,0,0,0,0,0,1,3,0,0,1,3,0,0,1,3,0,0,0,0,0,0,1,2,0,0,1,2,0,0,0,0,0,0,1,3,0,0,1,3,0,0,0,3,0,0),
+ ('KR00003',1,2,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,0,1,2,0,0,1,2,0,0,1,2,0,0,1,2,0,0,1,2,0,0,0,1,0,0,1,2,0,0,1,2,0,0,1,2,0,0,1,2,0,0,1,2,0,0,1,2,0,0,0,0,0,0,1,1,0,0,1,2,0,0,0,0,0,0,1,2,0,0,1,2,0,0,1,2,0,0,0,0,0,0,0,2,0,0,1,2,0,0,0,2,0,0,1,2,0,0,1,2,0,0,1,2,0,0),
+ ('KR00004',0,2,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,2,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,2,0,0,0,2,0,0,0,2,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,2,0,0,0,2,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,2,0,0,0,1,0,0),
+ ('KR00016',0,2,0,0,2,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,2,0,0,0,2,0,0,0,2,0,0,0,1,0,0,0,2,0,0,0,2,0,0,0,1,0,0,0,2,0,0,0,2,0,0,0,2,0,0,0,2,0,0,0,2,0,0,0,2,0,0,0,0,0,0,0,2,0,0,0,2,0,0,0,0,0,0,0,1,0,0,0,2,0,0,0,2,0,0,0,1,0,0,0,2,0,0,0,2,0,0,0,0,0,0,0,2,0,0,0,2,0,0,0,1,0,0),
+ ('KR00011',0,2,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,2,0,0,0,2,0,0,0,2,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,2,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,2,0,0,0,2,0,0,0,2,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,2,0,0,0,2,0,0),
+ ('KR00001',0,4,0,0,4,0,0,0,0,0,1,0,0,0,2,0,0,0,0,0,0,0,4,0,0,0,4,0,0,0,4,0,0,0,4,0,0,0,4,0,0,0,4,0,0,0,0,0,0,0,2,0,0,0,4,0,0,0,3,0,0,0,4,0,0,0,4,0,0,0,4,0,0,0,0,0,0,0,4,0,0,0,4,0,0,0,0,0,0,0,4,0,0,0,4,0,0,0,4,0,0,0,0,0,0,0,4,0,0,0,4,0,0,0,0,0,0,0,4,0,0,0,4,0,0,0,4,0,0),
+ ('KR00008',0,2,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,2,0,0,0,2,0,0,0,2,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,2,0,0,0,2,0,0,0,2,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,2,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,2,0,0,0,1,0,0),
+ ('KR00021',0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0),
+ ('KR00020',0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0);
+/*!40000 ALTER TABLE `temp_absensi_prod` ENABLE KEYS */;
+
+
+--
+-- Definition of table `temp_bom`
+--
+
+DROP TABLE IF EXISTS `temp_bom`;
+CREATE TABLE `temp_bom` (
+  `kd_jab` varchar(20) DEFAULT NULL,
+  `kd_barang` varchar(10) DEFAULT NULL,
+  `standar` double DEFAULT NULL,
+  `wo1` varchar(10) DEFAULT NULL,
+  `wo2` varchar(10) DEFAULT NULL,
+  `wo3` varchar(10) DEFAULT NULL,
+  `wo4` varchar(10) DEFAULT NULL,
+  `wo5` varchar(10) DEFAULT NULL,
+  `j_wo1` double DEFAULT NULL,
+  `j_wo2` double DEFAULT NULL,
+  `j_wo3` double DEFAULT NULL,
+  `j_wo4` double DEFAULT NULL,
+  `j_wo5` double DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `temp_bom`
+--
+
+/*!40000 ALTER TABLE `temp_bom` DISABLE KEYS */;
+/*!40000 ALTER TABLE `temp_bom` ENABLE KEYS */;
+
+
+--
+-- Definition of table `temp_death_stock`
+--
+
+DROP TABLE IF EXISTS `temp_death_stock`;
+CREATE TABLE `temp_death_stock` (
+  `kd_barang` varchar(10) DEFAULT NULL,
+  `status` varchar(20) DEFAULT NULL,
+  `tgl_akhir` date DEFAULT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `temp_death_stock`
+--
+
+/*!40000 ALTER TABLE `temp_death_stock` DISABLE KEYS */;
+INSERT INTO `temp_death_stock` (`kd_barang`,`status`,`tgl_akhir`) VALUES 
+ ('300060','Active Stock','2014-09-22');
+/*!40000 ALTER TABLE `temp_death_stock` ENABLE KEYS */;
+
+
+--
+-- Definition of table `temp_det_bom`
+--
+
+DROP TABLE IF EXISTS `temp_det_bom`;
+CREATE TABLE `temp_det_bom` (
+  `kd_bom` varchar(20) NOT NULL,
+  `no_wo` varchar(10) DEFAULT NULL,
+  `kd_barang` varchar(10) DEFAULT NULL,
+  `qty` double NOT NULL,
+  `ket` varchar(1000) DEFAULT NULL,
+  `kd_jab` varchar(20) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `temp_det_bom`
+--
+
+/*!40000 ALTER TABLE `temp_det_bom` DISABLE KEYS */;
+INSERT INTO `temp_det_bom` (`kd_bom`,`no_wo`,`kd_barang`,`qty`,`ket`,`kd_jab`) VALUES 
+ ('BOM140074','NV-214379','300001',1,'-','JBTN002'),
+ ('BOM140074','NV-214379','300003',5,'-','JBTN002'),
+ ('BOM140074','NV-214379','300004',2,'-','JBTN002'),
+ ('BOM140074','NV-214379','300007',1,'-','JBTN002'),
+ ('BOM140074','NV-214379','300032',0.33,'-','JBTN002'),
+ ('BOM140074','NV-214379','300061',2,'-','JBTN002'),
+ ('BOM140074','NV-214379','300094',1,'-','JBTN002'),
+ ('BOM140074','NV-214379','700001',1,'-','JBTN002'),
+ ('BOM140074','NV-214379','700002',1,'-','JBTN002'),
+ ('BOM140074','NV-214379','700014',4,'-','JBTN002'),
+ ('BOM140074','NV-214379','700016',45,'-','JBTN002'),
+ ('BOM140074','NV-214379','700022',8,'-','JBTN002'),
+ ('BOM140074','NV-214379','700035',16,'-','JBTN002'),
+ ('BOM140074','NV-214379','700059',6,'-','JBTN002'),
+ ('BOM140074','NV-214379','700063',1,'-','JBTN002'),
+ ('BOM140074','NV-214379','700064',6,'-','JBTN002'),
+ ('BOM140074','NV-214379','700086',1,'-','JBTN002'),
+ ('BOM140074','NV-214379','700139',2,'penguat body','JBTN002'),
+ ('BOM140074','NV-214379','700067',3,'rumah tenda','JBTN002'),
+ ('BOM140074','NV-214379','700086',2,'rumah tenda','JBTN002'),
+ ('BOM140074','NV-214379','700159',1,'rumah tenda','JBTN002'),
+ ('BOM140074','NV-214379','300019',0.5,'-','JBTN003'),
+ ('BOM140074','NV-214379','300095',2,'-','JBTN003'),
+ ('BOM140074','NV-214379','300096',1,'-','JBTN003'),
+ ('BOM140074','NV-214379','700193',2,' untuk b accu+floor','JBTN004'),
+ ('BOM140074','NV-214379','300003',1,'-','JBTN004'),
+ ('BOM140074','NV-214379','300031',0.5,'-','JBTN004'),
+ ('BOM140074','NV-214379','300034',3,'-','JBTN004'),
+ ('BOM140074','NV-214379','700046',15,'-','JBTN004'),
+ ('BOM140074','NV-214379','700081',2.5,'-','JBTN004'),
+ ('BOM140074','NV-214379','700172',15,'-','JBTN004'),
+ ('BOM140074','NV-214379','700176',15,'-','JBTN004'),
+ ('BOM140074','NV-214379','200021',5.5,'+ rumah tenda','JBTN006'),
+ ('BOM140074','NV-214379','200052',13,'+ rumah tenda','JBTN006'),
+ ('BOM140074','NV-214379','200008',2,'-','JBTN006'),
+ ('BOM140074','NV-214379','300035',2,'-','JBTN006'),
+ ('BOM140074','NV-214379','300052',20,'-','JBTN006'),
+ ('BOM140074','NV-214379','300055',0.1,'-','JBTN006'),
+ ('BOM140074','NV-214379','300063',1.5,'-','JBTN006'),
+ ('BOM140074','NV-214379','300083',2,'-','JBTN006'),
+ ('BOM140074','NV-214379','200016',18,'-','JBTN008'),
+ ('BOM140074','NV-214379','200022',5,'-','JBTN008'),
+ ('BOM140074','NV-214379','200052',3,'-','JBTN008'),
+ ('BOM140074','NV-214379','200053',6,'-','JBTN008'),
+ ('BOM140074','NV-214379','200098',36,'-','JBTN008'),
+ ('BOM140074','NV-214379','300018',1,'-','JBTN008'),
+ ('BOM140074','NV-214379','300035',7,'-','JBTN008'),
+ ('BOM140074','NV-214379','300036',10,'-','JBTN008'),
+ ('BOM140074','NV-214379','300037',20,'-','JBTN008'),
+ ('BOM140074','NV-214379','300040',15,'-','JBTN008'),
+ ('BOM140074','NV-214379','300041',15,'-','JBTN008'),
+ ('BOM140074','NV-214379','300042',15,'-','JBTN008'),
+ ('BOM140074','NV-214379','300043',10,'-','JBTN008'),
+ ('BOM140074','NV-214379','300052',10,'-','JBTN008'),
+ ('BOM140074','NV-214379','200019',1,'-','JBTN009'),
+ ('BOM140074','NV-214379','200026',2.5,'-','JBTN009'),
+ ('BOM140074','NV-214379','200043',1.5,'-','JBTN009'),
+ ('BOM140074','NV-214379','200055',5,'-','JBTN009'),
+ ('BOM140074','NV-214379','200056',5,'-','JBTN009'),
+ ('BOM140074','NV-214379','200058',5,'-','JBTN009'),
+ ('BOM140074','NV-214379','300018',10,'-','JBTN009'),
+ ('BOM140074','NV-214379','300036',2,'-','JBTN009'),
+ ('BOM140074','NV-214379','300043',2,'-','JBTN009'),
+ ('BOM140074','NV-214379','300046',30,'-','JBTN009'),
+ ('BOM140074','NV-214379','300051',1,'-','JBTN009'),
+ ('BOM140074','NV-214379','200004',6,'-','JBTN011'),
+ ('BOM140074','NV-214379','200036',1,'-','JBTN011'),
+ ('BOM140074','NV-214379','200055',1,'-','JBTN011'),
+ ('BOM140074','NV-214379','300018',1,'-','JBTN011'),
+ ('BOM140074','NV-214379','300052',10,'-','JBTN011'),
+ ('BOM140074','NV-214379','200023',0.1,'-','JBTN012'),
+ ('BOM140074','NV-214379','200025',0.15,'-','JBTN012'),
+ ('BOM140074','NV-214379','200028',2,'-','JBTN012'),
+ ('BOM140074','NV-214379','200049',15,'-','JBTN012'),
+ ('BOM140074','NV-214379','200052',4,'-','JBTN012'),
+ ('BOM140074','NV-214379','200055',4,'-','JBTN012'),
+ ('BOM140074','NV-214379','200058',0.5,'-','JBTN012'),
+ ('BOM140074','NV-214379','300018',5,'-','JBTN012'),
+ ('BOM140074','NV-214379','300019',5,'-','JBTN012'),
+ ('BOM140074','NV-214379','300029',1,'-','JBTN012'),
+ ('BOM140074','NV-214379','300029',1,'-','JBTN012'),
+ ('BOM140074','NV-214379','300039',2,'-','JBTN012'),
+ ('BOM140074','NV-214379','300040',2,'-','JBTN012'),
+ ('BOM140074','NV-214379','300041',2,'-','JBTN012'),
+ ('BOM140074','NV-214379','300042',3,'-','JBTN012'),
+ ('BOM140074','NV-214379','300046',20,'-','JBTN012'),
+ ('BOM140074','NV-214379','300051',8,'-','JBTN012'),
+ ('BOM140074','NV-214379','',2,'-','JBTN013'),
+ ('BOM140074','NV-214379','100007',1,'-','JBTN013'),
+ ('BOM140074','NV-214379','100072',70,'-','JBTN013'),
+ ('BOM140074','NV-214379','300055',12,'-','JBTN013'),
+ ('BOM140074','NV-214379','300093',4,'-','JBTN013'),
+ ('BOM140074','NV-214379','500011',6,'-','JBTN013'),
+ ('BOM140074','NV-214379','500021',3,'-','JBTN013'),
+ ('BOM140074','NV-214379','500024',3,'-','JBTN013'),
+ ('BOM140074','NV-214379','500031',2,'-','JBTN013'),
+ ('BOM140074','NV-214379','700053',2,'-','JBTN013'),
+ ('BOM140074','NV-214379','700098',1,'-','JBTN013'),
+ ('BOM140074','NV-214379','700099',1,'-','JBTN013'),
+ ('BOM140074','NV-214379','700224',40,'-','JBTN013'),
+ ('BOM140074','NV-214379','700225',40,'-','JBTN013'),
+ ('BOM140074','NV-214379','700249',40,'-','JBTN013'),
+ ('BOM140074','NV-214379','500030',5,'- u/ deck & sekat','JBTN013'),
+ ('BOM140074','NV-214379','500015',14,'-untuk deck & sekat','JBTN013'),
+ ('BOM140074','NV-214379','500020',6,'-untuk sekat & deck','JBTN013'),
+ ('BOM140074','NV-214379','500019',3,'ruang cabin atas','JBTN013'),
+ ('BOM140074','NV-214379','600021',0,'','JBTN014'),
+ ('BOM140074','NV-214379','100062',3,'-','JBTN014'),
+ ('BOM140074','NV-214379','100074',7,'-','JBTN014'),
+ ('BOM140074','NV-214379','100078',6,'-','JBTN014'),
+ ('BOM140074','NV-214379','100080',18,'-','JBTN014'),
+ ('BOM140074','NV-214379','100133',1,'-','JBTN014'),
+ ('BOM140074','NV-214379','100138',1,'-','JBTN014'),
+ ('BOM140074','NV-214379','100140',1,'-','JBTN014'),
+ ('BOM140074','NV-214379','300019',1,'-','JBTN014'),
+ ('BOM140074','NV-214379','300074',4,'-','JBTN014'),
+ ('BOM140074','NV-214379','600021',1,'-','JBTN014'),
+ ('BOM140074','NV-214379','700098',1,'-','JBTN014'),
+ ('BOM140074','NV-214379','700099',1,'-','JBTN014'),
+ ('BOM140074','NV-214379','700216',50,'-','JBTN014'),
+ ('BOM140074','NV-214379','100118',2,'-','JBTN015'),
+ ('BOM140074','NV-214379','100122',2,'-','JBTN015'),
+ ('BOM140074','NV-214379','100146',2,'-','JBTN015'),
+ ('BOM140074','NV-214379','300024',1,'-','JBTN015'),
+ ('BOM140074','NV-214379','300060',0.5,'-','JBTN015'),
+ ('BOM140074','NV-214379','300076',10,'-','JBTN015'),
+ ('BOM140074','NV-214379','300078',10,'-','JBTN015'),
+ ('BOM140074','NV-214379','300090',25,'-','JBTN015'),
+ ('BOM140074','NV-214379','400004',0.5,'-','JBTN015'),
+ ('BOM140074','NV-214379','400005',1,'-','JBTN015'),
+ ('BOM140074','NV-214379','400009',40,'-','JBTN015'),
+ ('BOM140074','NV-214379','400010',20,'-','JBTN015'),
+ ('BOM140074','NV-214379','400013',10,'-','JBTN015'),
+ ('BOM140074','NV-214379','400014',10,'-','JBTN015'),
+ ('BOM140074','NV-214379','400019',2,'-','JBTN015'),
+ ('BOM140074','NV-214379','400023',2,'-','JBTN015'),
+ ('BOM140074','NV-214379','400024',20,'-','JBTN015'),
+ ('BOM140074','NV-214379','400025',20,'-','JBTN015'),
+ ('BOM140074','NV-214379','400026',40,'-','JBTN015'),
+ ('BOM140074','NV-214379','400027',40,'-','JBTN015'),
+ ('BOM140074','NV-214379','400029',10,'-'
