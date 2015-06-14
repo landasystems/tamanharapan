@@ -85,7 +85,7 @@ $this->params['breadcrumbs'][] = $this->title;
                                 <div class="b-google-map__info-window-address-title f-google-map__info-window-address-title">
                                     Telepon
                                 </div>
-                                <div class="desc">(0341) 986 386</div>
+                                <div class="desc">(0341) 362 400</div>
                             </div>
                         </li>
 

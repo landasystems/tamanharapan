@@ -133,7 +133,7 @@ $session = Yii::$app->session;
 
                                 </div>
                             </div>
-                            <h3 class="b-accordion__title f-accordion__title">Perpus</h3>
+                            <h3 class="b-accordion__title f-accordion__title">Perpustakaan</h3>
 
                             <div class="b-accordion__content">
                                 <div class="b-accordion__img">
@@ -153,7 +153,7 @@ $session = Yii::$app->session;
 
                                 <p>taman hijau dan asri serta nyaman membuat susana menjadi teduh</p>
                             </div>
-                            <h3 class="b-accordion__title f-accordion__title">Lab Komputer</h3>
+                            <h3 class="b-accordion__title f-accordion__title">Lab Bahasa</h3>
 
                             <div class="b-accordion__content">
                                 <div class="b-accordion__img">
@@ -161,13 +161,23 @@ $session = Yii::$app->session;
                                 </div>
                                 <!--<p class="f-primary-b b-null-bottom-indent f-title-small c-default">Suspendisse vitae metus enim</p>-->
 
-                                <p>Lab Komputer dengan fasilitas lengkap guna mendukung siswa belajar</p>
+                                <p>Lab Bahasa dengan fasilitas lengkap berguna mendukung siswa belajar</p>
+                            </div>
+                            <h3 class="b-accordion__title f-accordion__title">Lab IPA</h3>
+
+                            <div class="b-accordion__content">
+                                <div class="b-accordion__img">
+                                    <img data-retina src="images/sarpras/labfisika.jpg" alt=""/>
+                                </div>
+                                <!--<p class="f-primary-b b-null-bottom-indent f-title-small c-default">Suspendisse vitae metus enim</p>-->
+
+                                <p>Lab. IPA lengkap beserta alat-alat fisika yang memadai berguna untuk mendukung siswa praktikum</p>
                             </div>
                             <h3 class="b-accordion__title f-accordion__title">Lab Fisika</h3>
 
                             <div class="b-accordion__content">
                                 <div class="b-accordion__img">
-                                    <img data-retina src="images/sarpras/labfisika.jpg" alt=""/>
+                                    <img data-retina src="images/sarpras/labfisika2.jpg" alt=""/>
                                 </div>
                                 <!--<p class="f-primary-b b-null-bottom-indent f-title-small c-default">Suspendisse vitae metus enim</p>-->
 
@@ -214,7 +224,7 @@ $session = Yii::$app->session;
 
                                 <p>Ruang Tunggu yang nyaman berfungsi supaya para tamu bisa nyaman dan tenang</p>
                             </div>
-                            <h3 class="b-accordion__title f-accordion__title">Ruang Tata Usaha</h3>
+                            <h3 class="b-accordion__title f-accordion__title">Ruang Fotokopi</h3>
 
                             <div class="b-accordion__content">
                                 <div class="b-accordion__img">
@@ -222,9 +232,9 @@ $session = Yii::$app->session;
                                 </div>
                                 <!--<p class="f-primary-b b-null-bottom-indent f-title-small c-default">Suspendisse vitae metus enim</p>-->
 
-                                <p>Ruang Tata Usaha yang dilengkapi dengan mesin foto kopi agar siswa tidak perlu keluar sekolah untuk memfoto kopi tugasnya</p>
+                                <p>Ruang Fotokopi milik sekolah agar siswa tidak perlu keluar sekolah untuk memfoto kopi tugasnya</p>
                             </div>
-                            <h3 class="b-accordion__title f-accordion__title">Ruang Guru</h3>
+                            <h3 class="b-accordion__title f-accordion__title">Ruang Tata Usaha</h3>
 
                             <div class="b-accordion__content">
                                 <div class="b-accordion__img">
@@ -232,7 +242,30 @@ $session = Yii::$app->session;
                                 </div>
                                 <!--<p class="f-primary-b b-null-bottom-indent f-title-small c-default">Suspendisse vitae metus enim</p>-->
 
-                                <p>ruang Guru yang nyaman agar guru dapat nyaman menjalankan aktifitas kerja</p>
+                                <p>Sebagai pusat layanan Administrasi sekolah yang mencakup Surat menyurat, Pengarsipan, Layanan tamu dan lain sebagainya</p>
+                            </div>
+                            <h3 class="b-accordion__title f-accordion__title">Ruang BK</h3>
+
+                            <div class="b-accordion__content">
+                                <div class="b-accordion__img">
+                                    <img data-retina src="images/sarpras/rBK.jpg" alt=""/>
+                                </div>
+                                <!--<p class="f-primary-b b-null-bottom-indent f-title-small c-default">Suspendisse vitae metus enim</p>-->
+
+                                <p>Ruang BP/BK dibuat senyaman mungkin agar siswa dan guru dapat melakukan konsultasi dengan nyaman juga. Dan Fasilitas Guru BP/BK dapat berfungsi dengan semestinya</p>
+                            </div>
+                            <h3 class="b-accordion__title f-accordion__title">Ruang Kelas</h3>
+
+                            <div class="b-accordion__content">
+                                <div class="b-accordion__img">
+                                    <img data-retina src="images/sarpras/rkelas.jpg" alt=""/>
+                                </div>
+                                <!--<p class="f-primary-b b-null-bottom-indent f-title-small c-default">Suspendisse vitae metus enim</p>-->
+
+                                <p>
+                                    Ruang Kelas bersih dan nyaman, seluruh ruang kelas juga dilengkapi dengan fasilitas LCD
+                                
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -252,7 +285,7 @@ $session = Yii::$app->session;
                                         </div>
                                         <div class="b-remaining f-contacts-short-item__text">
                                             <b>SMA Taman Harapan</b><br/>
-                                            Jalan Mojopahit no 1 <br/>(Selatan Balai Kota Malang)<br/>
+                                            Jalan Mojopahit no. 1 Malang<br/>(Selatan Balai Kota Malang)<br/>
                                             Jawa Timur<br/>
                                         </div>
                                     </div>
@@ -269,7 +302,7 @@ $session = Yii::$app->session;
                                             <i class="fa fa-phone"></i>
                                         </div>
                                         <div class="b-remaining f-contacts-short-item__text f-contacts-short-item__text_email">
-                                            (0341) 986 386
+                                            (0341) 362 400
                                         </div>
                                     </div>
                                 </div>
