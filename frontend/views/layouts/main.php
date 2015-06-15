@@ -17,7 +17,7 @@ AppAsset::register($this);
     <head>
         <meta charset="<?= Yii::$app->charset ?>">
         <title><?= Html::encode($this->title) ?></title>
-        <link rel="shortcut icon" href="images/favicon.ico">
+        <link rel="shortcut icon" href="<?= Yii::$app->homeUrl ?>images/favicon.ico">
         <?= Html::csrfMetaTags() ?>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
         <link type="text/css" rel='stylesheet' href="<?= Yii::$app->homeUrl ?>js/bxslider/jquery.bxslider.css">
@@ -26,7 +26,10 @@ AppAsset::register($this);
         <link type="text/css" rel='stylesheet' href="<?= Yii::$app->homeUrl ?>js/jqueryui/jquery-ui.structure.css">
         <link type="text/css" data-themecolor="default" rel='stylesheet' href="<?= Yii::$app->homeUrl ?>css/main-default.css">
         <link type="text/css" rel='stylesheet' href="<?= Yii::$app->homeUrl ?>js/rs-plugin/css/settings.css">
-        <?php $this->head() ?>
+        <!--image css-->
+        <link type="text/css"  href="<?= Yii::$app->homeUrl ?>css/jquery.lighter.css" rel="stylesheet">
+
+            <?php $this->head() ?>
     </head>
     <body>
         <style>
@@ -41,7 +44,7 @@ AppAsset::register($this);
                 <div class="container">
                     <div class="b-option-contacts f-option-contacts">
                         <a href="mailto:info@smatamanharapan.sch.id"><i class="fa fa-envelope-o"></i> info@smatamanharapan.sch.id</a>
-                        <a href="#"><i class="fa fa-phone"></i> (0341) 986 386</a>
+                        <a href="#"><i class="fa fa-phone"></i> (0341) 362 400</a>
                     </div>
                     <div class="b-option-contacts f-option-contacts" style="float: right;">
                         <a href="#"><i class="fa fa-facebook"></i> Like</a>
@@ -112,6 +115,8 @@ AppAsset::register($this);
         <script src="<?= Yii::$app->homeUrl ?>js/modules/color-themes.js"></script>
         <script src="<?= Yii::$app->homeUrl ?>js/user.js"></script>
         <script src="<?= Yii::$app->homeUrl ?>js/cookie.js"></script>
+        <!--images js--> 
+       <script src="<?= Yii::$app->homeUrl ?>js/jquery.lighter.js"></script>
         
 
     </body>
