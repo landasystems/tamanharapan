@@ -1,1 +1,23 @@
-AQM2PBcVAiOJLwgPSi0EAgsEAAcBBwkEAAACAwUuBQMIOgADBgkHAQEGEAgPCgEYMgoMBQEYQP8mAwQUMk8+AQAODQQNAlMFDQUOAgIAAAAJAgABAAACAQADCgEABjm1DQIFSZ85AwgJQP9dBgEABgEAAAEABQ0dAQEAGRMOAQFUJAMARAoDCgEABAgDAQwGDicABRciAwgrXxIEBiKjLwYGDxRAKwUDAA4kVyEKCgI7+SwGBg1HMwEBEQwEAAkJCAQDAQwIBAAGBQUhAQYjagUJJHEkAwQadhsCBQQxWBUIAQAOEpcUCgIBIUUJBQImbBIKA18pBwEoDAEHAggLCwABBgYHJgEPEXoADxcXFgMJGCAaCw0FM/8hDQUEHxuFIwkKBiZdGAICFB0QBAVCFgcBMgQHBAADEgUCAAcBAy8AAAFvAgEAAQIBAgEAAAMCAAgDBQIBAgY/9DEBAQZw/0cEABJUcg8BFxAJAAoBAAIAAQADAAAABgABAAAAAAAAAAAAAQRMQAAADRpA/2IAAAAFCAMAAAANHjALAAAQEQwDARsJDAA1Cw0KAAECAgAABQEBCAEDDBUBBh1UHgMIIU4XCAEFNGstCAEBCiA4FAMAAybKKgQCImsvBAdtNAYBOQkDGAQFDAoIAAQFBhoABz+jBwgppkABDwIXMAoIBhIRDA8CAhMKKRwFAQYLDBAIAkSEEA0Et0EDAxQGBA4CBw4IAAEEBQMOAAAFRQMCDhoLAwYYQxUBExBD1CQCAAIQHycPAAU
+<?php
+/* @var $this SiteController */
+/* @var $error array */
+$this->pageTitle = Yii::app()->name . ' - Error';
+$this->breadcrumbs = array('Error',);
+?>
+<div class="container-fluid">
+
+    <div class="errorContainer">
+        <div class="page-header">
+            <h1 class="center"> <?php echo $code; ?> <small>error</small></h1>
+        </div>
+
+        <h2 class="center"><?php echo CHtml::encode($message); ?></h2>
+
+        <div class="center">
+            <a href="javascript: history.go(-1)" class="btn" style="margin-right:10px;"><span class="icon16 typ-icon-back"></span>Go back</a>
+            <a href="<?php echo url('dashboard') ?>" class="btn"><span class="icon16 cut-icon-screen"></span>Dashboard</a>
+        </div>
+
+    </div>
+
+</div><!-- End .container-fluid -->

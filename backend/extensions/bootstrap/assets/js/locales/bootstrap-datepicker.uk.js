@@ -1,1 +1,14 @@
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAL4EDwALAQcAAAAAAAAAAABaS0ZpWAExSxSb6AFEAUNTIPn4F/htOabNZDkuBSsD5hW+Rd4tLS5LBtsGW5aJhruC8Qbz2eHX44FhGePdzdlPnG1cjj2Jr8ItrShHvgquER4Ojh8eDo6PXwKVwhGjMkOYgb2L9oH1CPrRZNk4amvLP7o/2A+sr1APZo8IDzaPwQOnMyuGaYWqL0mFyjG7AduD6iF7G+IZyCvGuVgbdg9aFzYPKtsKOwf8CI4STgnOgusDjENvSyNz+sG6yb/Iv8y6Y7LSOzR/NG8Ifzv0AuyYZAPER28mHE5PKysv1wkdy2fZhdwT0bvK3yR/Ji8TdNP2GvIodFv0S7UWhc/DPAsHeUKNXnrDbU5ckVsw9wBlJv1D3cPWkNOU/tLSwx6yGtMySztTNo4yHjOOdo47lR8U2xfbJKfD7YPPkd+Q29KbxhnyC9M52yH6MJ/wnJGd7J5ahjkGGhn6AAIBAAEAAAAABAUGAwBImQwEDiP/QQADEhVKJwMAAAMDCRAC
+/**
+ * Ukrainian translation for bootstrap-datepicker
+ * Andrey Vityuk <andrey [dot] vityuk [at] gmail.com>
+ */
+;(function($){
+	$.fn.datepicker.dates['uk'] = {
+		days: ["Неділя", "Понеділок", "Вівторок", "Середа", "Четвер", "П'ятниця", "Субота", "Неділя"],
+		daysShort: ["Нед", "Пнд", "Втр", "Срд", "Чтв", "Птн", "Суб", "Нед"],
+		daysMin: ["Нд", "Пн", "Вт", "Ср", "Чт", "Пт", "Сб", "Нд"],
+		months: ["Січень", "Лютий", "Березень", "Квітень", "Травень", "Червень", "Липень", "Серпень", "Вересень", "Жовтень", "Листопад", "Грудень"],
+		monthsShort: ["Січ", "Лют", "Бер", "Кві", "Тра", "Чер", "Лип", "Сер", "Вер", "Жов", "Лис", "Гру"],
+		today: "Сьогодні"
+	};
+}(jQuery));

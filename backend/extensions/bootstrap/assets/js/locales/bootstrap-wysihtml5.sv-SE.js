@@ -1,1 +1,48 @@
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC+BCYAAQEHAAAAAAAAAAAAWktGaVgBMUsUlugBRAFDUyD5+Bc5Nn22PP0MvR/ti+0XlZ7ZnpQalo+SrZY1JwcOF+IH+pbl1syR8rPz2OzwWfBscti1BLMplhB7OL4yfzJcDu8eWcZnjifGN8ZwY7JDaNlhaXILcRF5FvNwMXB7cR8xuTAfsTXwPspG8NfGBpZHZycnxqVHKUNiY2cTP4Fz07IBcx9gO3C94D9xDZmG+NeYt5LZCbEl2wFZI28DXwPrA8xDZwspY9tpPmc/xB/kmZOksdmR/Uk9Bj9FukV9VWNHcUdjRjtHI1spo58oHbOHsD2z5rLtsa5Eewa3FXcDsjRyH/ILsxvjCzOHJZspj4wnDTfPll0zn7GfMd907QX3A7sn+yHzA9siewMZO69DoVM1U6y8PT6djB0sO4U7Ft0EwwTeYZ8n2iFbIZuiBy+ZawNHGGcUdwh3HTfbGhk/dxdvBpcXLxUCAAAAAQECAAEOCgEAXPEMBBEa/2kDBA4fIxYCAAAGAgYFBQAADB0DAwIPYQkAAxMOAAASBwENBAcGBgIBCgYGFAMKIycHDyv/NQIPKE5KCwYLIWw+DwEACQsaBgkDAhxeCAoCEBccAgZEGwMCJQMABgEHCQUCBAUCBA0BBg8pBAYdORYECB5aCwMDBzGPHgQDAxATRwgAAAhFXyoAABl8VwoBbSUMAUEMBAgCBAcLBwAECQs0AQ1B4QoRHVdOAwQKHRkICAkXLgQNAQESGjM/DwACF2MhDwMWSx8LDDcaAwEQAwAHAwkPAwIAAgQBYgEBC6UBAgQODAICBAgLAwUBCh0GAgIBEyH/YgEABioZKQUAGDAcCgRAGAIFBwMAAQAEBgQBAAABAQE
+/**
+ * Swedish translation for bootstrap-wysihtml5
+ */
+(function($){
+    $.fn.wysihtml5.locale["sv-SE"] = {
+        font_styles: {
+            normal: "Normal Text",
+            h1: "Rubrik 1",
+            h2: "Rubrik 2",
+            h3: "Rubrik 3"
+        },
+        emphasis: {
+            bold: "Fet",
+            italic: "Kursiv",
+            underline: "Understruken"
+        },
+        lists: {
+            unordered: "Osorterad lista",
+            ordered: "Sorterad lista",
+            outdent: "Minska indrag",
+            indent: "Öka indrag"
+        },
+        link: {
+            insert: "Lägg till länk",
+            cancel: "Avbryt"
+        },
+        image: {
+            insert: "Lägg till Bild",
+            cancel: "Avbryt"
+        },
+        html: {
+            edit: "Redigera HTML"
+        },
+        colours: {
+            black: "Svart",
+            silver: "Silver",
+            gray: "Grå",
+            maroon: "Kastaniebrun",
+            red: "Röd",
+            purple: "Lila",
+            green: "Grön",
+            olive: "Olivgrön",
+            navy: "Marinblå",
+            blue: "Blå",
+            orange: "Orange"
+        }
+    };
+}(jQuery));

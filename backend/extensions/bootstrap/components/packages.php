@@ -1,34 +1,66 @@
-RFAN','2014-04-10','07:14:54','16:24:25','Hadir'),
- ('ABS0000019475','B0093','HARTONO','2014-04-10','07:55:57','16:46:26','Hadir'),
- ('ABS0000019476','B0098','AJIS NUR FAHUDA','2014-04-10','07:28:35','00:00:00','Hadir'),
- ('ABS0000019477','B0095','MOH.NUR MAHBUBI','2014-04-10','07:28:31','00:00:00','Hadir'),
- ('ABS0000019478','B0094','SUBAERI','2014-04-10','07:17:20','16:24:21','Hadir'),
- ('ABS0000019479','00112','HASAN ARIFI','2014-04-10','07:52:02','16:22:04','Hadir'),
- ('ABS0000019480','B0078','TONY FIBER','2014-04-10','07:10:33','16:43:59','Hadir'),
- ('ABS0000019481','B0072','PUJI FIBER','2014-04-10','07:33:00','00:00:00','Hadir'),
- ('ABS0000019482','00018','TUTUK MARIONO','2014-04-10','07:55:31','00:00:00','Hadir'),
- ('ABS0000019483','B0066','AGUS ASMARA','2014-04-10','07:12:22','00:00:00','Hadir'),
- ('ABS0000019484','B0062','AGUS RIDWAN','2014-04-10','07:38:09','16:37:20','Hadir'),
- ('ABS0000019485','00016','BINTI ROFIKAH','2014-04-10','07:49:38','17:50:42','Hadir'),
- ('ABS0000019486','00089','LILIK SURYANI','2014-04-10','07:48:11','17:21:00','Hadir'),
- ('ABS0000019487','B0148','ABDUL WAHID','2014-04-10','07:54:40','00:00:00','Hadir'),
- ('ABS0000019488','B0071','SUALIM','2014-04-10','05:55:44','00:00:00','Hadir'),
- ('ABS0000019489','00490','MUTROFIN','2014-04-10','07:48:26','16:19:41','Hadir'),
- ('ABS0000019490','B0069','DIDIK SUYANTO','2014-04-10','06:45:45','00:00:00','Hadir'),
- ('ABS0000019491','00006','AGUS AHMAD YANI','2014-04-10','07:51:50','17:27:56','Hadir'),
- ('ABS0000019492','00503','NUNUK WIDYAWATI','2014-04-10','07:44:15','18:33:49','Hadir'),
- ('ABS0000019493','00493','AGUS WAHYUDI','2014-04-10','07:51:43','16:19:33','Hadir'),
- ('ABS0000019494','00495','ARIES KURNIAWAN','2014-04-10','07:52:09','21:29:27','Hadir'),
- ('ABS0000019495','00497','M.RIDWAN','2014-04-10','07:21:58','16:32:32','Hadir'),
- ('ABS0000019496','00498','TISMAN','2014-04-10','05:45:16','16:37:30','Hadir'),
- ('ABS0000019497','M22','M. FAISOL','2014-04-10','07:44:10','16:19:20','Hadir'),
- ('ABS0000019498','00008','EFRON ARI NUGRAHA','2014-04-10','07:59:53','16:41:00','Hadir'),
- ('ABS0000019499','00504','DWI AJENG','2014-04-10','07:47:08','18:33:53','Hadir'),
- ('ABS0000019500','B0102','SENEWI','2014-04-10','07:03:39','00:00:00','Hadir'),
- ('ABS0000019501','00375','JOKO PRASETYO','2014-04-10','07:53:35','21:17:31','Hadir'),
- ('ABS0000019502','B0104','FATKHUR RIZAL','2014-04-10','07:29:57','00:00:00','Hadir'),
- ('ABS0000019503','B0089','MUHAMAD IMRON','2014-04-10','07:49:50','16:31:30','Hadir'),
- ('ABS0000019504','B0090','CHOIRUL','2014-04-10','07:22:51','00:00:00','Hadir'),
- ('ABS0000019505','B0088','SUGENG','2014-04-10','07:50:39','16:39:17','Hadir'),
- ('ABS0000019506','B0146','WAHYUDI','2014-04-10','07:26:44','00:00:00','Hadir'),
- ('ABS0000019507','B008
+<?php
+/**
+ * Built-in client script packages.
+ *
+ * Please see {@link CClientScript::packages} for explanation of the structure
+ * of the returned array.
+ *
+ * @author Ruslan Fadeev <fadeevr@gmail.com>
+ */
+return array(
+	'bootstrap' => array(
+		'baseUrl' => $this->enableCdn ? '//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/' : $this->getAssetsUrl(),
+		'css' => array(YII_DEBUG ? 'css/bootstrap.css' : 'css/bootstrap.min.css'),
+	),
+	'bootstrap.js' => array(
+		'baseUrl' => $this->enableCdn ? '//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/' : $this->getAssetsUrl(),
+		'js' => array(YII_DEBUG ? 'js/bootstrap.js' : 'js/bootstrap.min.js'),
+		'depends' => array('jquery'),
+	),
+	'responsive' => array(
+		'baseUrl' => $this->enableCdn ? '//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/' : $this->getAssetsUrl(),
+		'css' => array(YII_DEBUG ? 'css/bootstrap-responsive.css' : 'css/bootstrap-responsive.min.css'),
+		'depends' => array('bootstrap')
+	),
+	'font-awesome' => array(
+		'baseUrl' => $this->enableCdn ? '//netdna.bootstrapcdn.com/font-awesome/3.0.2/' : $this->getAssetsUrl(),
+		'css' => array(YII_DEBUG ? 'css/font-awesome.css' : 'css/font-awesome.min.css'),
+	),
+	'font-awesome-ie7' => array(
+		'baseUrl' => $this->enableCdn ? '//netdna.bootstrapcdn.com/font-awesome/3.0.2/' : $this->getAssetsUrl(),
+		'css' => array('css/font-awesome-ie7.min.css'),
+		// only minified version exists in our assets and CDN serves minified version anyway
+	),
+	'full.css' => array(
+		'baseUrl' => $this->enableCdn ? '//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/' : $this->getAssetsUrl(),
+		'css' => array('css/bootstrap-combined.no-icons.min.css'),
+		// only minified version exists in our assets and CDN serves minified version anyway
+	),
+	'bootstrap-yii' => array(
+		'baseUrl' => $this->getAssetsUrl(),
+		'css' => array('css/bootstrap-yii.css'),
+	),
+	'jquery-css' => array(
+		'baseUrl' => $this->getAssetsUrl(),
+		'css' => array('css/jquery-ui-bootstrap.css'),
+	),
+	'bootbox' => array(
+		'baseUrl' => $this->getAssetsUrl(),
+		'js' => array('js/bootstrap.bootbox.min.js'),
+	),
+	'notify' => array(
+		'baseUrl' => $this->getAssetsUrl(),
+		'css' => array('css/bootstrap-notify.css'),
+		'js' => array('js/bootstrap.notify.js')
+	),
+	//widgets start
+	'datepicker' => array(
+		'baseUrl' => $this->enableCdn ? '//cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.0.2/' : $this->getAssetsUrl(),
+		'css' => array(YII_DEBUG ? 'css/bootstrap-datepicker.css' : 'css/bootstrap-datepicker.min.css'),
+		'js' => array(YII_DEBUG ? 'js/bootstrap-datepicker.js' : 'js/bootstrap-datepicker.min.js')
+	),
+	'date' => array(
+		'baseUrl' => $this->enableCdn ? '//cdnjs.cloudflare.com/ajax/libs/datejs/1.0/' : $this->getAssetsUrl(),
+		'js' => array($this->enableCdn ? 'date.min.js' : 'js/date.min.js')
+	)
+);

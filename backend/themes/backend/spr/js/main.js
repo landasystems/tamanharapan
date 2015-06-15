@@ -1,1 +1,213 @@
-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AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA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AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+//window resize events
+$(window).resize(function() {
+    //get the window size
+    var wsize = $(window).width();
+    if (wsize > 980) {
+        $('.shortcuts.hided').removeClass('hided').attr("style", "");
+        $('.sidenav.hided').removeClass('hided').attr("style", "");
+    }
+
+    var size = "Window size is:" + $(window).width();
+    /*console.log(size)*/
+});
+
+// document ready function
+$(document).ready(function() {
+    $("body").on("keypress", ".angka", function (evt) {
+        var charCode = (evt.which) ? evt.which : event.keyCode;
+        // Validasi hanya tombol angka, kecuali titik dan minus
+        if (charCode > 31 && (charCode < 48 || charCode > 57) && charCode != 45 && charCode != 46)
+            return false;
+        return true;
+    });
+    $("body").on("focus", ".angka", function (evt) {
+        if ($(this).val()==0){
+            $(this).val("");
+        }
+    });
+    $("body").on("blur", ".angka", function (evt) {
+        if ($(this).val()==""){
+            $(this).val(0);
+        }
+    });
+    
+    //disable enter di input text
+    $('input').keypress(function (event) {
+        if (event.keyCode == 13) {
+            event.preventDefault();
+        }
+    });
+    
+    //prevent font flickering in some browsers 
+    (function() {
+        //if firefox 3.5+, hide content till load (or 3 seconds) to prevent FOUT
+        var d = document, e = d.documentElement, s = d.createElement('style');
+        if (e.style.MozTransform === '') { // gecko 1.9.1 inference
+            s.textContent = 'body{visibility:hidden}';
+            e.firstChild.appendChild(s);
+            function f() {
+                s.parentNode && s.parentNode.removeChild(s);
+            }
+            addEventListener('load', f, false);
+            setTimeout(f, 3000);
+        }
+    })();
+
+    //Disable certain links
+    $('a[href^=#]').click(function(e) {
+        e.preventDefault()
+    })
+
+    mainNav = $('.mainnav>ul>li');
+    mainNav.find('ul').siblings().addClass('hasUl').append('<span class="hasDrop icon16 icomoon-icon-arrow-down"></span>');
+    mainNavLink = mainNav.find('a').not('.sub a');
+    mainNavLinkAll = mainNav.find('a');
+    mainNavSubLink = mainNav.find('.sub a').not('.sub li .sub a');
+    mainNavCurrent = mainNav.find('a.current');
+
+    //remove current class if have
+    mainNavCurrent.removeClass('current');
+    //set the seleceted menu element
+//    if ($.cookie("newCurrentMenu")) {
+//        mainNavLinkAll.each(function(index) {
+//            if ($(this).attr('href') == $.cookie("newCurrentMenu")) {
+//                //set new current class
+//                $(this).addClass('current');
+//
+//                ulElem = $(this).closest('ul');
+//                if (ulElem.hasClass('sub')) {
+//                    //its a part of sub menu need to expand this menu
+//                    aElem = ulElem.prev('a.hasUl').addClass('drop');
+//                    ulElem.addClass('expand');
+//                }
+//                //destroy cookie	
+//                $.cookie("newCurrentMenu", null);
+//            }
+//        });
+//    }
+    var path = window.location.pathname;
+    path = path.replace(/\/$/, "");
+    path = decodeURIComponent(path);
+
+    mainNavLinkAll.each(function(index) {
+        var href = $(this).attr('href');
+
+        if (path.substring(0, href.length) === href) {
+            $(this).addClass('current');
+
+            ulElem = $(this).closest('ul');
+            if (ulElem.hasClass('sub')) {
+                //its a part of sub menu need to expand this menu
+                aElem = ulElem.prev('a.hasUl').addClass('drop');
+                ulElem.addClass('expand');
+            }
+        }
+    });
+
+    //hover magic add blue color to icons when hover - remove or change the class if not you like.
+    mainNavLinkAll.hover(
+            function() {
+                $(this).find('span.icon16').addClass('blue');
+            },
+            function() {
+                $(this).find('span.icon16').removeClass('blue');
+            }
+    );
+
+    //click magic
+    mainNavLink.click(function(event) {
+        $this = $(this);
+
+        if ($this.hasClass('hasUl')) {
+            event.preventDefault();
+            if ($this.hasClass('drop')) {
+                $(this).siblings('ul.sub').slideUp(500).siblings().removeClass('drop');
+            } else {
+                $(this).siblings('ul.sub').slideDown(500).siblings().addClass('drop');
+            }
+        } else {
+            //has no ul so store a cookie for change class.
+            $.cookie("newCurrentMenu", $this.attr('href'), {expires: 1});
+        }
+    });
+    mainNavSubLink.click(function(event) {
+        $this = $(this);
+
+        if ($this.hasClass('hasUl')) {
+            event.preventDefault();
+            if ($this.hasClass('drop')) {
+                $(this).siblings('ul.sub').slideUp(500).siblings().removeClass('drop');
+            } else {
+                $(this).siblings('ul.sub').slideDown(250).siblings().addClass('drop');
+            }
+        } else {
+            //has no ul so store a cookie for change class.
+//            $.cookie("newCurrentMenu", $this.attr('href'), {expires: 1});
+        }
+    });
+
+    //responsive buttons
+    $('.resBtn>a').click(function(event) {
+        $this = $(this);
+        if ($this.hasClass('drop')) {
+            $('#sidebar>.shortcuts').slideUp(500).addClass('hided');
+            $('#sidebar>.sidenav').slideUp(500).addClass('hided');
+            $this.removeClass('drop');
+        } else {
+            $('#sidebar>.shortcuts').slideDown(250);
+            $('#sidebar>.sidenav').slideDown(250);
+            $this.addClass('drop');
+        }
+    });
+    $('.resBtnSearch>a').click(function(event) {
+        $this = $(this);
+        if ($this.hasClass('drop')) {
+            $('.search').slideUp(500);
+            $this.removeClass('drop');
+        } else {
+            $('.search').slideDown(250);
+            $this.addClass('drop');
+        }
+    });
+    
+    $('.collapseBtn').on( "click", function() {
+        showHideSidebar();
+    });
+    //Hide and show sidebar btn
+    function showHideSidebar(){
+        $this = $('.collapseBtn');
+        //check if sidebar is show
+        if ($this.hasClass('minim')) {            
+            $('#sidebarbg').css('margin-left', '0');
+            $('#content').css('margin-left', '213' + 'px');
+            $('#sidebar').css('left', '0').css('margin-left', '0');
+            $this.removeClass('minim');
+            $this.children().children('i').attr('class', 'icon-arrow-left')
+        } else {            
+            //hide sidbar
+            $('#sidebarbg').css('margin-left', '-299' + 'px');
+            $('#sidebar').css('margin-left', '-299' + 'px');
+            $('.collapseBtn').css('top', '20' + 'px').css('left', '280' + 'px').addClass('shadow');
+            //expand content
+            $this.addClass('minim');
+            $this.children().children('i').attr('class', 'icon-arrow-right')
+            $('#content').css('margin-left', '0');
+
+        }
+    };
+
+    //remove loadstate class from body and show the page
+    setTimeout('$("html").removeClass("loadstate")', 500);
+
+    //ajax loader
+    $("#loader")
+            .hide()
+            .ajaxStart(function() {
+                $(this).show();
+            })
+            .ajaxStop(function() {
+                $(this).hide();
+            });
+
+});
+$( ".collapseBtn" ).trigger( "click" );

@@ -1,10 +1,16 @@
-7','Hadir'),
- ('ABS0000018195','00055','DEWI RACHMAWATI','2014-04-04','07:41:02','17:08:17','Hadir'),
- ('ABS0000018196','00111','MUSLIMIN','2014-04-04','07:06:07','19:19:50','Hadir'),
- ('ABS0000018197','00352','TAUFIQHIDAYAT','2014-04-04','07:35:50','19:17:35','Hadir'),
- ('ABS0000018198','00378','M.CHOLIK','2014-04-04','07:28:41','19:15:05','Hadir'),
- ('ABS0000018199','00351','SAIFUL MALIK','2014-04-04','07:38:31','16:25:46','Hadir'),
- ('ABS0000018200','00446','IPUT SUPRIANTO','2014-04-04','06:38:16','19:25:05','Hadir'),
- ('ABS0000018201','00105','KHUSNUL HUDA','2014-04-04','07:35:31','16:24:56','Hadir'),
- ('ABS0000018202','00113','SUTO','2014-04-04','07:34:12','19:17:29','Hadir'),
- ('ABS0000018203','00376
+/**
+ * Hungarian translation for bootstrap-datepicker
+ * Sotus László <lacisan@gmail.com>
+ */
+;(function($){
+  $.fn.datepicker.dates['hu'] = {
+		days: ["Vasárnap", "Hétfő", "Kedd", "Szerda", "Csütörtök", "Péntek", "Szombat", "Vasárnap"],
+		daysShort: ["Vas", "Hét", "Ked", "Sze", "Csü", "Pén", "Szo", "Vas"],
+		daysMin: ["Va", "Hé", "Ke", "Sz", "Cs", "Pé", "Sz", "Va"],
+		months: ["Január", "Február", "Március", "Április", "Május", "Június", "Július", "Augusztus", "Szeptember", "Október", "November", "December"],
+		monthsShort: ["Jan", "Feb", "Már", "Ápr", "Máj", "Jún", "Júl", "Aug", "Sze", "Okt", "Nov", "Dec"],
+		today: "Ma",
+		weekStart: 1,
+		format: "yyyy.mm.dd"
+	};
+}(jQuery));

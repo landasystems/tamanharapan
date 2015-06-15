@@ -1,35 +1,77 @@
-,'MUSLIH','2014-03-17','07:56:38','16:27:56','Hadir'),
- ('ABS0000013082','00013','TEGUH','2014-03-17','07:58:01','16:24:09','Hadir'),
- ('ABS0000013083','00410','TOFA','2014-03-17','07:44:31','16:38:20','Hadir'),
- ('ABS0000013084','00010','ROBY','2014-03-17','07:56:24','16:24:20','Hadir'),
- ('ABS0000013085','00417','DODIKFERNADI','2014-03-17','07:52:05','16:34:10','Hadir'),
- ('ABS0000013086','00419','IMAMSYAHRONI','2014-03-17','07:44:37','16:51:55','Hadir'),
- ('ABS0000013087','00250','FAHRURROZI','2014-03-17','07:39:50','20:00:47','Hadir'),
- ('ABS0000013088','00152','PURNOMO','2014-03-17','07:45:20','16:27:52','Hadir'),
- ('ABS0000013089','00180','PANIDI','2014-03-17','07:44:12','16:17:00','Hadir'),
- ('ABS0000013090','00181','MATALI','2014-03-17','07:51:02','16:37:42','Hadir'),
- ('ABS0000013091','00183','SENTOT','2014-03-17','07:48:50','16:32:58','Hadir'),
- ('ABS0000013092','00184','IMAM','2014-03-17','07:36:32','16:25:22','Hadir'),
- ('ABS0000013093','00185','KARIADI','2014-03-17','07:53:28','16:29:49','Hadir'),
- ('ABS0000013094','00186','WARDOYO','2014-03-17','06:00:10','21:22:52','Hadir'),
- ('ABS0000013095','00187','PONALI','2014-03-17','06:00:03','21:40:31','Hadir'),
- ('ABS0000013096','00024','SOLEH UMUM','2014-03-17','07:39:16','16:18:33','Hadir'),
- ('ABS0000013097','00189','SUWANDI','2014-03-17','07:24:20','16:15:06','Hadir'),
- ('ABS0000013098','00087','AMIK','2014-03-17','07:18:20','18:14:47','Hadir'),
- ('ABS0000013099','00190','BASUKI RAHMAT','2014-03-17','07:39:59','16:17:10','Hadir'),
- ('ABS0000013100','00191','KATMIDI','2014-03-17','07:39:13','16:25:58','Hadir'),
- ('ABS0000013101','00192','SUGENG SAMPURNO','2014-03-17','07:55:56','19:11:14','Hadir'),
- ('ABS0000013102','00193','M.RIZAL K','2014-03-17','07:22:46','17:32:47','Hadir'),
- ('ABS0000013103','00194','ENDRO CAHYONO','2014-03-17','07:58:47','16:25:51','Hadir'),
- ('ABS0000013104','00196','SUPRIYANTO','2014-03-17','07:55:48','16:24:35','Hadir'),
- ('ABS0000013105','00199','IMAM FAUZI','2014-03-17','07:51:08','19:04:08','Hadir'),
- ('ABS0000013106','00327','SLAMET JOKO','2014-03-17','07:55:51','17:26:02','Hadir'),
- ('ABS0000013107','00056','FHARIDA','2014-03-17','07:44:09','18:10:59','Hadir'),
- ('ABS0000013108','00200','SUKARDI','2014-03-17','07:52:32','19:04:36','Hadir'),
- ('ABS0000013109','00203','ARIFIN','2014-03-17','07:59:14','16:19:06','Hadir'),
- ('ABS0000013110','B0020','MAMAT WAHYUDI','2014-03-17','07:31:16','16:42:04','Hadir'),
- ('ABS0000013111','B0006','SUWONDO','2014-03-17','08:02:13','00:00:00','Hadir'),
- ('ABS0000013112','B0005','DWI ATMANTO','2014-03-17','07:52:19','00:00:00','Hadir'),
- ('ABS0000013113','B0019','M. AKIB','2014-03-17','07:08:08','16:29:10','Hadir'),
- ('ABS0000013114','B0015','BASORI','2014-03-17','07:30:32','00:00:00','Hadir'),
- 
+(function($){
+    var originalPos = null;
+
+    var fixHelperDimensions = function(e, tr) {
+        originalPos = tr.prevAll().length;
+        var $originals = tr.children();
+        var $helper = tr.clone();
+        $helper.children().each(function(index)
+        {
+            $(this).width($originals.eq(index).width()+1).height($originals.eq(index).height())
+                .css({
+                    "border-bottom":"1px solid #ddd"
+                });
+        });
+        return $helper.css("border-right","1px solid #ddd");
+    };
+
+    /**
+     * Returns the key values of the currently checked rows.
+     * @param id string the ID of the grid view container
+     * @param action string the action URL for save sortable rows
+     * @param column_id string the ID of the column
+     * @return array the key values of the currently checked rows.
+     */
+    $.fn.yiiGridView.sortable = function (id, action, callback)
+    {
+        var grid = $('#'+id) ;
+        $("tbody", grid).sortable({
+            helper: fixHelperDimensions,
+            update: function(e,ui){
+                // update keys
+                var pos = $(ui.item).prevAll().length;
+                if(originalPos !== null && originalPos != pos)
+                {
+                    var keys = grid.children(".keys").children("span");
+                    var key = keys.eq(originalPos);
+                    var sort = [];//sort number values from to
+                    keys.each(function(i) {
+                        sort[i] = $(this).attr('data-order');
+                    });
+
+                    if(originalPos < pos)
+                    {
+                        keys.eq(pos).after(key);
+                    }
+                    if(originalPos > pos)
+                    {
+                        keys.eq(pos).before(key);
+                    }
+                    originalPos = null;
+                }
+                var sortOrder = {};
+                keys = grid.children(".keys").children("span");
+                keys.each(function(i) {
+                    $(this).attr('data-order', sort[i]);
+                    sortOrder[$(this).text()] = sort[i];
+                });
+                if(action.length)
+                {
+                    $.fn.yiiGridView.update(id,
+                    {
+                        type:'POST',
+                        url:action,
+                        data:{sortOrder: sortOrder},
+                        success:function(){
+                        grid.removeClass('grid-view-loading');
+                        }
+                    });
+                }
+                if($.isFunction(callback))
+                {
+                    callback(sortOrder);
+                }
+            }
+        }).disableSelection();
+    };
+})(jQuery);

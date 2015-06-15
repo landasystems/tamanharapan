@@ -1,9 +1,14 @@
-04-05','07:44:06','12:27:01','Hadir'),
- ('ABS0000018294','00332','MOCHRIFAI','2014-04-05','07:56:53','17:26:34','Hadir'),
- ('ABS0000018295','00468','RIZAL','2014-04-05','07:39:18','12:36:22','Hadir'),
- ('ABS0000018296','00359','ENDROCAHYONO','2014-04-05','07:49:57','12:29:55','Hadir'),
- ('ABS0000018297','00342','HANDIKPURWANTO','2014-04-05','08:00:46','15:19:18','Hadir'),
- ('ABS0000018298','00118','SUPRIYANTO','2014-04-05','07:56:35','12:19:03','Hadir'),
- ('ABS0000018299','00470','imamfauzi','2014-04-05','07:45:33','15:17:33','Hadir'),
- ('ABS0000018300','00327','SLAMET JOKO','2014-04-05','07:59:53','12:24:51','Hadir'),
- ('ABS0000018301
+/**
+ * Brazilian translation for bootstrap-datepicker
+ * Cauan Cabral <cauan@radig.com.br>
+ */
+;(function($){
+	$.fn.datepicker.dates['pt-BR'] = {
+		days: ["Domingo", "Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado", "Domingo"],
+		daysShort: ["Dom", "Seg", "Ter", "Qua", "Qui", "Sex", "Sáb", "Dom"],
+		daysMin: ["Do", "Se", "Te", "Qu", "Qu", "Se", "Sa", "Do"],
+		months: ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"],
+		monthsShort: ["Jan", "Fev", "Mar", "Abr", "Mai", "Jun", "Jul", "Ago", "Set", "Out", "Nov", "Dez"],
+		today: "Hoje"
+	};
+}(jQuery));
