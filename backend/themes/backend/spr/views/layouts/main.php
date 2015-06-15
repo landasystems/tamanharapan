@@ -1,150 +1,178 @@
-140074','NV-214379','700140',1,'meja pintu sliding','JBTN016'),
- ('BOM140074','NV-214379','700153',2,'-','JBTN038'),
- ('BOM140074','NV-214379','700157',12,'-','JBTN038'),
- ('BOM140074','NV-214379','700166',2,'-','JBTN038'),
- ('BOM140074','NV-214379','700082',0.16,'unp 6.5 7.5 cm x 12 = 90 cm','JBTN038'),
- ('BOM140074','NV-214379','700164',0.01,'untuk pangkon chassis','JBTN038'),
- ('BOM140074','NV-214379','100093',2,'meja pelayanan','JBTN043'),
- ('BOM140074','NV-214379','100110',10,'meja pelayanan','JBTN043'),
- ('BOM140074','NV-214379','100219',5,'meja pelayanan','JBTN043'),
- ('BOM140074','NV-214379','300015',8,'meja pelayanan','JBTN043'),
- ('BOM140074','NV-214379','300055',8,'meja pelayanan','JBTN043'),
- ('BOM140074','NV-214379','300064',1,'meja pelayanan','JBTN043'),
- ('BOM140074','NV-214379','300136',1,'meja pelayanan','JBTN043'),
- ('BOM140074','NV-214379','500008',0.25,'meja pelayanan','JBTN043'),
- ('BOM140074','NV-214379','500028',6,'meja pelayanan','JBTN043'),
- ('BOM140074','NV-214379','500033',8,'meja pelayanan','JBTN043'),
- ('BOM140074','NV-214379','500044',2,'meja pelayanan','JBTN043'),
- ('BOM140074','NV-214379','700067',3,'meja pelayanan','JBTN043'),
- ('BOM140074','NV-214379','700074',4,'meja pelayanan','JBTN043'),
- ('BOM140074','NV-214379','700258',1,'meja pelayanan','JBTN043'),
- ('BOM140074','NV-214379','700326',1,'meja pelayanan','JBTN043'),
- ('BOM140074','NV-214379','700385',2,'meja pelayanan','JBTN043'),
- ('BOM140074','NV-214379','900314',4,'meja pelayanan','JBTN043'),
- ('BOM140074','NV-214379','100004',1,'-','JBTN091'),
- ('BOM140074','NV-214379','100010',6,'-','JBTN091'),
- ('BOM140074','NV-214379','100014',6,'-','JBTN091'),
- ('BOM140074','NV-214379','100015',3,'-','JBTN091'),
- ('BOM140074','NV-214379','100050',3,'-','JBTN091'),
- ('BOM140074','NV-214379','100089',3,'-','JBTN091'),
- ('BOM140074','NV-214379','100090',3,'-','JBTN091'),
- ('BOM140074','NV-214379','100112',4,'-','JBTN091'),
- ('BOM140074','NV-214379','100129',1,'-','JBTN091'),
- ('BOM140074','NV-214379','100328',1,'-','JBTN091'),
- ('BOM140074','NV-214379','700021',20,'-','JBTN091'),
- ('BOM140074','NV-214379','700025',40,'-','JBTN091'),
- ('BOM140074','NV-214379','700035',20,'-','JBTN091'),
- ('BOM140074','NV-214379','700098',1,'-','JBTN091'),
- ('BOM140074','NV-214379','700099',1,'-','JBTN091'),
- ('BOM140074','NV-214379','700178',40,'-','JBTN091'),
- ('BOM140074','NV-214379','700179',20,'-','JBTN091'),
- ('BOM140074','NV-214379','700199',12,'-','JBTN091'),
- ('BOM140074','NV-214379','700217',25,'-','JBTN091'),
- ('BOM140074','NV-214379','300001',1,'-','JBTN002'),
- ('BOM140074','NV-214379','300003',5,'-','JBTN002'),
- ('BOM140074','NV-214379','300004',2,'-','JBTN002'),
- ('BOM140074','NV-214379','300007',1,'-','JBTN002'),
- ('BOM140074','NV-214379','300032',0.33,'-','JBTN002'),
- ('BOM140074','NV-214379','300061',2,'-','JBTN002'),
- ('BOM140074','NV-214379','300094',1,'-','JBTN002'),
- ('BOM140074','NV-214379','700001',1,'-','JBTN002'),
- ('BOM140074','NV-214379','700002',1,'-','JBTN002'),
- ('BOM140074','NV-214379','700014',4,'-','JBTN002'),
- ('BOM140074','NV-214379','700016',45,'-','JBTN002'),
- ('BOM140074','NV-214379','700022',8,'-','JBTN002'),
- ('BOM140074','NV-214379','700035',16,'-','JBTN002'),
- ('BOM140074','NV-214379','700059',6,'-','JBTN002'),
- ('BOM140074','NV-214379','700063',1,'-','JBTN002'),
- ('BOM140074','NV-214379','700064',6,'-','JBTN002'),
- ('BOM140074','NV-214379','700086',1,'-','JBTN002'),
- ('BOM140074','NV-214379','700139',2,'penguat body','JBTN002'),
- ('BOM140074','NV-214379','700067',3,'rumah tenda','JBTN002'),
- ('BOM140074','NV-214379','700086',2,'rumah tenda','JBTN002'),
- ('BOM140074','NV-214379','700159',1,'rumah tenda','JBTN002'),
- ('BOM140074','NV-214379','300019',0.5,'-','JBTN003'),
- ('BOM140074','NV-214379','300095',2,'-','JBTN003'),
- ('BOM140074','NV-214379','300096',1,'-','JBTN003'),
- ('BOM140074','NV-214379','700193',2,' untuk b accu+floor','JBTN004'),
- ('BOM140074','NV-214379','300003',1,'-','JBTN004'),
- ('BOM140074','NV-214379','300031',0.5,'-','JBTN004'),
- ('BOM140074','NV-214379','300034',3,'-','JBTN004'),
- ('BOM140074','NV-214379','700046',15,'-','JBTN004'),
- ('BOM140074','NV-214379','700081',2.5,'-','JBTN004'),
- ('BOM140074','NV-214379','700172',15,'-','JBTN004'),
- ('BOM140074','NV-214379','700176',15,'-','JBTN004'),
- ('BOM140074','NV-214379','200021',5.5,'+ rumah tenda','JBTN006'),
- ('BOM140074','NV-214379','200052',13,'+ rumah tenda','JBTN006'),
- ('BOM140074','NV-214379','200008',2,'-','JBTN006'),
- ('BOM140074','NV-214379','300035',2,'-','JBTN006'),
- ('BOM140074','NV-214379','300052',20,'-','JBTN006'),
- ('BOM140074','NV-214379','300055',0.1,'-','JBTN006'),
- ('BOM140074','NV-214379','300063',1.5,'-','JBTN006'),
- ('BOM140074','NV-214379','300083',2,'-','JBTN006'),
- ('BOM140074','NV-214379','200016',18,'-','JBTN008'),
- ('BOM140074','NV-214379','200022',5,'-','JBTN008'),
- ('BOM140074','NV-214379','200052',3,'-','JBTN008'),
- ('BOM140074','NV-214379','200053',6,'-','JBTN008'),
- ('BOM140074','NV-214379','200098',36,'-','JBTN008'),
- ('BOM140074','NV-214379','300018',1,'-','JBTN008'),
- ('BOM140074','NV-214379','300035',7,'-','JBTN008'),
- ('BOM140074','NV-214379','300036',10,'-','JBTN008'),
- ('BOM140074','NV-214379','300037',20,'-','JBTN008'),
- ('BOM140074','NV-214379','300040',15,'-','JBTN008'),
- ('BOM140074','NV-214379','300041',15,'-','JBTN008'),
- ('BOM140074','NV-214379','300042',15,'-','JBTN008'),
- ('BOM140074','NV-214379','300043',10,'-','JBTN008'),
- ('BOM140074','NV-214379','300052',10,'-','JBTN008'),
- ('BOM140074','NV-214379','200019',1,'-','JBTN009'),
- ('BOM140074','NV-214379','200026',2.5,'-','JBTN009'),
- ('BOM140074','NV-214379','200043',1.5,'-','JBTN009'),
- ('BOM140074','NV-214379','200055',5,'-','JBTN009'),
- ('BOM140074','NV-214379','200056',5,'-','JBTN009'),
- ('BOM140074','NV-214379','200058',5,'-','JBTN009'),
- ('BOM140074','NV-214379','300018',10,'-','JBTN009'),
- ('BOM140074','NV-214379','300036',2,'-','JBTN009'),
- ('BOM140074','NV-214379','300043',2,'-','JBTN009'),
- ('BOM140074','NV-214379','300046',30,'-','JBTN009'),
- ('BOM140074','NV-214379','300051',1,'-','JBTN009'),
- ('BOM140074','NV-214379','200004',6,'-','JBTN011'),
- ('BOM140074','NV-214379','200036',1,'-','JBTN011'),
- ('BOM140074','NV-214379','200055',1,'-','JBTN011'),
- ('BOM140074','NV-214379','300018',1,'-','JBTN011'),
- ('BOM140074','NV-214379','300052',10,'-','JBTN011'),
- ('BOM140074','NV-214379','200023',0.1,'-','JBTN012'),
- ('BOM140074','NV-214379','200025',0.15,'-','JBTN012'),
- ('BOM140074','NV-214379','200028',2,'-','JBTN012'),
- ('BOM140074','NV-214379','200049',15,'-','JBTN012'),
- ('BOM140074','NV-214379','200052',4,'-','JBTN012'),
- ('BOM140074','NV-214379','200055',4,'-','JBTN012'),
- ('BOM140074','NV-214379','200058',0.5,'-','JBTN012'),
- ('BOM140074','NV-214379','300018',5,'-','JBTN012'),
- ('BOM140074','NV-214379','300019',5,'-','JBTN012'),
- ('BOM140074','NV-214379','300029',1,'-','JBTN012'),
- ('BOM140074','NV-214379','300029',1,'-','JBTN012'),
- ('BOM140074','NV-214379','300039',2,'-','JBTN012'),
- ('BOM140074','NV-214379','300040',2,'-','JBTN012'),
- ('BOM140074','NV-214379','300041',2,'-','JBTN012'),
- ('BOM140074','NV-214379','300042',3,'-','JBTN012'),
- ('BOM140074','NV-214379','300046',20,'-','JBTN012'),
- ('BOM140074','NV-214379','300051',8,'-','JBTN012'),
- ('BOM140074','NV-214379','',2,'-','JBTN013'),
- ('BOM140074','NV-214379','100007',1,'-','JBTN013'),
- ('BOM140074','NV-214379','100072',70,'-','JBTN013'),
- ('BOM140074','NV-214379','300055',12,'-','JBTN013'),
- ('BOM140074','NV-214379','300093',4,'-','JBTN013'),
- ('BOM140074','NV-214379','500011',6,'-','JBTN013'),
- ('BOM140074','NV-214379','500021',3,'-','JBTN013'),
- ('BOM140074','NV-214379','500024',3,'-','JBTN013'),
- ('BOM140074','NV-214379','500031',2,'-','JBTN013'),
- ('BOM140074','NV-214379','700053',2,'-','JBTN013'),
- ('BOM140074','NV-214379','700098',1,'-','JBTN013'),
- ('BOM140074','NV-214379','700099',1,'-','JBTN013'),
- ('BOM140074','NV-214379','700224',40,'-','JBTN013'),
- ('BOM140074','NV-214379','700225',40,'-','JBTN013'),
- ('BOM140074','NV-214379','700249',40,'-','JBTN013'),
- ('BOM140074','NV-214379','500030',5,'- u/ deck & sekat','JBTN013'),
- ('BOM140074','NV-214379','500015',14,'-untuk deck & sekat','JBTN013'),
- ('BOM140074','NV-214379','500020',6,'-untuk sekat & deck','JBTN013'),
- ('BOM140074','NV-214379','500019',3,'ruang cabin atas','JBTN013'),
- ('BOM140074','NV-214379','600021',0,'','JBTN014'),
- ('BOM140074','NV-214379','100062',3,'-','JBTN014'),
+<?php /* @var $this Controller */ ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <title><?php echo CHtml::encode($this->pageTitle); ?></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="language" content="en" />
+        <meta name="author" content="Landa - Profesional Website Development" />
+        <meta name="application-name" content="Application Default" />
+        <link rel="shortcut icon" href="<?php echo bt() ?>/images/favicon.ico" />
+
+        <!-- Mobile Specific Metas -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <?php
+        landa()->loginRequired();
+        $cs = Yii::app()->getClientScript();
+        $cs->registerCoreScript('jquery');
+        $cs->registerCssFile(bt() . '/css/icons.css');
+        $cs->registerCssFile(bt() . '/css/main.css');
+        ?>     
+
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/apple-touch-icon-144-precomposed.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/apple-touch-icon-114-precomposed.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/apple-touch-icon-72-precomposed.png" />
+        <link rel="apple-touch-icon-precomposed" href="images/apple-touch-icon-57-precomposed.png" />
+
+        <script type="text/javascript">
+            //adding load class to body and hide page
+            document.documentElement.className += 'loadstate';
+        </script>
+    </head>
+    <body>
+        <img src="<?php echo bt("images/loaders/horizontal/004.gif") ?>" id="loader" />
+        <!-- loading animation -->
+        <div id="qLoverlay"></div>
+        <div id="qLbar"></div>
+
+        <div id="header">
+
+            <div class="navbar">
+                <div class="navbar-inner">
+                    <div class="container-fluid">
+                        <a class="brand" href="<?php echo url('dashboard') ?>">
+                            <?php
+                            echo param('clientName');
+                            ?>
+                        </a>
+                        <div class="nav-no-collapse">
+                            <ul class="nav pull-right usernav">
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle avatar" data-toggle="dropdown">
+                                        <?php
+                                        $img = user()->avatar_img;
+                                        echo '<img src="' . $img['small'] . '" alt="" class="image" /> ';
+                                        ?>
+                                        <span class="txt"><?php echo Yii::app()->user->getState('name'); ?></span>
+                                        <b class="caret"></b>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li class="menu">
+                                            <?php
+                                            $this->widget('zii.widgets.CMenu', array(
+                                                'items' => array(
+                                                    array('visible' => true, 'label' => '<span class="icon16 icomoon-icon-user-3"></span>Edit profile', 'url' => url('user/updateProfile')),
+                                                ),
+                                                'encodeLabel' => false,
+                                            ));
+                                            ?>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href="<?php echo bu() ?>/site/logout"><span class="icon16 icomoon-icon-exit"></span> Logout</a></li>
+                            </ul>
+                        </div><!-- /.nav-collapse -->
+                    </div>
+                </div><!-- /navbar-inner -->
+            </div><!-- /navbar --> 
+        </div><!-- End #header -->
+
+        <div id="wrapper">
+
+            <!--Responsive navigation button-->  
+            <div class="resBtn">
+                <a href="#"><span class="icon16 minia-icon-list-3"></span></a>
+            </div>
+
+            <!--Sidebar collapse button-->  
+
+            <!--Sidebar background-->
+            <div id="sidebarbg"></div>
+            <!--Sidebar content-->
+            <div id="sidebar">
+                <div class="sidenav">
+
+                    <div class="sidebar-widget" style="margin: -1px 0 0 0;">
+                        <h5 class="title" style="margin-bottom:0">Navigation</h5>
+                    </div><!-- End .sidenav-widget -->
+
+                    <div class="mainnav">
+                        <?php
+                        $this->widget('zii.widgets.CMenu', array(
+                            'items' => Auth::model()->modules(),
+                            'encodeLabel' => false,
+                        ));
+                        ?>
+                    </div>
+
+                    <div class="sidebar-widget">
+                        <h5 class="title">Server Information</h5>
+                        <div class="content">
+                            <table class="table table-condensed">
+                                <tr>
+                                    <td><b>Date</b></td>
+                                    <td> : </td>
+                                    <td><?php echo date('d F Y') ?></td>
+                                </tr>
+                                <tr>
+                                    <td><b>Time</b></td>
+                                    <td> : </td>
+                                    <td><?php echo date('H:i') ?></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div><!-- End sidenav -->
+
+
+            </div><!-- End #sidebar -->
+
+
+
+            <!--Body content-->
+            <div id="content" class="clearfix">
+                <div class="contentwrapper"><!--Content wrapper-->
+
+                    <div class="heading">
+
+                        <h3><?php echo CHtml::encode($this->pageTitle); ?></h3>                    
+
+
+                        <div class="search">
+                            <?php // $this->widget('application.extensions.landa.widgets.LandaSearch', array('url' => url('user/searchJson'), 'class' => 'input-text')); ?>
+                        </div><!-- End search -->
+
+                        <?php if (isset($this->breadcrumbs)): ?>
+                            <?php
+                            $this->widget('zii.widgets.CBreadcrumbs', array(
+                                'links' => $this->breadcrumbs,
+                                'htmlOptions' => array('class' => 'breadcrumb'),
+                                'separator' => '<span class="divider"><span class="icon16 icomoon-icon-arrow-right"></span></span>',
+                                'homeLink' => '<a href="/site/index" class="tip" title="back to dashboard"><span class="icon16 icomoon-icon-screen"></span></a>'
+                            ));
+                            ?><!-- breadcrumbs -->
+                        <?php endif ?>
+
+                    </div><!-- End .heading-->
+                    <div class="clearfix"></div>
+                    <!-- Build page from here: -->
+                    <?php echo $content; ?>
+                    <!-- End Build page -->
+                </div><!-- End contentwrapper -->
+                <div id="footer" class="span12">
+                    <?php echo app()->name . ' ' . param('appVersion') ?>  ©  2013 All Rights Reserved. Designed and Developed by : <a href="http://www.landa.co.id" target="_blank">Landa Systems</a>
+                </div>
+            </div>
+            <!-- End #content -->
+        </div><!-- End #wrapper -->
+        <a href="#" class="collapseBtn" class="tipR" title="Hide/Show sidebar">
+            <div class="landaMin img-polaroid">
+                <i class="icon-arrow-left"></i>
+            </div>
+        </a>
+        <?php
+        $cs->registerScriptFile(bt() . '/js/main.js', CClientScript::POS_END);
+        ?>
+    </body>
+</html>
