@@ -1,4 +1,5 @@
 <?php
+
 Yii::setPathOfAlias('', $root);
 
 return array(
@@ -93,13 +94,12 @@ return array(
             'class' => 'system.caching.CFileCache'
         ),
     ),
-    
     'params' => array(
-		'appVersion' => 'v.1', 'client' => $client, 'clientName' => 
-		$clientName, 'urlImg' => $rootUrl . 'images/', 'pathImg' => (
-		isset($pathImg)) ? $pathImg : $root . 'backend/www/' . 
-		$client . '/images/',
+        'appVersion' => 'v.1',
+        'client' => $client,
+        'clientName' => $clientName,
+        'urlImg' => $rootUrl . 'images/',
+        'pathImg' => (isset($pathImg)) ? $pathImg : $root . 'backend/www/' . $client . '/images/',
     ),
 );
-
 ?>
