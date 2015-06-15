@@ -1,6 +1,6 @@
 <p style="text-align: center;"><span style="font-size:14px;"><strong>&nbsp;<span style="color: rgb(0, 0, 0); text-align: -webkit-center;">GURU &amp; KARYAWAN SMA TAMAN HARAPAN MALANG</span></strong></span></p>
 
-<center><img class="img-thumbnail"  data-retina src="./images/article/guru1.jpg" style="width:700px; height:377px; margin-bottom: 10px;">
+<center><img class="img-thumbnail"  data-retina src="../images/article/guru1.jpg" style="width:700px; height:377px; margin-bottom: 10px;">
 
 <table border="0" cellspacing="0">
 	<colgroup width="35">
