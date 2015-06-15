@@ -10,7 +10,7 @@ $this->title = $model->title;
     <div class="b-breadcrumbs f-breadcrumbs">
         <div class="container">
             <ul>
-                <li><a href=""><i class="fa fa-home"></i>Home</a></li>
+                <li><a href="<?= Yii::$app->homeUrl ?>"><i class="fa fa-home"></i>Home</a></li>
                 <li><i class="fa fa-angle-right"></i><?= $this->title ?></li>
             </ul>
         </div>
