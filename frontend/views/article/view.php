@@ -27,10 +27,11 @@ $this->title = $model->title;
                             Oleh <a href="#" class="f-more"><?= $model->user->name ?></a> Kategori :  <a href="" class="f-more"><?= $model->category->name ?></a> Dispoting pada <?= date('d F Y', strtotime($model->created)) ?>
                             <!--<a href="" class="f-more b-blog-listing__additional-text f-primary"><i class="fa fa-comment"></i>12 Comments</a>-->
                         </div>
+                        <?php if (!empty($model->primary_image)) { ?>
+                            <img class="img-thumbnail" data-retina src="<?= $model->imgMedium; ?>" align="left" style="margin-bottom: 10px;">
+                            <div class="clearfix"></div>
+                        <?php } ?>
                         <div class="b-article__description">
-                            <?php if (!empty($model->primary_image)) { ?>
-                                <img class="img-thumbnail" data-retina src="<?= $model->imgMedium; ?>" align="left" style="margin-bottom: 10px">
-                            <?php } ?>
                             <?= $model->content ?>
                         </div>
                     </div>
