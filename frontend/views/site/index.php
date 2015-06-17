@@ -1,6 +1,6 @@
 <?php
 /* @var $this yii\web\View */
-$this->title = 'SMA Taman Harapan - Sekolah Standart Nasional - Sekolah Berprestasi di Malang';
+$this->title = 'SMA Taman Harapan MALANG - Sekolah Standart Nasional Akreditasi A';
 
 //use common\models\ProductStock;
 use common\models\Article;
@@ -78,8 +78,8 @@ $session = Yii::$app->session;
                                 ?>
                                 <div class="b-some-examples__item f-some-examples__item">
                                     <div class="b-some-examples__item_img view view-sixth">
-                                        <div class="b-accordion__img">
-                                        <img data-retina="" src="<?=$item->imgSmall?>" height="190" alt="">
+                                        <div class="b-accordion__img" style="height:190px">
+                                        <img data-retina="" src="<?=$item->imgSmall?>" alt="">
                                         </div>
                                         <div class="b-item-hover-action f-center mask">
                                             <div class="b-item-hover-action__inner">
@@ -312,7 +312,7 @@ $session = Yii::$app->session;
                                         <div class="b-remaining f-contacts-short-item__text">
                                             <b>SMA Taman Harapan</b><br/>
                                             Jalan Mojopahit no. 1 Malang<br/>(Selatan Balai Kota Malang)<br/>
-                                            Jawa Timur<br/>
+                                            Kode Pos 65119<br/>Jawa Timur<br/>
                                         </div>
                                     </div>
                                     <div class="b-contacts-short-item col-md-12 col-sm-4 col-xs-12">

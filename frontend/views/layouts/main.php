@@ -47,8 +47,8 @@ AppAsset::register($this);
                         <a href="#"><i class="fa fa-phone"></i> (0341) 362 400</a>
                     </div>
                     <div class="b-option-contacts f-option-contacts" style="float: right;">
-                        <a href="#"><i class="fa fa-facebook"></i> Like</a>
-                        <a href="#"><i class="fa fa-twitter"></i> Follow</a>
+                        <a href="https://www.facebook.com/smatamanharapan"><i class="fa fa-facebook"></i> Like</a>
+                        <a href="https://twitter.com/SAMAN_smatamhar"><i class="fa fa-twitter"></i> Follow</a>
                     </div>
                 </div>
             </div>
